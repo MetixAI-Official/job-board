@@ -46,19 +46,3 @@ def render_og(board_name: str, slug: str, out: Path) -> Path:
         f"<b>{counts['roles']:,}</b> Bay Area and US-remote roles this week."
     )
     return _draw(_page(board, entry["title"], claim, 78), out)
-
-
-def render_report_og(board_name: str, out: Path) -> Path:
-    from jobboard.report import load_report
-
-    board = load_board(board_name)
-    report = load_report(board_name)
-    overall = report["overall"]
-    reposted = 1 - overall["new_share"]
-    claim = (
-        f"<b>{round(reposted * 100)}%</b> of {overall['roles']:,} roles were reposts.<br>"
-        f"Only <b>{overall['new']:,}</b> first appeared that week."
-    )
-    title = "Most roles posted this week were posted before"
-    eyebrow = "SF Tech Week · Oct 5-11, 2026 · Metix AI Platform analysis"
-    return _draw(_page(board, title, claim, 60, eyebrow), out)

@@ -24,8 +24,8 @@
 <link rel="stylesheet" href="../../assets/app.css">
 <script src="../../assets/app.js" defer></script>
 </head>
-<body class="day-page">
-<a class="skip" href="#hosts">Skip to the hosts</a>
+<body class="day-page" data-date="2026-10-05">
+<a class="skip" href="#schedule">Skip to the schedule</a>
 
 <header class="top">
   <div class="wrap top-in">
@@ -42,56 +42,29 @@
   <div class="wrap">
     <p class="eyebrow">SF Tech Week · Monday, Oct 5</p>
     <h1 id="title">31 hosts with events on Monday are hiring in the Bay Area.</h1>
-    <p class="lede">Pick your field. We'll show you which events to go to and which roles to bring up when you get there.</p>
+    <p class="lede">Pick your field. Each event below opens to show which hosts are hiring for it and which roles to bring up.</p>
     <div class="fields" id="fields" role="group" aria-label="Your field"></div>
     <p class="stats">340 roles posted this week · 52 new · 79 US remote · pulled Oct 5</p>
   </div>
 </section>
 
-<section class="board" aria-labelledby="board-title">
-  <div class="wrap">
-    <div class="board-head">
-      <h2 id="board-title">Where to go today</h2>
-      <p id="board-note" class="board-note"></p>
-    </div>
-    <div id="board"></div>
-    <noscript><p class="board-note">Turn on JavaScript to see today's events and the roles at each host.</p></noscript>
+<main class="wrap" id="schedule">
+  <div class="controls" role="search">
+    <label class="sr" for="q">Search companies and roles</label>
+    <input type="search" id="q" placeholder="Search company or role" autocomplete="off" spellcheck="false">
+    <select id="loc" aria-label="Location"></select>
+    <select id="level" aria-label="Level"></select>
+    <label class="tog"><input type="checkbox" id="fresh"> New this week</label>
+    <label class="tog"><input type="checkbox" id="ai"> AI roles</label>
+    <button type="button" class="link-btn" data-reset>Clear</button>
   </div>
-</section>
+  <p class="count" id="count-text" aria-live="polite"></p>
 
-<main class="wrap">
-  <section class="insights" aria-label="What the data says"><article class="insight"><p>Only 52 of today&#x27;s 340 roles are new this week. The rest were first posted a median of 41 days ago.</p><span class="insight-tag">Metix AI Platform analysis</span><a href="report">More</a></article><article class="insight"><p>Postings at early-stage companies come down within two weeks 74% of the time. New roles go fast.</p><span class="insight-tag">Metix AI Platform analysis</span><a href="report#s4">More</a></article><article class="insight"><p>Salesforce has the most roles open today, 62, and the most new ones, 24.</p><span class="insight-tag">Metix AI Platform analysis</span><a href="#hosts">More</a></article></section>
-
-  <div class="layout" id="hosts">
-    <aside class="rail">
-      <div class="bar" role="search">
-        <label class="sr" for="q">Search companies and roles</label>
-        <input type="search" id="q" placeholder="Search company or role" autocomplete="off" spellcheck="false">
-        <button type="button" class="filters-btn" id="filters-btn" aria-expanded="false" aria-controls="filters">Filters <span class="badge" id="filters-count"></span></button>
-      </div>
-      <div class="scrim" id="scrim"></div>
-      <div class="filters" id="filters" role="group" aria-label="Filters">
-        <div class="sheet-head"><span class="kicker">Filters</span><button type="button" class="link-btn" id="sheet-close">Close</button></div>
-        <div class="row"><span class="lbl">Location</span><span class="chips" id="regions"></span></div>
-        <div class="row"><span class="lbl">Stage</span><span class="chips" id="tiers"></span></div>
-        <div class="row"><span class="lbl">Refine</span>
-          <span class="chips">
-            <select id="level" aria-label="Level"></select>
-            <label class="tog"><input type="checkbox" id="fresh"> New this week</label>
-            <label class="tog"><input type="checkbox" id="ai"> AI roles</label>
-            <label class="tog"><input type="checkbox" id="inpost"> In today's post</label>
-          </span>
-        </div>
-        <div class="sheet-foot"><button type="button" class="btn" id="sheet-show">Show roles</button></div>
-      </div>
-    </aside>
-
-    <section class="hosts" aria-labelledby="hosts-title">
-      <div class="count"><h2 id="hosts-title" class="kicker">Hosts hiring today</h2><span id="count-text" aria-live="polite"></span><button type="button" class="link-btn" data-reset>Clear filters</button></div>
-      <div id="list"></div>
-      <noscript><p class="empty">Turn on JavaScript to see the roles and filter them.</p></noscript>
-    </section>
+  <div class="sched">
+    <ol class="sched-list" id="list" aria-label="Today's events with hiring hosts"></ol>
+    <section class="detail" id="detail" aria-live="polite"></section>
   </div>
+  <noscript><p class="empty">Turn on JavaScript to see today's events and the roles at each host.</p></noscript>
 
   <section class="run" aria-labelledby="run-title">
     <h2 id="run-title">Build a list like this</h2>
@@ -117,12 +90,12 @@
 
   <footer class="foot" id="method">
     <h2 class="kicker">How it works</h2>
-    <p><b>Hosts</b> are companies with an event on the <a href="https://www.tech-week.com/calendar/sf">official SF Tech Week calendar</a> today. Universities, student groups, community and media organizers, accelerators, government offices and individuals are left out.</p>
+    <p><b>Events and hosts</b> come from the <a href="https://www.tech-week.com/calendar/sf">official SF Tech Week calendar</a>. An event is listed when at least one of its hosts posted roles that match your filters. Universities, student groups, community and media organizers, accelerators, government offices and individuals are left out. Registration status is as of the pull.</p>
     <p><b>Roles</b> come from the <a href="https://platform.metix.ai/?via=tw-sf26">Metix AI Platform</a>, which aggregates public job postings from many sources. This list keeps only open roles posted Sep 28 to Oct 4 (pulled Oct 5) in Bay Area cities or listed as US remote, meaning the posting names the United States but no city. Most of those are remote, but check the posting. The same title at the same company is counted once. The date shown is the one on the posting, and many roles are reposts of older openings: New marks the ones that first appeared in the Metix AI Platform's job history this week.</p>
     <p>Fields come from keywords in the title and can be wrong. Company labels come from public company records; a funding round is shown only where we checked it. A company missing here may still be hiring: many early-stage companies do not post on LinkedIn.</p>
-    <p>This list is for information only and may be incomplete or out of date. Postings close and details change, so confirm the role on the employer's own posting before you apply. Nothing here is an offer of employment. It is an independent list, not affiliated with or endorsed by Tech Week, a16z or the companies named. Event details come from the official SF Tech Week calendar. <a href="https://github.com/MetixAI-Official/job-board/issues/new?title=Correction%3A%20">Report a correction</a>.</p>
+    <p>This list is for information only and may be incomplete or out of date. Postings close and details change, so confirm the role on the employer's own posting before you apply. Nothing here is an offer of employment. It is an independent list, not affiliated with or endorsed by Tech Week, a16z or the companies named. <a href="https://github.com/MetixAI-Official/job-board/issues/new?title=Correction%3A%20">Report a correction</a>.</p>
     <p>Looking for other roles, or researching a market? The <a href="https://platform.metix.ai/?via=tw-sf26">Metix AI Platform</a> covers jobs, companies and people well beyond this list. Hiring? <a href="https://www.metix.ai/?utm_source=tw-sf26">metix.ai</a> finds interview-ready candidates for your open roles.</p>
-    <p class="foot-links"><a href="report">The report</a><a href="https://github.com/MetixAI-Official/job-board">Source on GitHub</a></p>
+    <p class="foot-links"><a href="https://github.com/MetixAI-Official/job-board">Source on GitHub</a></p>
     <p>Copyright 2026 OpenJobs AI Inc. Metix AI Platform is a product of OpenJobs AI Inc.</p>
   </footer>
 </main>

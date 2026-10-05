@@ -92,17 +92,6 @@ def day_tabs(board_name: str, board: Board, current: str) -> str:
     return "".join(tabs)
 
 
-def insights(day: Day) -> str:
-    cards = []
-    for item in day.get("insights", []):
-        link = f'<a href="{escape(item["href"])}">More</a>' if item.get("href") else ""
-        cards.append(
-            f'<article class="insight"><p>{escape(item["text"])}</p>'
-            f'<span class="insight-tag">Metix AI Platform analysis</span>{link}</article>'
-        )
-    return "".join(cards)
-
-
 def render_day(board_name: str, slug: str) -> str:
     board = load_board(board_name)
     day = load_day(board_name, slug)
@@ -143,7 +132,7 @@ def render_day(board_name: str, slug: str) -> str:
             f"{counts['roles']:,} roles posted this week · {counts['new']} new · "
             f"{counts['remote']} US remote · pulled {pulled}"
         ),
-        insights=insights(day),
+        date=escape(day["date"]),
         window=escape(window),
         pulled=escape(pulled),
         calendar=board["calendar"],

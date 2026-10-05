@@ -1,26 +1,14 @@
 "use strict";
 
-// One day page: the field chooser, the event board and the host cards all read the same JSON
-// block written into the page at build time, so the page makes no requests after it loads.
+// One day page. The schedule is the only list: each event opens to show the hosts hiring for
+// the chosen field and their roles. Wide screens show the open event in a side pane; phones
+// expand it in place. Everything reads one JSON block written at build time.
 (() => {
   document.documentElement.classList.remove("no-js");
 
   const data = JSON.parse(document.getElementById("day-data").textContent);
+  const PAGE_DATE = document.body.dataset.date;
 
-  const TIERS = [
-    ["early", "Seed to Series B"],
-    ["growth", "Series C and later"],
-    ["large", "Public and large"],
-    ["vc", "Investors"],
-    ["pro", "Professional services"],
-  ];
-  const REGIONS = [
-    ["sf", "San Francisco"],
-    ["pen", "Peninsula and South Bay"],
-    ["east", "East Bay"],
-    ["north", "North Bay"],
-    ["remote", "US remote"],
-  ];
   const FAMILIES = [
     "AI / ML", "Software engineering", "Data", "Product", "Design", "Solutions / FDE",
     "Sales / BD", "Marketing / growth", "Customer success", "Operations", "Finance / accounting",
@@ -30,11 +18,14 @@
   const LEVELS = [
     "Internship", "Entry level", "Associate", "Mid-senior", "Director", "Executive", "Not specified",
   ];
+  const LOCATIONS = [
+    ["", "All locations"], ["sf", "San Francisco"], ["pen", "Peninsula and South Bay"],
+    ["east", "East Bay"], ["north", "North Bay"], ["remote", "US remote"],
+  ];
   const REGISTRATION = { open: "Open", waitlist: "Waitlist", full: "Full", closed: "Closed" };
-  const PERIODS = [["Morning", "00:00", "11:59"], ["Afternoon", "12:00", "16:59"], ["Evening", "17:00", "23:59"]];
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  const PREVIEW = 6;
   const FIELD_CHIPS = 8;
+  const ROLE_PREVIEW = 8;
 
   const byId = (id) => document.getElementById(id);
   const esc = (value) =>
@@ -54,56 +45,59 @@
   const plural = (n, word) => `${n.toLocaleString("en-US")} ${word}${n === 1 ? "" : "s"}`;
   const jobUrl = (id) => `https://www.linkedin.com/jobs/view/${encodeURIComponent(id)}/`;
   const onlyRemote = (role) => role.regions.length === 1 && role.regions[0] === "remote";
+  const wide = window.matchMedia("(min-width: 960px)");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  const inPost = new Set(data.post);
+  // The time now in San Francisco, as "HH:MM", when the page's date is today there.
+  function nowInPacific() {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "America/Los_Angeles", hour12: false, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit",
+    }).formatToParts(new Date());
+    const get = (type) => parts.find((p) => p.type === type).value;
+    const date = `${get("year")}-${get("month")}-${get("day")}`;
+    const hour = get("hour") === "24" ? "00" : get("hour");
+    return date === PAGE_DATE ? `${hour}:${get("minute")}` : null;
+  }
+
   const companies = new Map(data.companies.map((c) => [c.name, c]));
-  const events = new Map(data.events.map((e) => [e.id, e]));
   const familyCounts = new Map();
   for (const c of data.companies) for (const r of c.roles) familyCounts.set(r.family, (familyCounts.get(r.family) || 0) + 1);
   const fields = FAMILIES.filter((f) => familyCounts.has(f)).sort((a, b) => familyCounts.get(b) - familyCounts.get(a));
   const fieldBySlug = new Map(fields.map((f) => [slugify(f), f]));
   const usedLevels = LEVELS.filter((l) => data.companies.some((c) => c.roles.some((r) => r.level === l)));
 
-  const defaults = () => ({
-    field: "", regions: new Set(), tiers: new Set(), q: "", level: "", fresh: false, ai: false, inpost: false,
-  });
+  const defaults = () => ({ field: "", loc: "", level: "", fresh: false, ai: false, q: "", open: null, showPast: false });
   let state = defaults();
   let moreFields = false;
-  const expanded = new Set();
+  const expandedHosts = new Set();
 
   // -- URL state ---------------------------------------------------------------------------
 
   function readQuery() {
     const params = new URLSearchParams(location.search);
-    const pick = (key, allowed, into) => {
-      for (const value of (params.get(key) || "").split(",")) if (allowed.includes(value)) into.add(value);
-    };
     if (fieldBySlug.has(params.get("field"))) state.field = fieldBySlug.get(params.get("field"));
-    pick("loc", REGIONS.map(([k]) => k), state.regions);
-    pick("stage", TIERS.map(([k]) => k), state.tiers);
-    state.q = (params.get("q") || "").trim().toLowerCase();
+    if (LOCATIONS.some(([k]) => k && k === params.get("loc"))) state.loc = params.get("loc");
     if (usedLevels.includes(params.get("level"))) state.level = params.get("level");
     state.fresh = params.get("new") === "1";
     state.ai = params.get("ai") === "1";
-    state.inpost = params.get("post") === "1";
+    state.q = (params.get("q") || "").trim().toLowerCase();
+    if (params.get("e")) state.open = params.get("e");
   }
 
   function writeQuery() {
     const params = new URLSearchParams();
     if (state.field) params.set("field", slugify(state.field));
-    if (state.regions.size) params.set("loc", [...state.regions].join(","));
-    if (state.tiers.size) params.set("stage", [...state.tiers].join(","));
-    if (state.q) params.set("q", state.q);
+    if (state.loc) params.set("loc", state.loc);
     if (state.level) params.set("level", state.level);
     if (state.fresh) params.set("new", "1");
     if (state.ai) params.set("ai", "1");
-    if (state.inpost) params.set("post", "1");
+    if (state.q) params.set("q", state.q);
+    if (state.open) params.set("e", state.open);
     const query = params.toString();
     try {
-      history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
+      history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}`);
     } catch {
-      // Some browsers refuse history changes on file:// pages; the filters still work.
+      // Some browsers refuse history changes on file:// pages; the page still works.
     }
   }
 
@@ -111,7 +105,7 @@
 
   function roleMatches(role, companyHit) {
     if (state.field && role.family !== state.field) return false;
-    if (state.regions.size && !role.regions.some((r) => state.regions.has(r))) return false;
+    if (state.loc && !role.regions.includes(state.loc)) return false;
     if (state.level && role.level !== state.level) return false;
     if (state.fresh && !role.new) return false;
     if (state.ai && !role.ai) return false;
@@ -119,41 +113,32 @@
     return true;
   }
 
-  function companyMatches(company) {
-    if (state.inpost && !inPost.has(company.name)) return false;
-    if (state.tiers.size && !state.tiers.has(company.tier)) return false;
-    return true;
+  function matchingRoles(company) {
+    const hit = Boolean(state.q) && company.name.toLowerCase().includes(state.q);
+    return company.roles.filter((role) => roleMatches(role, hit));
   }
 
-  function visibleRows() {
-    const rows = [];
-    for (const company of data.companies) {
-      if (!companyMatches(company)) continue;
-      const hit = Boolean(state.q) && company.name.toLowerCase().includes(state.q);
-      const roles = company.roles.filter((role) => roleMatches(role, hit));
-      if (roles.length) rows.push([company, roles]);
+  // Events in time order, each with its hosts that have at least one matching role.
+  function schedule() {
+    const perCompany = new Map(data.companies.map((c) => [c.name, matchingRoles(c)]));
+    const items = [];
+    for (const event of data.events) {
+      const hosts = event.hosts
+        .map((name) => [companies.get(name), perCompany.get(name)])
+        .filter(([, roles]) => roles.length)
+        .sort((a, b) => b[1].length - a[1].length || a[0].name.localeCompare(b[0].name));
+      if (hosts.length) items.push({ event, hosts, roles: hosts.reduce((n, [, r]) => n + r.length, 0) });
     }
-    rows.sort((a, b) =>
-      b[1].length - a[1].length ||
-      b[1].filter((r) => r.new).length - a[1].filter((r) => r.new).length ||
-      a[0].name.localeCompare(b[0].name));
-    return rows;
+    return items;
   }
 
-  // -- controls ---------------------------------------------------------------------------
-
-  function chips(container, items, key) {
-    container.innerHTML = items
-      .map(([value, label]) =>
-        `<button type="button" class="chip" data-key="${key}" data-value="${esc(value)}" aria-pressed="false">${esc(label)}</button>`)
-      .join("");
-  }
+  // -- rendering: hero chips and controls -----------------------------------------------------
 
   function renderFields() {
     const shown = moreFields ? fields : fields.slice(0, FIELD_CHIPS);
     const total = data.companies.reduce((n, c) => n + c.roles.length, 0);
     const chip = (value, label, count) =>
-      `<button type="button" class="chip field" data-key="field" data-value="${esc(value)}" aria-pressed="${String(state.field === value)}">${esc(label)} <b>${count.toLocaleString("en-US")}</b></button>`;
+      `<button type="button" class="chip field" data-field="${esc(value)}" aria-pressed="${String(state.field === value)}">${esc(label)} <b>${count.toLocaleString("en-US")}</b></button>`;
     let html = chip("", "All fields", total) + shown.map((f) => chip(f, f, familyCounts.get(f))).join("");
     if (fields.length > FIELD_CHIPS) {
       html += `<button type="button" class="chip field more-fields" data-more-fields aria-expanded="${String(moreFields)}">${moreFields ? "Fewer fields" : `${fields.length - FIELD_CHIPS} more`}</button>`;
@@ -162,63 +147,34 @@
   }
 
   function syncControls() {
-    for (const chip of document.querySelectorAll(".chip[data-key]")) {
-      const { key, value } = chip.dataset;
-      const on = key === "field" ? state.field === value : state[key].has(value);
-      chip.setAttribute("aria-pressed", String(on));
-    }
+    byId("loc").value = state.loc;
     byId("level").value = state.level;
     byId("fresh").checked = state.fresh;
     byId("ai").checked = state.ai;
-    byId("inpost").checked = state.inpost;
-    const active = state.regions.size + state.tiers.size +
-      [state.level, state.fresh, state.ai, state.inpost].filter(Boolean).length;
-    byId("filters-count").textContent = active ? String(active) : "";
   }
 
-  // -- the board ----------------------------------------------------------------------------
+  // -- rendering: the schedule -------------------------------------------------------------
 
-  function pickTitles(roles) {
-    return [...roles].sort((a, b) => Number(b.new) - Number(a.new) || b.posted.localeCompare(a.posted)).slice(0, 3);
+  function hostSummary(hosts) {
+    const names = hosts.map(([c]) => c.name);
+    const shown = names.slice(0, 3).join(", ");
+    return names.length > 3 ? `${shown} + ${names.length - 3}` : shown;
   }
 
-  function hostLine(company, roles) {
-    const inField = state.field ? ` <span class="bh-field">${roles.length} in ${esc(state.field)}</span>` : "";
-    const total = company.roles.length;
-    const titles = pickTitles(roles)
-      .map((r) => `<a href="${jobUrl(r.id)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.new ? '<span class="tag new">New</span>' : ""}`)
-      .join("");
-    return `<li class="bh"><div class="bh-h"><a class="bh-name" href="#co-${esc(company.slug)}" data-jump="${esc(company.slug)}">${esc(company.name)}</a>` +
-      `<span class="bh-count">${plural(total, "role")}${inField}</span></div>` +
-      `<div class="bh-titles">${titles}<a class="bh-all" href="#co-${esc(company.slug)}" data-jump="${esc(company.slug)}">All roles</a></div></li>`;
+  function row(item, isOpen, past) {
+    const { event, hosts, roles } = item;
+    const meta = [event.neighborhood, event.formats[0]].filter(Boolean).map(esc).join(" · ");
+    const reg = REGISTRATION[event.registration] || "";
+    const what = state.field ? `${plural(roles, "role")} in ${esc(state.field)}` : plural(roles, "role");
+    return `<li class="ev${isOpen ? " is-open" : ""}${past ? " is-past" : ""}" data-id="${esc(event.id)}">` +
+      `<button type="button" class="ev-btn" data-open="${esc(event.id)}" aria-expanded="${String(isOpen)}" aria-controls="d-${esc(event.id)}">` +
+      `<span class="ev-time">${esc(clock(event.start))}</span>` +
+      `<span class="ev-body"><span class="ev-name">${esc(event.name)}</span>` +
+      `<span class="ev-meta">${meta}${meta && reg ? " · " : ""}${reg ? `<span class="reg reg-${esc(event.registration)}">${esc(reg)}</span>` : ""}</span>` +
+      `<span class="ev-hosts">${esc(hostSummary(hosts))} · <b>${what}</b></span></span>` +
+      `<span class="ev-chev" aria-hidden="true"></span></button>` +
+      `<div class="ev-detail" id="d-${esc(event.id)}"${isOpen && !wide.matches ? "" : " hidden"}>${isOpen && !wide.matches ? detail(item) : ""}</div></li>`;
   }
-
-  function renderBoard(rows) {
-    const matching = new Map(rows.map(([company, roles]) => [company.name, roles]));
-    const groups = PERIODS.map(([label]) => [label, []]);
-    let shownEvents = 0;
-    for (const event of data.events) {
-      const hosts = event.hosts.filter((name) => matching.has(name));
-      if (!hosts.length) continue;
-      shownEvents += 1;
-      const period = PERIODS.find(([, from, to]) => event.start >= from && event.start <= to) || PERIODS[0];
-      const meta = [event.neighborhood, event.formats[0]].filter(Boolean).map(esc).join(" · ");
-      const reg = REGISTRATION[event.registration] || "Details";
-      groups.find(([label]) => label === period[0])[1].push(
-        `<article class="bev"><div class="bev-h"><a class="bev-time" href="${esc(event.url)}" target="_blank" rel="noopener">${esc(clock(event.start))}</a>` +
-        `<div class="bev-main"><a class="bev-name" href="${esc(event.url)}" target="_blank" rel="noopener">${esc(event.name)}</a>` +
-        `<p class="bev-meta">${meta}${meta ? " · " : ""}<span class="reg reg-${esc(event.registration)}">${esc(reg)}</span></p></div></div>` +
-        `<ul class="bev-hosts">${hosts.map((name) => hostLine(companies.get(name), matching.get(name))).join("")}</ul></article>`);
-    }
-    byId("board").innerHTML = groups
-      .filter(([, items]) => items.length)
-      .map(([label, items]) => `<section class="period"><h3>${label}</h3>${items.join("")}</section>`)
-      .join("") || '<p class="board-note">No events today have hosts hiring for these filters. Try another field.</p>';
-    const what = state.field ? `hosts hiring in ${state.field}` : "hiring hosts";
-    byId("board-note").textContent = `${plural(shownEvents, "event")} with ${rows.length} ${what}. Times are Pacific.`;
-  }
-
-  // -- host cards --------------------------------------------------------------------------
 
   function roleItem(role) {
     const where = onlyRemote(role) ? '<span class="tag">US remote</span>' : `<span>${esc(role.location)}</span>`;
@@ -227,50 +183,78 @@
       `<span class="meta">${where}<span>${esc(role.level)}</span><span>${shortDate(role.posted)}</span>${tags}</span></li>`;
   }
 
-  function card(company, roles) {
-    const groups = new Map();
-    for (const role of roles) {
-      if (!groups.has(role.family)) groups.set(role.family, []);
-      groups.get(role.family).push(role);
-    }
-    const open = expanded.has(company.slug) || roles.length <= PREVIEW + 2;
-    let budget = open ? Infinity : PREVIEW;
-    const blocks = [...groups.keys()]
-      .sort((a, b) => FAMILIES.indexOf(a) - FAMILIES.indexOf(b))
-      .map((family) => {
-        const list = groups.get(family);
-        const shown = list.slice(0, Math.max(0, budget));
-        budget -= shown.length;
-        if (!shown.length) return "";
-        return `<div class="fam"><h4>${esc(family)} · ${list.length}</h4><ul>${shown.map(roleItem).join("")}</ul></div>`;
-      })
-      .join("");
-    const todays = company.events.map((id) => events.get(id)).filter(Boolean)
-      .map((e) =>
-        `<li><a href="${esc(e.url)}" target="_blank" rel="noopener"><span class="t">${esc(clock(e.start))}</span>` +
-        `<span class="n">${esc(e.name)}</span><span class="r">${esc(REGISTRATION[e.registration] || "Details")}</span></a></li>`)
-      .join("");
-    const stage = company.stage ? `<span class="stage">${esc(company.stage)}</span>` : "";
+  function hostBlock(company, roles, eventId) {
+    const key = `${eventId}:${company.slug}`;
+    const open = expandedHosts.has(key) || roles.length <= ROLE_PREVIEW + 2;
+    const shown = open ? roles : roles.slice(0, ROLE_PREVIEW);
     const more = open ? "" :
-      `<button type="button" class="more" data-expand="${esc(company.slug)}">Show all ${roles.length} roles</button>`;
-    return `<article class="co" id="co-${esc(company.slug)}" tabindex="-1">` +
-      `<header class="co-h"><h3>${esc(company.name)}</h3>${stage}<span class="ind">${esc(company.label || company.industry)}</span></header>` +
+      `<button type="button" class="more" data-expand="${esc(key)}">Show all ${roles.length} roles</button>`;
+    const other = company.events.filter((id) => id !== eventId).length;
+    const stage = company.stage ? `<span class="stage">${esc(company.stage)}</span>` : "";
+    const also = other ? `<span class="also">also at ${plural(other, "other event")} today</span>` : "";
+    return `<section class="host"><header class="host-h"><h3>${esc(company.name)}</h3>${stage}<span class="ind">${esc(company.label || "")}</span>${also}</header>` +
       `<p class="desc">${esc(company.summary)}</p>` +
-      `<ul class="ev" aria-label="Events today">${todays}</ul>${blocks}${more}</article>`;
+      `<p class="host-n">${plural(roles.length, "role")}${state.field ? ` in ${esc(state.field)}` : ""}${roles.length < company.roles.length ? ` of ${company.roles.length} this week` : ""}</p>` +
+      `<ul class="roles">${shown.map(roleItem).join("")}</ul>${more}</section>`;
+  }
+
+  function detail(item) {
+    const { event, hosts } = item;
+    const when = event.end ? `${clock(event.start)} to ${clock(event.end)}` : clock(event.start);
+    const meta = [when, event.neighborhood, ...event.formats.slice(0, 2)].filter(Boolean).map(esc).join(" · ");
+    const reg = REGISTRATION[event.registration];
+    return `<header class="detail-h"><p class="eyebrow-dark">${meta}</p><h2 tabindex="-1" id="detail-title">${esc(event.name)}</h2>` +
+      `<p class="detail-actions"><a class="btn small" href="${esc(event.url)}" target="_blank" rel="noopener">${reg ? `${esc(reg)} · ` : ""}Event page</a>` +
+      `<span class="detail-note">${plural(hosts.length, "host")} hiring here</span></p></header>` +
+      hosts.map(([company, roles]) => hostBlock(company, roles, event.id)).join("");
   }
 
   function render() {
     renderFields();
     syncControls();
-    const rows = visibleRows();
-    const roles = rows.reduce((sum, [, list]) => sum + list.length, 0);
-    byId("count-text").textContent = `${plural(rows.length, "host")} · ${plural(roles, "role")}`;
-    byId("sheet-show").textContent = `Show ${plural(roles, "role")}`;
-    renderBoard(rows);
-    byId("list").innerHTML = rows.length
-      ? rows.map(([company, list]) => card(company, list)).join("")
-      : '<p class="empty">No roles match these filters. <button type="button" class="link-btn" data-reset>Clear filters</button></p>';
+    const items = schedule();
+    const now = nowInPacific();
+    const isPast = (item) => Boolean(now) && (item.event.end || item.event.start) < now;
+    const upcoming = items.filter((i) => !isPast(i));
+    const past = items.filter(isPast);
+    if (!items.some((i) => i.event.id === state.open)) state.open = wide.matches ? (upcoming[0] || items[0] || {}).event?.id || null : null;
+
+    const hostsSeen = new Set(items.flatMap((i) => i.hosts.map(([c]) => c.name)));
+    const rolesSeen = new Set(items.flatMap((i) => i.hosts.flatMap(([, rs]) => rs.map((r) => r.id))));
+    byId("count-text").textContent = items.length
+      ? `${plural(items.length, "event")} · ${plural(hostsSeen.size, "host")} · ${plural(rolesSeen.size, "role")}${state.field ? ` in ${state.field}` : ""}`
+      : "";
+
+    let html = upcoming.map((i) => row(i, i.event.id === state.open, false)).join("");
+    if (past.length) {
+      html += `<li class="past-fold"><button type="button" class="link-btn" data-toggle-past aria-expanded="${String(state.showPast)}">${state.showPast ? "Hide" : "Show"} ${plural(past.length, "earlier event")}</button></li>`;
+      if (state.showPast) html += past.map((i) => row(i, i.event.id === state.open, true)).join("");
+    }
+    byId("list").innerHTML = html || '<li class="empty">No event today has a host hiring for these filters. <button type="button" class="link-btn" data-reset>Clear filters</button></li>';
+
+    const pane = byId("detail");
+    const openItem = items.find((i) => i.event.id === state.open);
+    if (wide.matches && openItem) {
+      pane.hidden = false;
+      pane.innerHTML = detail(openItem);
+    } else {
+      pane.hidden = true;
+      pane.innerHTML = "";
+    }
     writeQuery();
+  }
+
+  function openEvent(id) {
+    state.open = state.open === id && !wide.matches ? null : id;
+    render();
+    if (!state.open) return;
+    const target = wide.matches ? byId("detail") : document.querySelector(`.ev[data-id="${CSS.escape(id)}"]`);
+    if (!target) return;
+    if (!wide.matches) {
+      const top = target.getBoundingClientRect().top;
+      if (top < 0 || top > window.innerHeight * 0.6) target.scrollIntoView({ block: "start", behavior: reducedMotion ? "auto" : "smooth" });
+    }
+    byId("detail-title")?.focus({ preventScroll: true });
   }
 
   function reset() {
@@ -279,50 +263,13 @@
     render();
   }
 
-  function reveal(slug) {
-    if (!byId(`co-${slug}`)) {
-      state = defaults();
-      byId("q").value = "";
-      render();
-    }
-    const target = byId(`co-${slug}`);
-    if (!target) return;
-    const far = Math.abs(target.getBoundingClientRect().top) > window.innerHeight * 1.5;
-    target.scrollIntoView({ block: "start", behavior: reducedMotion || far ? "auto" : "smooth" });
-    target.focus({ preventScroll: true });
-  }
-
-  // -- filter sheet on small screens --------------------------------------------------------
-
-  const sheet = byId("filters");
-  const scrim = byId("scrim");
-  const opener = byId("filters-btn");
-
-  function setSheet(open) {
-    if (open) {
-      sheet.setAttribute("data-open", "");
-      scrim.setAttribute("data-open", "");
-      document.body.classList.add("sheet-open");
-      opener.setAttribute("aria-expanded", "true");
-      sheet.querySelector(".chip, select, input")?.focus();
-    } else {
-      sheet.removeAttribute("data-open");
-      scrim.removeAttribute("data-open");
-      document.body.classList.remove("sheet-open");
-      opener.setAttribute("aria-expanded", "false");
-      opener.focus();
-    }
-  }
-
   // -- events -------------------------------------------------------------------------------
 
   document.addEventListener("click", (event) => {
-    const chip = event.target.closest(".chip[data-key]");
-    if (chip) {
-      const { key, value } = chip.dataset;
-      if (key === "field") state.field = value;
-      else if (state[key].has(value)) state[key].delete(value);
-      else state[key].add(value);
+    const field = event.target.closest("[data-field]");
+    if (field) {
+      state.field = field.dataset.field;
+      state.open = null;
       render();
       return;
     }
@@ -331,21 +278,23 @@
       renderFields();
       return;
     }
+    const open = event.target.closest("[data-open]");
+    if (open) {
+      openEvent(open.dataset.open);
+      return;
+    }
     const more = event.target.closest("[data-expand]");
     if (more) {
-      expanded.add(more.dataset.expand);
+      expandedHosts.add(more.dataset.expand);
       render();
       return;
     }
-    if (event.target.closest("[data-reset]")) {
-      reset();
+    if (event.target.closest("[data-toggle-past]")) {
+      state.showPast = !state.showPast;
+      render();
       return;
     }
-    const jump = event.target.closest("a[data-jump]");
-    if (jump) {
-      event.preventDefault();
-      reveal(jump.dataset.jump);
-    }
+    if (event.target.closest("[data-reset]")) reset();
   });
 
   let typing;
@@ -353,33 +302,30 @@
     clearTimeout(typing);
     typing = setTimeout(() => {
       state.q = event.target.value.trim().toLowerCase();
+      state.open = null;
       render();
     }, 120);
   });
-  byId("level").addEventListener("change", (event) => {
-    state.level = event.target.value;
-    render();
-  });
-  for (const key of ["fresh", "ai", "inpost"]) {
+  for (const key of ["loc", "level"]) {
     byId(key).addEventListener("change", (event) => {
-      state[key] = event.target.checked;
+      state[key] = event.target.value;
+      state.open = null;
       render();
     });
   }
-  opener.addEventListener("click", () => setSheet(!sheet.hasAttribute("data-open")));
-  scrim.addEventListener("click", () => setSheet(false));
-  byId("sheet-close").addEventListener("click", () => setSheet(false));
-  byId("sheet-show").addEventListener("click", () => setSheet(false));
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && sheet.hasAttribute("data-open")) setSheet(false);
-  });
+  for (const key of ["fresh", "ai"]) {
+    byId(key).addEventListener("change", (event) => {
+      state[key] = event.target.checked;
+      state.open = null;
+      render();
+    });
+  }
+  wide.addEventListener("change", render);
 
-  chips(byId("regions"), REGIONS, "regions");
-  chips(byId("tiers"), TIERS.filter(([key]) => data.companies.some((c) => c.tier === key)), "tiers");
+  byId("loc").innerHTML = LOCATIONS.map(([value, label]) => `<option value="${value}">${esc(label)}</option>`).join("");
   byId("level").innerHTML = '<option value="">All levels</option>' + usedLevels.map((l) => `<option>${esc(l)}</option>`).join("");
 
   readQuery();
   byId("q").value = state.q;
   render();
-  if (location.hash.startsWith("#co-")) reveal(location.hash.slice(4));
 })();
