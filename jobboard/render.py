@@ -129,8 +129,8 @@ def render_day(board_name: str, slug: str) -> str:
         day_tabs=day_tabs(board_name, board, slug),
         headline=escape(headline),
         stats=escape(
-            f"{counts['roles']:,} roles posted this week · {counts['new']} new · "
-            f"{counts['remote']} US remote · pulled {pulled}"
+            f"{counts['roles']:,} roles this week · {counts['new']} new · "
+            f"{counts['remote']} US remote"
         ),
         date=escape(day["date"]),
         window=escape(window),

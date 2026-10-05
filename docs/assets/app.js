@@ -24,13 +24,13 @@
     ["east", "East Bay"], ["north", "North Bay"], ["remote", "US remote"],
   ];
   const REGISTRATION = { open: "Open", waitlist: "Waitlist", full: "Full", closed: "Closed" };
+  const REGISTRATION_LONG = { open: "Registration open", waitlist: "Waitlist", full: "Full", closed: "Registration closed" };
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const VIEWS = {
     time: "Today's events with hiring hosts",
     companies: "Companies hiring today, with their events",
   };
   const FIELD_CHIPS = 8;
-  const ROLE_PREVIEW = 8;
 
   const byId = (id) => document.getElementById(id);
   const esc = (value) =>
@@ -52,7 +52,12 @@
   const onlyRemote = (role) => role.regions.length === 1 && role.regions[0] === "remote";
   const eventIsPast = (event, now) => Boolean(now) && (event.end || event.start) < now;
   const wide = window.matchMedia("(min-width: 960px)");
+  const narrow = window.matchMedia("(max-width: 719px)");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const motion = () => (reducedMotion ? "auto" : "smooth");
+  // Phones show fewer roles before "Show all"; the open item is read in place there.
+  const rolePreview = () => (wide.matches ? 8 : 6);
+  const focusOn = (selector) => document.querySelector(selector)?.focus({ preventScroll: true });
 
   // The time now in San Francisco, as "HH:MM", when the page's date is today there.
   function nowInPacific() {
@@ -77,7 +82,11 @@
   const defaults = () => ({ view: "time", field: "", loc: "", level: "", fresh: false, ai: false, q: "", open: null, showPast: false });
   let state = defaults();
   let moreFields = false;
+  let booted = false;
+  // True when the open item was chosen by the page, not the reader; such a choice stays out of the URL.
+  let autoOpened = false;
   const expanded = new Set();
+  const filtering = () => Boolean(state.field || state.loc || state.level || state.fresh || state.ai || state.q);
 
   // -- URL state ---------------------------------------------------------------------------
 
@@ -91,10 +100,15 @@
     state.ai = params.get("ai") === "1";
     state.q = (params.get("q") || "").trim().toLowerCase();
     const open = params.get(state.view === "companies" ? "c" : "e");
-    if (open) state.open = open;
+    if (open) {
+      state.open = open;
+      autoOpened = false;
+    }
   }
 
-  function writeQuery() {
+  // Filters replace the current history entry; moving between views or jumping to an item adds one,
+  // so Back returns to where the reader was instead of leaving the page.
+  function writeQuery(push) {
     const params = new URLSearchParams();
     if (state.view === "companies") params.set("view", "companies");
     if (state.field) params.set("field", slugify(state.field));
@@ -103,10 +117,12 @@
     if (state.fresh) params.set("new", "1");
     if (state.ai) params.set("ai", "1");
     if (state.q) params.set("q", state.q);
-    if (state.open) params.set(state.view === "companies" ? "c" : "e", state.open);
+    if (state.open && !autoOpened) params.set(state.view === "companies" ? "c" : "e", state.open);
     const query = params.toString();
+    const url = `${location.pathname}${query ? `?${query}` : ""}`;
+    if (url === `${location.pathname}${location.search}`) return;
     try {
-      history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}`);
+      history[push ? "pushState" : "replaceState"](null, "", url);
     } catch {
       // Some browsers refuse history changes on file:// pages; the page still works.
     }
@@ -158,16 +174,23 @@
 
   // -- rendering: hero chips and controls -----------------------------------------------------
 
+  // Wide screens wrap the chips and fold the tail behind "N more"; narrow ones show every chip
+  // in one scrolling rail and keep the chosen chip in view.
   function renderFields() {
-    const shown = moreFields ? fields : fields.slice(0, FIELD_CHIPS);
+    const shown = moreFields || narrow.matches ? fields : fields.slice(0, FIELD_CHIPS);
     const total = data.companies.reduce((n, c) => n + c.roles.length, 0);
     const chip = (value, label, count) =>
       `<button type="button" class="chip field" data-field="${esc(value)}" aria-pressed="${String(state.field === value)}">${esc(label)} <b>${count.toLocaleString("en-US")}</b></button>`;
     let html = chip("", "All fields", total) + shown.map((f) => chip(f, f, familyCounts.get(f))).join("");
-    if (fields.length > FIELD_CHIPS) {
+    if (!narrow.matches && fields.length > FIELD_CHIPS) {
       html += `<button type="button" class="chip field more-fields" data-more-fields aria-expanded="${String(moreFields)}">${moreFields ? "Fewer fields" : `${fields.length - FIELD_CHIPS} more`}</button>`;
     }
-    byId("fields").innerHTML = html;
+    const rail = byId("fields");
+    rail.innerHTML = html;
+    const chosen = rail.querySelector('[aria-pressed="true"]');
+    if (narrow.matches && chosen) {
+      rail.scrollTo({ left: chosen.offsetLeft - (rail.clientWidth - chosen.offsetWidth) / 2, behavior: booted ? motion() : "auto" });
+    }
   }
 
   function syncControls() {
@@ -190,25 +213,34 @@
       `<span class="meta">${where}<span>${esc(role.level)}</span><span>${shortDate(role.posted)}</span>${tags}</span></li>`;
   }
 
-  // A role list cut to a preview until expanded, optionally with a heading per field.
+  // A role list. Flat lists show a preview until expanded. Grouped lists (a company's roles with no
+  // field chosen) show one heading per field; each opens on its own, or all at once.
   function roleList(key, roles, grouped) {
-    const open = expanded.has(key) || roles.length <= ROLE_PREVIEW + 2;
-    const shown = open ? roles : roles.slice(0, ROLE_PREVIEW);
-    let html = "";
-    let family = null;
-    for (const role of shown) {
-      if (grouped && role.family !== family) {
-        family = role.family;
-        html += `<li class="grp">${esc(family)} <b>${roles.filter((r) => r.family === family).length}</b></li>`;
-      }
-      html += roleItem(role);
+    const allOpen = expanded.has(key) || roles.length <= rolePreview() + 2;
+    const more = allOpen ? "" : `<button type="button" class="more" data-expand="${esc(key)}">Show all ${roles.length} roles</button>`;
+    if (!grouped) {
+      const shown = allOpen ? roles : roles.slice(0, rolePreview());
+      return `<ul class="roles">${shown.map(roleItem).join("")}</ul>${more}`;
     }
-    const more = open ? "" : `<button type="button" class="more" data-expand="${esc(key)}">Show all ${roles.length} roles</button>`;
+    let html = "";
+    for (const family of [...new Set(roles.map((r) => r.family))]) {
+      const group = roles.filter((r) => r.family === family);
+      const groupKey = `${key}:${slugify(family)}`;
+      const open = allOpen || expanded.has(groupKey);
+      const label = `${esc(family)} <b>${group.length}</b>`;
+      html += allOpen
+        ? `<li class="grp">${label}</li>`
+        : `<li class="grp"><button type="button" class="grp-btn" data-group="${esc(groupKey)}" aria-expanded="${String(open)}">${label}<span class="grp-chev" aria-hidden="true"></span></button></li>`;
+      if (open) html += group.map(roleItem).join("");
+    }
     return `<ul class="roles">${html}</ul>${more}`;
   }
 
   function roleCount(company, roles) {
-    return `${plural(roles.length, "role")}${state.field ? ` in ${esc(state.field)}` : ""}${roles.length < company.roles.length ? ` of ${company.roles.length} this week` : ""}`;
+    const n = roles.length;
+    const total = company.roles.length;
+    const base = n < total ? `${n.toLocaleString("en-US")} of ${plural(total, "role")} this week` : `${plural(n, "role")} this week`;
+    return state.field ? `${base} · ${esc(state.field)}` : base;
   }
 
   function companyMeta(company) {
@@ -234,10 +266,9 @@
     const { event, hosts, roles } = item;
     const meta = [event.neighborhood, event.formats[0]].filter(Boolean).map(esc).join(" · ");
     const reg = REGISTRATION[event.registration] || "";
-    const what = state.field ? `${plural(roles, "role")} in ${esc(state.field)}` : plural(roles, "role");
     const body = `<span class="ev-name">${esc(event.name)}</span>` +
       `<span class="ev-meta">${meta}${meta && reg ? " · " : ""}${reg ? `<span class="reg reg-${esc(event.registration)}">${esc(reg)}</span>` : ""}</span>` +
-      `<span class="ev-hosts">${esc(hostSummary(hosts))} · <b>${what}</b></span>`;
+      `<span class="ev-hosts">${esc(hostSummary(hosts))} · <b>${plural(roles, "role")}</b></span>`;
     return listRow(event.id, isOpen, past ? " is-past" : "", esc(clock(event.start)), body);
   }
 
@@ -256,10 +287,11 @@
   function eventDetail(item) {
     const { event, hosts } = item;
     const when = event.end ? `${clock(event.start)} to ${clock(event.end)}` : clock(event.start);
-    const meta = [when, event.neighborhood, ...event.formats.slice(0, 2)].filter(Boolean).map(esc).join(" · ");
-    const reg = REGISTRATION[event.registration];
-    return `<header class="detail-h"><p class="eyebrow-dark">${meta}</p><h2 tabindex="-1" id="detail-title">${esc(event.name)}</h2>` +
-      `<p class="detail-actions"><a class="btn small" href="${esc(event.url)}" target="_blank" rel="noopener">${reg ? `${esc(reg)} · ` : ""}Event page</a>` +
+    const meta = [when, event.neighborhood, ...event.formats.slice(0, 2)].filter(Boolean).map(esc);
+    const reg = REGISTRATION_LONG[event.registration];
+    if (reg) meta.push(`<span class="reg reg-${esc(event.registration)}">${esc(reg)}</span>`);
+    return `<header class="detail-h"><p class="eyebrow-dark">${meta.join(" · ")}</p><h2 tabindex="-1" id="detail-title">${esc(event.name)}</h2>` +
+      `<p class="detail-actions"><a class="btn small" href="${esc(event.url)}" target="_blank" rel="noopener">Event page</a>` +
       `<span class="detail-note">${plural(hosts.length, "host")} hiring here</span></p></header>` +
       hosts.map(([company, roles]) => hostBlock(company, roles, event.id)).join("");
   }
@@ -267,23 +299,29 @@
   function renderSchedule() {
     const items = schedule();
     const now = nowInPacific();
-    const upcoming = items.filter((i) => !eventIsPast(i.event, now));
     const past = items.filter((i) => eventIsPast(i.event, now));
-    if (!items.some((i) => i.event.id === state.open)) state.open = wide.matches ? (upcoming[0] || items[0] || {}).event?.id || null : null;
+    const upcoming = items.filter((i) => !eventIsPast(i.event, now));
+    if (!items.some((i) => i.event.id === state.open)) {
+      state.open = wide.matches ? (upcoming[0] || items[0] || {}).event?.id || null : null;
+      autoOpened = true;
+    }
+    // Earlier events stay visible when the reader is looking at one, or when the day is over.
+    if (past.some((i) => i.event.id === state.open) || (past.length && !upcoming.length)) state.showPast = true;
 
     const hostsSeen = new Set(items.flatMap((i) => i.hosts.map(([c]) => c.name)));
     const rolesSeen = new Set(items.flatMap((i) => i.hosts.flatMap(([, rs]) => rs.map((r) => r.id))));
-    const count = items.length
-      ? `${plural(items.length, "event")} · ${plural(hostsSeen.size, "host")} · ${plural(rolesSeen.size, "role")}`
-      : "";
+    const count = `${plural(items.length, "event")} · ${plural(hostsSeen.size, "host")} · ${plural(rolesSeen.size, "role")}`;
 
-    let html = upcoming.map((i) => eventRow(i, i.event.id === state.open, false)).join("");
+    let html = "";
     if (past.length) {
-      html += `<li class="past-fold"><button type="button" class="link-btn" data-toggle-past aria-expanded="${String(state.showPast)}">${state.showPast ? "Hide" : "Show"} ${plural(past.length, "earlier event")}</button></li>`;
+      html += upcoming.length
+        ? `<li class="past-fold"><button type="button" class="link-btn" data-toggle-past aria-expanded="${String(state.showPast)}">${state.showPast ? "Hide" : "Show"} ${plural(past.length, "earlier event")}</button></li>`
+        : '<li class="past-fold">Today\'s events have ended. The roles stay open.</li>';
       if (state.showPast) html += past.map((i) => eventRow(i, i.event.id === state.open, true)).join("");
     }
+    html += upcoming.map((i) => eventRow(i, i.event.id === state.open, false)).join("");
     const openItem = items.find((i) => i.event.id === state.open);
-    return { count, html, detail: openItem ? eventDetail(openItem) : "", empty: "No event today has a host hiring for these filters." };
+    return { count, html: items.length ? html : "", detail: openItem ? eventDetail(openItem) : "", empty: "No event today has a host hiring for these filters." };
   }
 
   // -- rendering: by company ---------------------------------------------------------------
@@ -291,7 +329,7 @@
   function companyRow(item, isOpen) {
     const { company, roles } = item;
     const today = item.events.map((e) => `${clock(e.start)} ${e.name}`).join(" · ");
-    const lead = `${roles.length.toLocaleString("en-US")}<span class="sr"> ${roles.length === 1 ? "role" : "roles"}</span>`;
+    const lead = `${roles.length.toLocaleString("en-US")}<small>${roles.length === 1 ? "role" : "roles"}</small>`;
     const body = `<span class="ev-name">${esc(company.name)}</span>` +
       `<span class="ev-meta">${companyMeta(company)}</span>` +
       `<span class="ev-hosts">${item.events.length > 1 ? `<b>${plural(item.events.length, "event")}</b> · ` : ""}${esc(today)}</span>`;
@@ -315,7 +353,7 @@
     const grouped = !state.field && new Set(roles.map((r) => r.family)).size > 1;
     return `<header class="detail-h"><p class="eyebrow-dark">${companyMeta(company)}</p><h2 tabindex="-1" id="detail-title">${esc(company.name)}</h2>` +
       `<p class="desc">${esc(company.summary)}</p>` +
-      `<p class="detail-actions"><a class="btn small" href="${esc(company.linkedin)}" target="_blank" rel="noopener">Company page</a>` +
+      `<p class="detail-actions"><a class="btn small ghost" href="${esc(company.linkedin)}" target="_blank" rel="noopener">Company page</a>` +
       `<span class="detail-note">${plural(item.events.length, "event")} today · ${plural(company.roles.length, "role")} this week</span></p></header>` +
       `<section class="host"><p class="host-n ev-k">Today</p><ol class="co-events">${item.events.map((e) => companyEvent(e, now)).join("")}</ol></section>` +
       `<section class="host"><p class="host-n">${roleCount(company, roles)}</p>${roleList(`co:${company.slug}`, sorted, grouped)}</section>`;
@@ -324,13 +362,13 @@
   function renderCompanies() {
     const items = companyList();
     const now = nowInPacific();
-    if (!items.some((i) => i.company.slug === state.open)) state.open = wide.matches ? items[0]?.company.slug || null : null;
-
+    if (!items.some((i) => i.company.slug === state.open)) {
+      state.open = wide.matches ? items[0]?.company.slug || null : null;
+      autoOpened = true;
+    }
     const eventsSeen = new Set(items.flatMap((i) => i.events.map((e) => e.id)));
     const roles = items.reduce((n, i) => n + i.roles.length, 0);
-    const count = items.length
-      ? `${plural(items.length, "company", "companies")} · ${plural(eventsSeen.size, "event")} · ${plural(roles, "role")}`
-      : "";
+    const count = `${plural(items.length, "company", "companies")} · ${plural(eventsSeen.size, "event")} · ${plural(roles, "role")}`;
     const html = items.map((i) => companyRow(i, i.company.slug === state.open)).join("");
     const openItem = items.find((i) => i.company.slug === state.open);
     return { count, html, detail: openItem ? companyDetail(openItem, now) : "", empty: "No host today is hiring for these filters." };
@@ -338,11 +376,12 @@
 
   // -- rendering: put it on the page ---------------------------------------------------------
 
-  function render() {
+  function render(push = false) {
     renderFields();
     syncControls();
     const view = state.view === "companies" ? renderCompanies() : renderSchedule();
-    byId("count-text").textContent = view.count ? `${view.count}${state.field ? ` in ${state.field}` : ""}` : "";
+    // On landing the hero already carries the totals; the count earns its line once a filter is on.
+    byId("count-text").textContent = view.html && filtering() ? `${view.count}${state.field ? ` in ${state.field}` : ""}` : "";
     byId("list").innerHTML = view.html ||
       `<li class="empty">${view.empty} <button type="button" class="link-btn" data-reset>Clear filters</button></li>`;
 
@@ -366,33 +405,43 @@
         }
       }
     }
-    writeQuery();
+    writeQuery(push);
   }
+
+  const rowFor = (id) => document.querySelector(`.ev[data-id="${CSS.escape(id)}"]`);
 
   // Bring the open item into view and move focus to its title.
   function reveal() {
     if (!state.open) return;
     if (!wide.matches) {
-      const row = document.querySelector(`.ev[data-id="${CSS.escape(state.open)}"]`);
+      const row = rowFor(state.open);
       if (!row) return;
       const top = row.getBoundingClientRect().top;
-      if (top < 0 || top > window.innerHeight * 0.6) row.scrollIntoView({ block: "start", behavior: reducedMotion ? "auto" : "smooth" });
+      if (top < 0 || top > window.innerHeight * 0.6) row.scrollIntoView({ block: "start", behavior: booted ? motion() : "auto" });
     }
     byId("detail-title")?.focus({ preventScroll: true });
   }
 
   function toggleOpen(id) {
-    state.open = state.open === id && !wide.matches ? null : id;
+    const closing = state.open === id && !wide.matches;
+    state.open = closing ? null : id;
+    autoOpened = false;
     render();
-    reveal();
+    if (!closing) {
+      reveal();
+      return;
+    }
+    // The row was pinned to the top while its detail was read; keep it in view as it collapses.
+    const row = rowFor(id);
+    if (row && row.getBoundingClientRect().top < 0) row.scrollIntoView({ block: "start", behavior: "auto" });
   }
 
   // Jump from one view to a specific item in the other.
   function goTo(view, id) {
     state.view = view;
     state.open = id;
-    if (view === "time" && eventIsPast(events.get(id) || {}, nowInPacific())) state.showPast = true;
-    render();
+    autoOpened = false;
+    render(true);
     reveal();
   }
 
@@ -400,13 +449,23 @@
     if (view === state.view) return;
     state.view = view;
     state.open = null;
-    render();
+    render(true);
+    focusOn(`[data-view="${view}"]`);
   }
 
   function reset() {
     state = { ...defaults(), view: state.view };
     byId("q").value = "";
     render();
+    focusOn("#q");
+  }
+
+  function restoreFromUrl() {
+    state = defaults();
+    readQuery();
+    byId("q").value = state.q;
+    render();
+    if (!wide.matches) reveal();
   }
 
   // -- events -------------------------------------------------------------------------------
@@ -417,11 +476,13 @@
       state.field = field.dataset.field;
       state.open = null;
       render();
+      focusOn(`[data-field="${CSS.escape(state.field)}"]`);
       return;
     }
     if (event.target.closest("[data-more-fields]")) {
       moreFields = !moreFields;
       renderFields();
+      focusOn("[data-more-fields]");
       return;
     }
     const view = event.target.closest("[data-view]");
@@ -446,13 +507,31 @@
     }
     const more = event.target.closest("[data-expand]");
     if (more) {
+      // The button goes away; focus moves to the first role it revealed.
+      const sections = [...document.querySelectorAll(".host")];
+      const index = sections.indexOf(more.closest(".host"));
+      const before = more.closest(".host").querySelectorAll(".roles li a").length;
       expanded.add(more.dataset.expand);
       render();
+      const links = document.querySelectorAll(".host")[index]?.querySelectorAll(".roles li a") || [];
+      (links[before] || links[0])?.focus({ preventScroll: true });
+      return;
+    }
+    const group = event.target.closest("[data-group]");
+    if (group) {
+      const key = group.dataset.group;
+      if (expanded.has(key)) expanded.delete(key);
+      else expanded.add(key);
+      render();
+      focusOn(`[data-group="${CSS.escape(key)}"]`);
       return;
     }
     if (event.target.closest("[data-toggle-past]")) {
       state.showPast = !state.showPast;
+      // Hiding earlier events also lets go of an earlier event that was open, or it would unfold again.
+      if (!state.showPast && state.open && eventIsPast(events.get(state.open) || {}, nowInPacific())) state.open = null;
       render();
+      focusOn("[data-toggle-past]");
       return;
     }
     if (event.target.closest("[data-reset]")) reset();
@@ -481,12 +560,20 @@
       render();
     });
   }
-  wide.addEventListener("change", render);
+  wide.addEventListener("change", () => render());
+  narrow.addEventListener("change", () => renderFields());
+  window.addEventListener("popstate", restoreFromUrl);
+  // iOS only shows :active styles on elements once the page listens for touches.
+  document.addEventListener("touchstart", () => {}, { passive: true });
 
   byId("loc").innerHTML = LOCATIONS.map(([value, label]) => `<option value="${value}">${esc(label)}</option>`).join("");
   byId("level").innerHTML = '<option value="">All levels</option>' + usedLevels.map((l) => `<option>${esc(l)}</option>`).join("");
 
   readQuery();
   byId("q").value = state.q;
+  const linked = Boolean(state.open);
   render();
+  // A shared link to one event or company lands on it, not on the top of the page.
+  if (linked && !wide.matches) reveal();
+  booted = true;
 })();

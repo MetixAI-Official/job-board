@@ -42,7 +42,7 @@
   <div class="wrap">
     <p class="eyebrow">$eyebrow</p>
     <h1 id="title">$headline</h1>
-    <p class="lede">Pick your field. Go by time to see who is hiring at each event, or by company to see a host's events and roles together.</p>
+    <p class="lede">Pick your field. Then go by time to see who is hiring at each event, or by company.</p>
     <div class="fields" id="fields" role="group" aria-label="Your field"></div>
     <p class="stats">$stats</p>
   </div>
@@ -52,11 +52,13 @@
   <div class="controls" role="search">
     <label class="sr" for="q">Search companies and roles</label>
     <input type="search" id="q" placeholder="Search company or role" autocomplete="off" spellcheck="false">
-    <select id="loc" aria-label="Location"></select>
-    <select id="level" aria-label="Level"></select>
-    <label class="tog"><input type="checkbox" id="fresh"> New this week</label>
-    <label class="tog"><input type="checkbox" id="ai"> AI roles</label>
-    <button type="button" class="link-btn" data-reset>Clear</button>
+    <div class="filters">
+      <select id="loc" aria-label="Location"></select>
+      <select id="level" aria-label="Level"></select>
+      <label class="tog"><input type="checkbox" id="fresh"> New this week</label>
+      <label class="tog"><input type="checkbox" id="ai"> AI roles</label>
+      <button type="button" class="link-btn" data-reset>Clear</button>
+    </div>
   </div>
   <div class="bar">
     <div class="views" role="group" aria-label="Group by">
@@ -68,7 +70,7 @@
 
   <div class="sched">
     <ol class="sched-list" id="list" aria-label="Today's events with hiring hosts"></ol>
-    <section class="detail" id="detail" aria-live="polite"></section>
+    <section class="detail" id="detail"></section>
   </div>
   <noscript><p class="empty">Turn on JavaScript to see today's events and the roles at each host.</p></noscript>
 
