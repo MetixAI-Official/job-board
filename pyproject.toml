@@ -1,0 +1,25 @@
+[project]
+name = "job-board"
+version = "0.1.0"
+description = "Hiring lists built from the Metix AI Platform."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["mypy", "playwright", "pytest", "ruff"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+strict = true
+files = ["jobboard", "tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

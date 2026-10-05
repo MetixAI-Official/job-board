@@ -1,0 +1,43 @@
+name = "SF Tech Week 2026"
+eyebrow = "SF Tech Week · Oct 5-11, 2026 · Independent list"
+url = "https://metixai-official.github.io/job-board/tech-week-2026/sf"
+calendar = "https://www.tech-week.com/calendar/sf"
+repo = "https://github.com/MetixAI-Official/job-board"
+via = "tw-sf26"
+release = "Out 7am PT"
+
+[[days]]
+slug = "mon"
+weekday = "Mon"
+dates = "Oct 5"
+title = "Monday, Oct 5"
+
+[[days]]
+slug = "tue"
+weekday = "Tue"
+dates = "Oct 6"
+title = "Tuesday, Oct 6"
+
+[[days]]
+slug = "wed"
+weekday = "Wed"
+dates = "Oct 7"
+title = "Wednesday, Oct 7"
+
+[[days]]
+slug = "thu"
+weekday = "Thu"
+dates = "Oct 8"
+title = "Thursday, Oct 8"
+
+[[days]]
+slug = "fri"
+weekday = "Fri"
+dates = "Oct 9"
+title = "Friday, Oct 9"
+
+[[days]]
+slug = "weekend"
+weekday = "Weekend"
+dates = "Oct 10-11"
+title = "Weekend, Oct 10-11"
