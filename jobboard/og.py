@@ -1,4 +1,4 @@
-"""Share image for a day, 1200 by 627, drawn by a headless browser from site/og.html."""
+"""Share images, 1200 by 627, drawn by a headless browser from site/og.html."""
 
 from __future__ import annotations
 
@@ -9,23 +9,8 @@ from string import Template
 from jobboard.render import SITE, load_board, load_day, logo_data_uri, totals
 
 
-def render_og(board_name: str, slug: str, out: Path) -> Path:
+def _draw(page_html: str, out: Path) -> Path:
     from playwright.sync_api import sync_playwright
-
-    board = load_board(board_name)
-    day = load_day(board_name, slug)
-    if day is None:
-        raise SystemExit(f"no data for {board_name} {slug}")
-    entry = next(item for item in board["days"] if item["slug"] == slug)
-    counts = totals(day)
-    page_html = Template((SITE / "og.html").read_text(encoding="utf-8")).substitute(
-        eyebrow=escape(board["eyebrow"]),
-        title=escape(entry["title"]),
-        hiring=counts["hiring"],
-        roles=f"{counts['roles']:,}",
-        logo=logo_data_uri("metix-logo-white.svg"),
-        url=escape(board["url"].removeprefix("https://")),
-    )
 
     out.parent.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as playwright:
@@ -36,3 +21,44 @@ def render_og(board_name: str, slug: str, out: Path) -> Path:
         page.screenshot(path=str(out))
         browser.close()
     return out
+
+
+def _page(board: dict[str, str], title: str, claim: str, title_size: int, eyebrow: str = "") -> str:
+    return Template((SITE / "og.html").read_text(encoding="utf-8")).substitute(
+        eyebrow=escape(eyebrow or board["eyebrow"]),
+        title=escape(title),
+        title_size=title_size,
+        claim=claim,
+        logo=logo_data_uri("metix-logo-white.svg"),
+        url=escape(board["url"].removeprefix("https://")),
+    )
+
+
+def render_og(board_name: str, slug: str, out: Path) -> Path:
+    board = load_board(board_name)
+    day = load_day(board_name, slug)
+    if day is None:
+        raise SystemExit(f"no data for {board_name} {slug}")
+    entry = next(item for item in board["days"] if item["slug"] == slug)
+    counts = totals(day)
+    claim = (
+        f"<b>{counts['hiring']}</b> SF Tech Week hosts are hiring today.<br>"
+        f"<b>{counts['roles']:,}</b> Bay Area and US-remote roles this week."
+    )
+    return _draw(_page(board, entry["title"], claim, 78), out)
+
+
+def render_report_og(board_name: str, out: Path) -> Path:
+    from jobboard.report import load_report
+
+    board = load_board(board_name)
+    report = load_report(board_name)
+    overall = report["overall"]
+    reposted = 1 - overall["new_share"]
+    claim = (
+        f"<b>{round(reposted * 100)}%</b> of {overall['roles']:,} roles were reposts.<br>"
+        f"Only <b>{overall['new']:,}</b> first appeared that week."
+    )
+    title = "Most roles posted this week were posted before"
+    eyebrow = "SF Tech Week · Oct 5-11, 2026 · Metix AI Platform analysis"
+    return _draw(_page(board, title, claim, 60, eyebrow), out)

@@ -34,17 +34,22 @@ def test_every_post_company_is_on_the_page(day: Day) -> None:
 def test_companies_are_complete(day: Day) -> None:
     for company in day["companies"]:
         assert company["tier"] in TIERS, company["name"]
-        assert company["stage"] and company["summary"] and company["industry"], company["name"]
+        assert company["label"] and company["summary"] and company["industry"], company["name"]
+        if company["stage"]:
+            assert company["stage_source"], f"{company['name']}: a shown round needs a source"
         assert company["linkedin"].startswith("https://www.linkedin.com/company/"), company["name"]
         assert company["events"], company["name"]
         assert company["roles"], company["name"]
 
 
 def test_links_point_where_they_should(day: Day) -> None:
+    event_ids = {event["id"] for event in day["events"]}
+    for event in day["events"]:
+        assert event["url"].startswith("https://www.tech-week.com/"), event["url"]
+        assert "src=" not in event["url"], event["url"]
+        assert event["hosts"], event["name"]
     for company in day["companies"]:
-        for event in company["events"]:
-            assert event["url"].startswith("https://www.tech-week.com/"), event["url"]
-            assert "src=" not in event["url"], event["url"]
+        assert set(company["events"]) <= event_ids, company["name"]
         for role in company["roles"]:
             assert str(role["id"]).isdigit(), role
             assert set(role["regions"]) <= REGIONS, role

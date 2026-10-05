@@ -77,48 +77,30 @@ def platform_link(path: str, via: str) -> str:
     return f"{PLATFORM}{path}?via={via}"
 
 
-def day_strip(board_name: str, board: Board, current: str) -> str:
-    cells = []
+def day_tabs(board_name: str, board: Board, current: str) -> str:
+    """One slim tab per day. Days without a published file are shown dimmed, not linked."""
+    tabs = []
     for entry in board["days"]:
         slug = entry["slug"]
-        head = f'<b>{escape(entry["weekday"])}</b><span class="d">{escape(entry["dates"])}</span>'
-        day = load_day(board_name, slug)
-        if day is None:
-            status = f'<span class="s">{escape(board["release"])}</span>'
-            cells.append(f'<span class="day is-later">{head}{status}</span>')
-            continue
-        status = f'<span class="s">{len(day["companies"])} hiring</span>'
-        if slug == current:
-            cells.append(
-                f'<a class="day is-today" href="{slug}" aria-current="page">{head}{status}</a>'
-            )
+        text = f"{escape(entry['weekday'])} <span>{escape(entry['dates'])}</span>"
+        if load_day(board_name, slug) is None:
+            tabs.append(f'<span class="tab is-later">{text}</span>')
+        elif slug == current:
+            tabs.append(f'<a class="tab is-today" href="{slug}" aria-current="page">{text}</a>')
         else:
-            cells.append(f'<a class="day" href="{slug}">{head}{status}</a>')
-    return "".join(cells)
+            tabs.append(f'<a class="tab" href="{slug}">{text}</a>')
+    return "".join(tabs)
 
 
-def post_list(day: Day) -> str:
-    companies = {company["name"]: company for company in day["companies"]}
-    items = []
-    for name in day["post"]:
-        company = companies[name]
-        items.append(
-            f'<li><a href="#co-{company["slug"]}" data-jump="{company["slug"]}">'
-            f"{escape(name)}</a>"
-            f'<span class="st">{escape(company["stage"])}</span>'
-            f'<span class="sm">{escape(company["summary"])}</span></li>'
+def insights(day: Day) -> str:
+    cards = []
+    for item in day.get("insights", []):
+        link = f'<a href="{escape(item["href"])}">More</a>' if item.get("href") else ""
+        cards.append(
+            f'<article class="insight"><p>{escape(item["text"])}</p>'
+            f'<span class="insight-tag">Metix AI Platform analysis</span>{link}</article>'
         )
-    return "".join(items)
-
-
-def numbers(counts: dict[str, int]) -> str:
-    rows = [
-        ("hiring", "hosts hiring today"),
-        ("roles", "roles posted this week"),
-        ("new", "new this week"),
-        ("remote", "US remote"),
-    ]
-    return "".join(f"<div><dt>{label}</dt><dd>{counts[key]:,}</dd></div>" for key, label in rows)
+    return "".join(cards)
 
 
 def render_day(board_name: str, slug: str) -> str:
@@ -134,6 +116,9 @@ def render_day(board_name: str, slug: str) -> str:
     canonical = f"{board['url']}/{slug}"
     title = entry["title"]
 
+    weekday = title.split(",")[0]
+    when = "this weekend" if weekday == "Weekend" else f"on {weekday}"
+    headline = f"{counts['hiring']} hosts with events {when} are hiring in the Bay Area."
     page = Template((SITE / "day.html").read_text(encoding="utf-8"))
     return page.substitute(
         page_title=escape(f"{title}: SF Tech Week hosts that are hiring | Metix AI Platform"),
@@ -141,7 +126,7 @@ def render_day(board_name: str, slug: str) -> str:
         description=escape(
             f"{counts['hiring']} companies hosting SF Tech Week events on {title} posted "
             f"{counts['roles']:,} Bay Area or US-remote roles in the past 7 days, "
-            f"{counts['new']} of them new. Their events today and every role, with links."
+            f"{counts['new']} of them new. Pick your field to see which events to go to."
         ),
         og_alt=escape(
             f"{title}: {counts['hiring']} SF Tech Week hosts are hiring, with "
@@ -151,17 +136,14 @@ def render_day(board_name: str, slug: str) -> str:
         og_image=f"{board['url']}/og/{slug}.png",
         assets="../../assets",
         platform_url=platform_link("/", via),
-        eyebrow=escape(board["eyebrow"]),
-        day_strip=day_strip(board_name, board, slug),
-        title=escape(title),
-        nums=numbers(counts),
-        stub=escape(
-            f"{counts['events']} events on the calendar today. {counts['hiring']} of their hosts "
-            f"posted Bay Area or US-remote roles in the past 7 days: {counts['roles']:,} in all, "
-            f"{window}, {counts['new']} of them new this week. Pulled {pulled} from the "
-            "Metix AI Platform."
+        eyebrow=escape(f"SF Tech Week · {title}"),
+        day_tabs=day_tabs(board_name, board, slug),
+        headline=escape(headline),
+        stats=escape(
+            f"{counts['roles']:,} roles posted this week · {counts['new']} new · "
+            f"{counts['remote']} US remote · pulled {pulled}"
         ),
-        post_list=post_list(day),
+        insights=insights(day),
         window=escape(window),
         pulled=escape(pulled),
         calendar=board["calendar"],
@@ -173,6 +155,7 @@ def render_day(board_name: str, slug: str) -> str:
         data=embed_json(
             {
                 "post": day["post"],
+                "events": day["events"],
                 "companies": day["companies"],
             }
         ),

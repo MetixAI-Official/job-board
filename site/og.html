@@ -13,7 +13,7 @@
     color: #e9eeec; font-family: "Geist", sans-serif;
   }
   .eyebrow { font: 500 19px "Geist Mono", monospace; letter-spacing: .08em; text-transform: uppercase; color: #9aa4a0; }
-  .title { margin-top: 28px; font: 700 78px/1 "Sora", sans-serif; letter-spacing: -.02em; text-transform: uppercase; color: #fff; }
+  .title { margin-top: 28px; font: 700 ${title_size}px/1.02 "Sora", sans-serif; letter-spacing: -.02em; text-transform: uppercase; color: #fff; }
   .claim { margin-top: 26px; font: 500 34px/1.3 "Geist", sans-serif; }
   .claim b { font-weight: 500; color: #0defc8; }
   .foot { margin-top: auto; display: flex; justify-content: space-between; align-items: center; }
@@ -28,7 +28,7 @@
   <div class="frame">
     <div class="eyebrow">$eyebrow</div>
     <div class="title">$title</div>
-    <div class="claim"><b>$hiring</b> SF Tech Week hosts are hiring today.<br><b>$roles</b> Bay Area and US-remote roles this week.</div>
+    <div class="claim">$claim</div>
     <div class="foot">
       <div class="lockup"><img src="$logo" alt=""><i></i><span>PLATFORM</span></div>
       <div class="url">$url</div>

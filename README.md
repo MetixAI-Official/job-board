@@ -9,8 +9,9 @@ For each day of [SF Tech Week](https://www.tech-week.com/calendar/sf) (October 5
 | Day | Page |
 | --- | --- |
 | Monday, Oct 5 | [tech-week-2026/sf/mon](https://metixai-official.github.io/job-board/tech-week-2026/sf/mon) |
+| Report | [Most roles posted this week at SF Tech Week hosts were posted before](https://metixai-official.github.io/job-board/tech-week-2026/sf/report) |
 
-Each day's page goes up the night before, Pacific time.
+Each day's page goes up the night before, Pacific time. The report is Metix AI Platform analysis of its own job history, which the public API does not expose; `boards/tech-week-2026/sf/report.json` holds only its aggregates.
 
 ## How it's built
 

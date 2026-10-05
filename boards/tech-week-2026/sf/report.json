@@ -1,0 +1,326 @@
+{
+ "window": {
+  "from": "2026-09-26",
+  "to": "2026-10-02"
+ },
+ "pulled": "2026-10-03",
+ "companies": 175,
+ "overall": {
+  "roles": 3949,
+  "new": 773,
+  "new_share": 0.196
+ },
+ "repost_median_days": 45.0,
+ "repost_age_bands": [
+  {
+   "label": "Under 30 days",
+   "roles": 904
+  },
+  {
+   "label": "30 to 89 days",
+   "roles": 1570
+  },
+  {
+   "label": "90 to 179 days",
+   "roles": 519
+  },
+  {
+   "label": "180 days or more",
+   "roles": 183
+  }
+ ],
+ "new_found_within_1_day": 1.0,
+ "postings_closed": 601069,
+ "mean_days_up": 30,
+ "closed_within_14_days": 0.42,
+ "by_company_type": [
+  {
+   "label": "Big tech and public companies",
+   "companies": 62,
+   "roles": 2719,
+   "new": 467,
+   "new_share": 0.172,
+   "closed_postings": 243089,
+   "mean_days_up": 32,
+   "closed_within_14_days": 0.37
+  },
+  {
+   "label": "Unicorns and growth-stage companies",
+   "companies": 64,
+   "roles": 595,
+   "new": 126,
+   "new_share": 0.212,
+   "closed_postings": 27291,
+   "mean_days_up": 21,
+   "closed_within_14_days": 0.65
+  },
+  {
+   "label": "Professional services",
+   "companies": 35,
+   "roles": 579,
+   "new": 145,
+   "new_share": 0.25,
+   "closed_postings": 328816,
+   "mean_days_up": 30,
+   "closed_within_14_days": 0.44
+  },
+  {
+   "label": "Early-stage and other tech",
+   "companies": 10,
+   "roles": 45,
+   "new": 30,
+   "new_share": 0.667,
+   "closed_postings": 1586,
+   "mean_days_up": 16,
+   "closed_within_14_days": 0.74
+  },
+  {
+   "label": "Investors",
+   "companies": 4,
+   "roles": 11,
+   "new": 5,
+   "new_share": 0.455,
+   "closed_postings": 287,
+   "mean_days_up": 45,
+   "closed_within_14_days": 0.25
+  }
+ ],
+ "by_job_type": [
+  {
+   "label": "Hardware / supply chain",
+   "roles": 85,
+   "new": 26,
+   "new_share": 0.306
+  },
+  {
+   "label": "AI / ML",
+   "roles": 396,
+   "new": 93,
+   "new_share": 0.235
+  },
+  {
+   "label": "Design",
+   "roles": 65,
+   "new": 15,
+   "new_share": 0.231
+  },
+  {
+   "label": "People / recruiting",
+   "roles": 131,
+   "new": 30,
+   "new_share": 0.229
+  },
+  {
+   "label": "Data",
+   "roles": 114,
+   "new": 26,
+   "new_share": 0.228
+  },
+  {
+   "label": "Sales / BD",
+   "roles": 410,
+   "new": 79,
+   "new_share": 0.193
+  },
+  {
+   "label": "Marketing / growth",
+   "roles": 207,
+   "new": 40,
+   "new_share": 0.193
+  },
+  {
+   "label": "Customer success",
+   "roles": 57,
+   "new": 11,
+   "new_share": 0.193
+  },
+  {
+   "label": "Consulting",
+   "roles": 274,
+   "new": 52,
+   "new_share": 0.19
+  },
+  {
+   "label": "Software engineering",
+   "roles": 1102,
+   "new": 191,
+   "new_share": 0.173
+  },
+  {
+   "label": "Operations",
+   "roles": 58,
+   "new": 10,
+   "new_share": 0.172
+  },
+  {
+   "label": "Product",
+   "roles": 216,
+   "new": 35,
+   "new_share": 0.162
+  },
+  {
+   "label": "Finance / accounting",
+   "roles": 256,
+   "new": 36,
+   "new_share": 0.141
+  },
+  {
+   "label": "Legal / compliance",
+   "roles": 107,
+   "new": 13,
+   "new_share": 0.121
+  },
+  {
+   "label": "Solutions / FDE",
+   "roles": 314,
+   "new": 34,
+   "new_share": 0.108
+  }
+ ],
+ "most_new": [
+  {
+   "name": "ByteDance",
+   "roles": 159,
+   "new": 107,
+   "new_share": 0.673
+  },
+  {
+   "name": "Tesla",
+   "roles": 73,
+   "new": 67,
+   "new_share": 0.918
+  },
+  {
+   "name": "Mercor",
+   "roles": 58,
+   "new": 58,
+   "new_share": 1.0
+  },
+  {
+   "name": "AWS",
+   "roles": 500,
+   "new": 49,
+   "new_share": 0.098
+  },
+  {
+   "name": "Deloitte",
+   "roles": 160,
+   "new": 39,
+   "new_share": 0.244
+  },
+  {
+   "name": "Salesforce",
+   "roles": 84,
+   "new": 37,
+   "new_share": 0.44
+  },
+  {
+   "name": "PwC",
+   "roles": 126,
+   "new": 36,
+   "new_share": 0.286
+  },
+  {
+   "name": "Intuit",
+   "roles": 116,
+   "new": 31,
+   "new_share": 0.267
+  },
+  {
+   "name": "Amplitude",
+   "roles": 24,
+   "new": 24,
+   "new_share": 1.0
+  },
+  {
+   "name": "Stripe",
+   "roles": 92,
+   "new": 22,
+   "new_share": 0.239
+  },
+  {
+   "name": "Atlassian",
+   "roles": 35,
+   "new": 21,
+   "new_share": 0.6
+  },
+  {
+   "name": "MeeBoss",
+   "roles": 17,
+   "new": 17,
+   "new_share": 1.0
+  }
+ ],
+ "all_reposts": [
+  {
+   "name": "NVIDIA",
+   "roles": 361,
+   "new": 0,
+   "new_share": 0.0
+  },
+  {
+   "name": "Oracle",
+   "roles": 163,
+   "new": 1,
+   "new_share": 0.006
+  },
+  {
+   "name": "Google",
+   "roles": 158,
+   "new": 0,
+   "new_share": 0.0
+  },
+  {
+   "name": "Anthropic",
+   "roles": 140,
+   "new": 3,
+   "new_share": 0.021
+  },
+  {
+   "name": "CoreWeave",
+   "roles": 119,
+   "new": 1,
+   "new_share": 0.008
+  },
+  {
+   "name": "Adobe",
+   "roles": 89,
+   "new": 0,
+   "new_share": 0.0
+  },
+  {
+   "name": "Databricks",
+   "roles": 56,
+   "new": 0,
+   "new_share": 0.0
+  },
+  {
+   "name": "DoorDash",
+   "roles": 50,
+   "new": 1,
+   "new_share": 0.02
+  },
+  {
+   "name": "Figma",
+   "roles": 48,
+   "new": 1,
+   "new_share": 0.021
+  },
+  {
+   "name": "Fireworks AI",
+   "roles": 47,
+   "new": 2,
+   "new_share": 0.043
+  }
+ ],
+ "ai": {
+  "roles": 699,
+  "new": 141,
+  "new_share": 0.202
+ },
+ "remote": {
+  "roles": 580,
+  "new": 142,
+  "new_share": 0.245
+ }
+}
