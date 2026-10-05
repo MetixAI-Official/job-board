@@ -4,7 +4,7 @@ Hiring lists built from the [Metix AI Platform](https://platform.metix.ai/?via=t
 
 ## SF Tech Week 2026
 
-For each day of [SF Tech Week](https://www.tech-week.com/calendar/sf) (October 5 to 11), the companies hosting events that day that posted new Bay Area or US-remote roles in the past 7 days, with their events and every role.
+For each day of [SF Tech Week](https://www.tech-week.com/calendar/sf) (October 5 to 11), the companies hosting events that day that posted new Bay Area or US-remote roles in the past 7 days, with their events and every role. Each page shows the same list two ways: by time, where each event opens to the hosts hiring there, and by company, where each host opens to its events that day and its roles.
 
 | Day | Page |
 | --- | --- |

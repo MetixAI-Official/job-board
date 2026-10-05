@@ -42,7 +42,7 @@
   <div class="wrap">
     <p class="eyebrow">SF Tech Week · Monday, Oct 5</p>
     <h1 id="title">31 hosts with events on Monday are hiring in the Bay Area.</h1>
-    <p class="lede">Pick your field. Each event below opens to show which hosts are hiring for it and which roles to bring up.</p>
+    <p class="lede">Pick your field. Go by time to see who is hiring at each event, or by company to see a host's events and roles together.</p>
     <div class="fields" id="fields" role="group" aria-label="Your field"></div>
     <p class="stats">340 roles posted this week · 52 new · 79 US remote · pulled Oct 5</p>
   </div>
@@ -58,7 +58,13 @@
     <label class="tog"><input type="checkbox" id="ai"> AI roles</label>
     <button type="button" class="link-btn" data-reset>Clear</button>
   </div>
-  <p class="count" id="count-text" aria-live="polite"></p>
+  <div class="bar">
+    <div class="views" role="group" aria-label="Group by">
+      <button type="button" class="view" data-view="time" aria-pressed="true">By time</button>
+      <button type="button" class="view" data-view="companies" aria-pressed="false">By company</button>
+    </div>
+    <p class="count" id="count-text" aria-live="polite"></p>
+  </div>
 
   <div class="sched">
     <ol class="sched-list" id="list" aria-label="Today's events with hiring hosts"></ol>

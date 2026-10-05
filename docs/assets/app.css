@@ -95,7 +95,16 @@ a.tab:hover { border-bottom-color: var(--line); }
 .controls select { min-height: var(--tap); max-width: 100%; padding: 0 8px; font-size: 13px; background: var(--page); border: 1px solid var(--line); border-radius: 8px; }
 .tog { display: inline-flex; align-items: center; gap: 8px; min-height: var(--tap); padding: 0 12px; font-size: 13px; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; }
 .tog input { margin: 0; accent-color: var(--link); }
-.count { margin: 0 0 10px; font: 500 13px var(--mono); color: var(--muted); }
+.count { margin: 0; font: 500 13px var(--mono); color: var(--muted); }
+
+/* View switch and the count, one row above the list */
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 16px; margin: 6px 0 10px; }
+.views { display: inline-flex; padding: 2px; background: var(--subtle); border-radius: 999px; }
+.view {
+  min-height: calc(var(--tap) - 4px); padding: 0 14px; font-size: 13px; font-weight: 600; color: var(--ink-2);
+  background: transparent; border: 0; border-radius: 999px; cursor: pointer;
+}
+.view[aria-pressed="true"] { background: var(--page); color: var(--ink); box-shadow: 0 1px 2px rgba(0, 0, 0, .1); }
 
 /* The schedule: list on the left, the open event on the right */
 .sched { display: grid; grid-template-columns: minmax(320px, 440px) minmax(0, 1fr); gap: 24px; align-items: start; }
@@ -144,8 +153,28 @@ a.tab:hover { border-bottom-color: var(--line); }
 .roles li a { font-weight: 500; text-decoration: none; overflow-wrap: anywhere; }
 .roles li a:hover { color: var(--link); text-decoration: underline; }
 .meta { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: 13px; color: var(--muted); }
+.roles .grp { display: block; padding: 12px 0 2px; border-top: 0; font: 500 12px/1.4 var(--mono); letter-spacing: .04em; color: var(--muted); }
+.roles .grp b { font-weight: 500; color: var(--jobs); }
+.roles .grp + li { border-top: 0; }
 .more { min-height: var(--tap); margin: 8px 0 10px; padding: 0 14px; background: var(--page); border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: 13px; }
 .empty { padding: 32px 0; color: var(--muted); }
+
+/* By company: the lead column carries the role count; a card lists the day's events, then roles */
+.co .ev-time { color: var(--jobs); }
+.co .ev-hosts { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.co .ev-hosts b { color: var(--teal-ink); }
+.host-n.ev-k { color: var(--teal-ink); }
+.co-events { margin: 0; padding: 0; list-style: none; }
+.co-ev { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 12px; padding: 7px 0; border-top: 1px solid var(--line); }
+.co-ev:first-child { border-top: 0; }
+.co-ev .ev-time { font-size: 14px; }
+.co-ev.is-past .ev-time, .co-ev.is-past .co-ev-name { color: var(--muted); }
+.co-ev .ev-meta a { color: var(--link); }
+.co-link, .co-ev-name {
+  position: relative; padding: 0; background: none; border: 0; text-align: left; font: inherit; color: inherit; cursor: pointer;
+}
+.co-ev-name { font-weight: 600; line-height: 1.3; }
+.co-link:hover, .co-ev-name:hover { color: var(--link); text-decoration: underline; }
 
 @media (max-width: 959px) {
   .sched { grid-template-columns: 1fr; }
@@ -157,6 +186,7 @@ a.tab:hover { border-bottom-color: var(--line); }
 }
 @media (max-width: 720px) {
   .ev-btn { grid-template-columns: 56px minmax(0, 1fr) 14px; }
+  .co-ev { grid-template-columns: 56px minmax(0, 1fr); }
   .ev-time { font-size: 14px; }
   .hero h1 { max-width: none; }
 }
@@ -164,15 +194,17 @@ a.tab:hover { border-bottom-color: var(--line); }
   .top-link { display: none; }
 }
 @media (pointer: coarse) {
-  /* Inline role links get a 44px hit area without moving the text. */
-  .roles li a { position: relative; }
-  .roles li a::after { content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 44px; transform: translateY(-50%); }
+  /* Inline links and text buttons get a 44px hit area without moving the text. */
+  .roles li a, .co-ev .ev-meta a { position: relative; }
+  .roles li a::after, .co-ev .ev-meta a::after, .co-link::after, .co-ev-name::after {
+    content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 44px; transform: translateY(-50%);
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; }
 }
 
-.no-js .controls, .no-js .count { display: none; }
+.no-js .controls, .no-js .bar { display: none; }
 
 /* Closing block and footer */
 .run { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--ink); }
