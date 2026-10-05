@@ -57,7 +57,6 @@
       <select id="level" aria-label="Level"></select>
       <label class="tog"><input type="checkbox" id="fresh"> New this week</label>
       <label class="tog"><input type="checkbox" id="ai"> AI roles</label>
-      <button type="button" class="link-btn" data-reset>Clear</button>
     </div>
   </div>
   <div class="bar">
@@ -65,7 +64,7 @@
       <button type="button" class="view" data-view="time" aria-pressed="true">By time</button>
       <button type="button" class="view" data-view="companies" aria-pressed="false">By company</button>
     </div>
-    <p class="count" id="count-text" aria-live="polite"></p>
+    <p class="count" id="count" hidden><span id="count-text" aria-live="polite"></span><span class="count-field" id="count-field"></span> <button type="button" class="link-btn" data-reset>Clear</button></p>
   </div>
 
   <div class="sched">

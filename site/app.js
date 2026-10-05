@@ -380,10 +380,11 @@
     renderFields();
     syncControls();
     const view = state.view === "companies" ? renderCompanies() : renderSchedule();
-    // On landing the hero already carries the totals; the count earns its line once a filter is on.
-    byId("count-text").textContent = view.html && filtering() ? `${view.count}${state.field ? ` in ${state.field}` : ""}` : "";
-    byId("list").innerHTML = view.html ||
-      `<li class="empty">${view.empty} <button type="button" class="link-btn" data-reset>Clear filters</button></li>`;
+    // On landing the hero already carries the totals; the count and Clear earn their line once a filter is on.
+    byId("count").hidden = !filtering();
+    byId("count-text").textContent = view.html ? view.count : "No matches";
+    byId("count-field").textContent = state.field && view.html ? ` in ${state.field}` : "";
+    byId("list").innerHTML = view.html || `<li class="empty">${view.empty}</li>`;
 
     const pane = byId("detail");
     const key = `${state.view}:${state.open}`;
