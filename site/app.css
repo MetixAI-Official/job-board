@@ -167,8 +167,8 @@ button, input, select { font: inherit; color: inherit; }
 .empty { padding: 32px 0; color: var(--muted); }
 
 /* By company: the lead column carries the role count; a card lists the day's events, then roles */
-.co .ev-time { display: flex; flex-direction: column; color: var(--jobs); line-height: 1.2; }
-.co .ev-time small { font: 500 12px/1.4 var(--mono); color: var(--muted); letter-spacing: 0; }
+.co .ev-btn .ev-time { display: flex; flex-direction: column; color: var(--jobs); line-height: 1.2; }
+.co .ev-btn .ev-time small { font: 500 12px/1.4 var(--mono); color: var(--muted); letter-spacing: 0; }
 .co .ev-hosts { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .co .ev-hosts b { color: var(--teal-ink); }
 .host-n.ev-k { color: var(--teal-ink); }
@@ -200,10 +200,23 @@ button, input, select { font: inherit; color: inherit; }
 @media (max-width: 959px) {
   .sched { grid-template-columns: 1fr; }
   .detail { display: none; }
-  .ev-detail { padding: 0 0 18px; }
-  /* The open row pins to the top while its detail is read, so one tap closes it. */
-  .ev.is-open .ev-btn { position: sticky; top: 0; z-index: 2; border-radius: 0; box-shadow: 0 1px 0 var(--line); }
-  .ev.is-open .ev-hosts { display: none; }
+  /* The open item reads as one card against the flat list: a dark header that pins to the top
+     while its detail is read (one tap closes it), a rule down its left, and the content inset. */
+  .ev.is-open { border-left: 3px solid var(--ink); }
+  .ev.is-open .ev-btn {
+    position: sticky; top: 0; z-index: 2; padding-left: 12px; border-radius: 0;
+    background: var(--ink); color: #fff; box-shadow: 0 2px 8px rgba(0, 0, 0, .14);
+  }
+  .ev.is-open .ev-btn:focus-visible { outline-color: var(--teal); outline-offset: -3px; }
+  .ev.is-open .ev-btn .ev-name { color: #fff; }
+  .ev.is-open .ev-btn .ev-time { color: var(--teal); }
+  .co.is-open .ev-btn .ev-time { color: #fff; }
+  .co.is-open .ev-btn .ev-time small { color: var(--night-muted); }
+  .ev.is-open .ev-btn .ev-meta, .ev.is-open .ev-btn .reg { color: var(--night-muted); }
+  .ev.is-open .ev-btn .reg-open { color: var(--teal); }
+  .ev.is-open .ev-btn .ev-chev { border-color: #fff; }
+  .ev.is-open .ev-btn .ev-hosts { display: none; }
+  .ev-detail { padding: 2px 0 22px 12px; }
   /* The row above already shows the name and meta; the panel keeps only the actions. */
   .ev-detail .detail-h { margin-top: 2px; padding: 8px 0 10px; border-bottom-color: var(--line); }
   .ev-detail .detail-h h2, .ev-detail .eyebrow-dark { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
