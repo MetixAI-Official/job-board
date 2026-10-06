@@ -244,7 +244,8 @@
   }
 
   function companyMeta(company) {
-    return [company.stage, company.label, company.industry].filter(Boolean).map(esc).join(" · ");
+    const parts = [company.stage, company.label, company.industry].filter(Boolean);
+    return parts.filter((part, i) => parts.indexOf(part) === i).map(esc).join(" · ");
   }
 
   function listRow(id, isOpen, extraClass, lead, body) {
