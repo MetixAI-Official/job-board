@@ -577,5 +577,12 @@
   render();
   // A shared link to one event or company lands on it, not on the top of the page.
   if (linked && !wide.matches) reveal();
+  // On phones the day rail scrolls sideways; keep the open day in view.
+  const today = document.querySelector(".tabs-in .is-today");
+  if (today) {
+    const tabs = today.parentElement;
+    const offset = today.getBoundingClientRect().left - tabs.getBoundingClientRect().left;
+    tabs.scrollLeft += offset - (tabs.clientWidth - today.offsetWidth) / 2;
+  }
   booted = true;
 })();
