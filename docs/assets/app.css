@@ -75,6 +75,8 @@ button, input, select { font: inherit; color: inherit; }
 .eyebrow { margin: 0; font: 500 12px/1.4 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--night-muted); }
 .hero h1 { margin: 6px 0 10px; font: 700 clamp(26px, 4.4vw, 40px)/1.1 var(--display); letter-spacing: -.02em; color: #fff; text-wrap: balance; max-width: 24ch; }
 .lede { max-width: 60ch; margin: 0; font-size: 15px; color: var(--night-muted); }
+.hero .early { max-width: 60ch; margin: 0 0 12px; padding: 8px 12px; font-size: 14px; line-height: 1.5; color: var(--night-ink); background: #1a1d1c; border-left: 2px solid var(--teal); }
+.hero .early b { margin-right: 4px; font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--teal); }
 .fields { position: relative; display: flex; flex-wrap: wrap; gap: 6px; margin: 16px 0 0; }
 .chip { min-height: var(--tap); padding: 0 12px; font-size: 13px; border: 1px solid var(--line); background: var(--page); border-radius: 999px; cursor: pointer; }
 .chip.field { color: var(--night-ink); background: #1a1d1c; border-color: #343937; }

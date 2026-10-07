@@ -92,6 +92,19 @@ def day_tabs(board_name: str, board: Board, current: str) -> str:
     return "".join(tabs)
 
 
+def early_note(day: Day) -> str:
+    """Say so when a page was filled ahead of its day with the newest data there was."""
+    if not day.get("early"):
+        return ""
+    pulled = escape(short_date(day["pulled"]))
+    window = escape(date_range(day["window"]["from"], day["window"]["to"]))
+    return (
+        '<p class="early"><b>Early look</b> '
+        f"Filled with {pulled} market data (roles posted {window}). "
+        "We will refresh it with newer postings closer to the day.</p>"
+    )
+
+
 def render_day(board_name: str, slug: str) -> str:
     board = load_board(board_name)
     day = load_day(board_name, slug)
@@ -128,6 +141,7 @@ def render_day(board_name: str, slug: str) -> str:
         eyebrow=escape(f"SF Tech Week · {title}"),
         day_tabs=day_tabs(board_name, board, slug),
         headline=escape(headline),
+        early=early_note(day),
         stats=escape(
             f"{counts['roles']:,} roles this week · {counts['new']} new · "
             f"{counts['remote']} US remote"
