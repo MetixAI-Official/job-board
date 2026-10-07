@@ -11,8 +11,11 @@ For each day of [SF Tech Week](https://www.tech-week.com/calendar/sf) (October 5
 | Monday, Oct 5 | [tech-week-2026/sf/mon](https://metixai-official.github.io/job-board/tech-week-2026/sf/mon) |
 | Tuesday, Oct 6 | [tech-week-2026/sf/tue](https://metixai-official.github.io/job-board/tech-week-2026/sf/tue) |
 | Wednesday, Oct 7 | [tech-week-2026/sf/wed](https://metixai-official.github.io/job-board/tech-week-2026/sf/wed) |
+| Thursday, Oct 8 | [tech-week-2026/sf/thu](https://metixai-official.github.io/job-board/tech-week-2026/sf/thu) |
+| Friday, Oct 9 | [tech-week-2026/sf/fri](https://metixai-official.github.io/job-board/tech-week-2026/sf/fri) |
+| Weekend, Oct 10 to 11 | [tech-week-2026/sf/weekend](https://metixai-official.github.io/job-board/tech-week-2026/sf/weekend) |
 
-Each day's page goes up the night before, Pacific time.
+Pages for later days go up early, filled with the newest market data available and marked "Early look". Each one is refreshed once the Platform has postings through the day before.
 
 ## How it's built
 
