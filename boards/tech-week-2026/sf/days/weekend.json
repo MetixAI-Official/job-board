@@ -2,17 +2,17 @@
  "board": "tech-week-2026/sf",
  "day": "weekend",
  "date": "2026-10-10",
- "pulled": "2026-10-07",
+ "pulled": "2026-10-08",
  "early": true,
  "window": {
-  "from": "2026-09-30",
-  "to": "2026-10-06"
+  "from": "2026-10-01",
+  "to": "2026-10-07"
  },
  "events_today": 103,
  "post": [
   "Flex",
-  "ByteDance",
   "Stripe",
+  "ByteDance",
   "MongoDB"
  ],
  "events": [
@@ -118,6 +118,19 @@
    ],
    "roles": [
     {
+     "title": "Principal Product Designer, Consumer",
+     "id": "4457551079",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Design",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": false
+    },
+    {
      "title": "Staff Product Designer, Consumer",
      "id": "4457548806",
      "location": "San Francisco",
@@ -153,7 +166,20 @@
      "family": "Marketing / growth",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-03",
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Senior Manager, Capital Markets",
+     "id": "4467419747",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
      "new": false
     },
     {
@@ -166,7 +192,7 @@
      "family": "Finance / accounting",
      "level": "Director",
      "ai": false,
-     "posted": "2026-10-04",
+     "posted": "2026-10-03",
      "new": false
     },
     {
@@ -181,6 +207,45 @@
      "ai": false,
      "posted": "2026-10-06",
      "new": true
+    },
+    {
+     "title": "Senior Software Engineer, Backend",
+     "id": "4467425027",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Staff Software Engineer, Backend",
+     "id": "4467408865",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Staff Software Engineer, Martech",
+     "id": "4467299979",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
     },
     {
      "title": "Senior Software Development Engineer in Test (SDET)",
@@ -198,6 +263,1127 @@
    ]
   },
   {
+   "name": "Stripe",
+   "slug": "stripe",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Fintech",
+   "summary": "Payments infrastructure",
+   "linkedin": "https://www.linkedin.com/company/stripe/",
+   "label": "Private · 14,939 employees",
+   "events": [
+    "2ea9ffb9-d4c2-410f-b45c-94eab588be96"
+   ],
+   "roles": [
+    {
+     "title": "Manager, Technical Account Management",
+     "id": "4463639416",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Head of Specialist Solutions Architecture, Revenue (AMER)",
+     "id": "4466438178",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Executive",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": false
+    },
+    {
+     "title": "Solutions Architect, Enterprise Hunter (Presales)",
+     "id": "4465848785",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Solutions Consultant, Enterprise (Presales)",
+     "id": "4461532664",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Solutions Consultant, Enterprise (Presales)",
+     "id": "4461534671",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Product Manager, Ecosystem",
+     "id": "4476529630",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Product Manager, Employee Experiences",
+     "id": "4467958007",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Product Manager, Hardware",
+     "id": "4463626657",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Product Manager, Treasury for Platforms",
+     "id": "4464664922",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Product Manager: New Grad Accelerator",
+     "id": "4467937351",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Product Manager, Connect Growth & Monetization",
+     "id": "4467277143",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Product Manager, Radar",
+     "id": "4476385098",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Product Manager, Radar",
+     "id": "4476367924",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Staff Product Manager, Radar - Fraud and Abuse Prevention",
+     "id": "4476379333",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Staff Product Manager, Radar - Fraud and Abuse Prevention",
+     "id": "4476383149",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Product Manager, Startup Products",
+     "id": "4466304744",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Product Manager, Connected Account Onboarding Experiences",
+     "id": "4465388448",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Account Executive Product - Fraud & Risk",
+     "id": "4467287012",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "GTM Strategy & Operations Analyst",
+     "id": "4467272315",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "GTM Strategy & Operations Analyst",
+     "id": "4467283061",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Program Manager, Risk Ops Enablement",
+     "id": "4476772170",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Account Executive, Product (Payouts) - Hunter",
+     "id": "4476321183",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Account Executive, Product Sales - Billing",
+     "id": "4467424980",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Account Executive, Product Sales - Currency Management",
+     "id": "4476317337",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Partner Development Manager, Alliances and Channels",
+     "id": "4463699135",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Partner Marketing Leader, Alliances & Channel",
+     "id": "4476370690",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Partner Marketing Operations Manager",
+     "id": "4467430875",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "SaaS Platform and AI Partner Marketing Lead",
+     "id": "4476111978",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Director",
+     "ai": true,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "SaaS Platform and AI Partner Marketing Lead",
+     "id": "4476124722",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Director",
+     "ai": true,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Sales Manager, Key Accounts - Enterprise",
+     "id": "4467270845",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Sales Manager, Product- Fraud & Risk",
+     "id": "4467266998",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Head of Private Equity and Advisory Partnerships",
+     "id": "4466437151",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Executive",
+     "ai": false,
+     "posted": "2026-10-04",
+     "new": false
+    },
+    {
+     "title": "Partner Solutions Architecture Manager",
+     "id": "4466447095",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-04",
+     "new": false
+    },
+    {
+     "title": "Head of Sales, Billing",
+     "id": "4462744068",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Sales / BD",
+     "level": "Executive",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": false
+    },
+    {
+     "title": "Software Engineer, Revenue and Financial Automation",
+     "id": "4475079489",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": true
+    },
+    {
+     "title": "Account Executive, Enterprise (Grower)",
+     "id": "4466015939",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Partner Development Manager, Strategic Partnerships",
+     "id": "4474520495",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true
+    },
+    {
+     "title": "Money Management Demand Generation Manager, Americas",
+     "id": "4464945442",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Campaign Strategy & Operations Manager",
+     "id": "4460699393",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Campaign Strategy & Operations Manager",
+     "id": "4460696355",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Critical Support Manager - Escalations",
+     "id": "4474318630",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Customer success",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true
+    },
+    {
+     "title": "Product Support - Bridge",
+     "id": "4474328083",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Customer success",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true
+    },
+    {
+     "title": "Product Tax Specialist",
+     "id": "4476521929",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Account Executive, Product Sales - Tax",
+     "id": "4466441122",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": false
+    },
+    {
+     "title": "Senior Workday Analyst, Payroll",
+     "id": "4460694395",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Legal Program Manager, Launch Readiness",
+     "id": "4476383157",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Privacy Operations Program Manager",
+     "id": "4476318318",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Security GRC Program Manager, Third Party Risk",
+     "id": "4476320232",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Engineering Manager, Machine Learning - Credit Risk",
+     "id": "4467973481",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "GTM Recruiting Manager",
+     "id": "4476534488",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Staff Machine Learning Engineer, Radar",
+     "id": "4476931175",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Core Business Recruiter (Fixed Term Contract)",
+     "id": "4463118347",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Design Recruiter",
+     "id": "4476372574",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Senior People Partner, GTM",
+     "id": "4476375572",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Project Manager, People Mergers & Acquisitions (M&A)",
+     "id": "4466448082",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-04",
+     "new": false
+    },
+    {
+     "title": "Project Manager, People Mergers & Acquisitions (M&A)",
+     "id": "4466440161",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": false
+    },
+    {
+     "title": "Abuse Research Engineer",
+     "id": "4465645131",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "AI / ML",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Integration Engineer, Professional Services",
+     "id": "4467774685",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Executive",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Software Engineer, Product Security Data Platforms",
+     "id": "4465027150",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Staff Software Engineer, Link",
+     "id": "4467777693",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Full Stack Engineer, Builder Experience",
+     "id": "4476317334",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Full Stack Engineer, Builder Experience",
+     "id": "4476133202",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Security Analyst",
+     "id": "4476304839",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Security Analyst",
+     "id": "4476313476",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Staff Software Engineer, Link Consumer Preference",
+     "id": "4476128422",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Strategy & Operations, Infrastructure",
+     "id": "4467271876",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Backend Engineer, Payments and Risk",
+     "id": "4474576395",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true
+    },
+    {
+     "title": "Security Incident Response Manager, Abuse Operations",
+     "id": "4465397327",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Security Incident Response Manager, Abuse Operations",
+     "id": "4465389420",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Software Engineer, Intern (Summer or Winter)",
+     "id": "4462058113",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Software Engineer, New Grad",
+     "id": "4462058112",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Staff Software Engineer, Dashboard Product",
+     "id": "4465326758",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Data Excellence Manager",
+     "id": "4461530765",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Data Excellence Manager",
+     "id": "4461769258",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Strategic Sourcing Manager, Tech & Product",
+     "id": "4463625893",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Comms Strategy & Operations Associate",
+     "id": "4476383154",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Engagement Manager, Professional Services",
+     "id": "4476319341",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "Product Strategy & Operations - Global Product",
+     "id": "4463116357",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": false
+    },
+    {
+     "title": "Strategic Business Performance, Central Strategy & Operations",
+     "id": "4462743045",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": false
+    },
+    {
+     "title": "Executive Advisory Programs Manager",
+     "id": "4465862708",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Fraud Operations Manager",
+     "id": "4466019185",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Strategy & Transformation Advisor (Enterprise Commerce Architecture)",
+     "id": "4462410438",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Strategic Business Performance, Central Strategy & Operations",
+     "id": "4460699391",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
+     "new": false
+    },
+    {
+     "title": "Global Industry Lead, Healthcare",
+     "id": "4476526775",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Other",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Payments Fraud Investigator",
+     "id": "4476772149",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    }
+   ]
+  },
+  {
    "name": "ByteDance",
    "slug": "bytedance",
    "tier": "large",
@@ -211,6 +1397,19 @@
     "a53ce76a-5d5e-48fc-940e-8c68e6ec635d"
    ],
    "roles": [
+    {
+     "title": "Data Center Site Acquisition Specialist Graduate (Data Center Development) - 2027 Start",
+     "id": "4475004292",
+     "location": "San Jose",
+     "regions": [
+      "pen"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": true
+    },
     {
      "title": "Hardware UX Designer Graduate (PICO-Edge AI & Spatial Computing) - 2027 Start",
      "id": "4474560129",
@@ -234,58 +1433,6 @@
      "family": "Sales / BD",
      "level": "Internship",
      "ai": false,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Benefits Operation Data Analyst Project Intern - 2026 Start (BS/MS)",
-     "id": "4475848057",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "People / recruiting",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Machine Learning Engineer Graduate (E-Commerce Risk Control) - 2027 Start (PhD)",
-     "id": "4475845299",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "People / recruiting",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Visual Generation & Multimodal Evaluation Machine Learning Engineer Intern (AML-Ark-US) - 2027 Summer",
-     "id": "4475845217",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "People / recruiting",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Agent Evaluation & Evolution Machine Learning Engineer Graduate (AML-Ark-US) - 2027 Start",
-     "id": "4475056517",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "People / recruiting",
-     "level": "Internship",
-     "ai": true,
      "posted": "2026-10-03",
      "new": true
     },
@@ -329,30 +1476,43 @@
      "new": true
     },
     {
-     "title": "Visual Generation & Multimodal Evaluation Machine Learning Engineer Graduate (AML-Ark-US) - 2027 Start",
-     "id": "4473983487",
+     "title": "Machine Learning Engineer Intern (AML-Engine-Orchestration) - 2027 Start",
+     "id": "4475057415",
      "location": "San Jose",
      "regions": [
       "pen"
      ],
      "family": "People / recruiting",
-     "level": "Entry level",
+     "level": "Internship",
      "ai": true,
-     "posted": "2026-10-01",
+     "posted": "2026-10-03",
      "new": true
     },
     {
-     "title": "Senior Machine Learning Engineer, Developer AI",
-     "id": "4468357201",
+     "title": "AI/LLM Network Software Development Engineer Graduate (High Speed Network) - 2027 Start (PhD)",
+     "id": "4476509366",
      "location": "San Jose",
      "regions": [
       "pen"
      ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
+     "family": "AI / ML",
+     "level": "Internship",
      "ai": true,
-     "posted": "2026-09-30",
-     "new": false
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Research Intern (AML-Algorithm) - 2026 Start (PhD)",
+     "id": "4476518048",
+     "location": "San Jose",
+     "regions": [
+      "pen"
+     ],
+     "family": "AI / ML",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
     },
     {
      "title": "Research scientist - AI Infra - Global Frontier Tech Recruitment Program - 2027 Start (PhD)",
@@ -389,45 +1549,6 @@
      ],
      "family": "AI / ML",
      "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Research Scientist Graduate (Seed Model - LLM) - 2027 Start",
-     "id": "4475835658",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Research Scientist Intern - Multimodal Sensing & On-Device Perception - Global Frontier Tech Recruitment Program - 2027 Start (PHD)",
-     "id": "4475848077",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Student Researcher - (Seed Model - LLM - Post Training, Agent & Reinforcement Learning) – 2026 Start (PhD)",
-     "id": "4475842306",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
      "ai": true,
      "posted": "2026-10-05",
      "new": true
@@ -485,99 +1606,8 @@
      "new": true
     },
     {
-     "title": "Backend Inference Runtime Engineer Graduate (AML Inference) - 2027 Start",
-     "id": "4475060296",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Entry level",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Data Lake Infrastructure & Data Analytics Research Engineer Graduate (AML-Ark-US) - 2027 Start",
-     "id": "4475063163",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Dev AI Software Engineer Graduate (Dev Infra US) - 2027 Start",
-     "id": "4475010094",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Entry level",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "LLM/AI Ops Development Engineer Graduate (Data Center Networking) - 2027 Start",
-     "id": "4475056506",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
      "title": "Research Engineer Graduate (AI Infra Compute) - 2027 Start (PhD)",
      "id": "4475055545",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Research Intern (AML-Algorithm) - 2026 Start (PhD)",
-     "id": "4475065116",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Research Intern (ByteBrain-AIOps) - 2027 Start (PhD)",
-     "id": "4475065092",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Research Scientist - Compute AI Infra - Global Frontier Tech Recruitment Program - 2027 Start (PhD)",
-     "id": "4475066079",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -604,19 +1634,6 @@
     {
      "title": "Research Scientist - Quantum Chemistry - Global Frontier Tech Recruitment Program - 2027 Start (PhD)",
      "id": "4475061158",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Research Scientist - Recommendation Modeling & Large-scale Computing Infrastructure - Global Frontier Tech Recruitment Program - 2027 Start (PhD)",
-     "id": "4475064127",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -719,21 +1736,8 @@
      "new": true
     },
     {
-     "title": "Research Scientist Graduate (Video Quality Analysis&Coding Strategy) - 2026 Start (PHD)",
-     "id": "4475064115",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Research Scientist Intern (Distributed NoSQL Database Systems) - 2027 Start (PhD)",
-     "id": "4475063169",
+     "title": "Research Scientist Intern (Quantum Chemistry, Seed-AI for Science) - 2027 Start (PhD)",
+     "id": "4475056523",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -760,19 +1764,6 @@
     {
      "title": "Research Scientist Intern (Video Quality Analysis & Coding Strategy) - 2027 Start (PhD)",
      "id": "4475061159",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Research Scientist, Generative AI Graduate (Intelligent Creation) -Global Frontier Tech Recruitment Program -2027 Start (PhD)",
-     "id": "4475058363",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -888,21 +1879,8 @@
      "new": true
     },
     {
-     "title": "Research Intern (SDN Traffic Intelligence & Control) - 2026 Start (PhD)",
-     "id": "4474562019",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Research Scientist Graduate (Security-Flow) - 2026 Start (PhD)",
-     "id": "4474561067",
+     "title": "Research Scientist Graduate (3D/4D Generation) - 2026 Start (PHD)",
+     "id": "4474555200",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -927,8 +1905,8 @@
      "new": true
     },
     {
-     "title": "Student Researcher - (Seed Model - Seed Responsible AI) - 2026 Start (PhD)",
-     "id": "4474551609",
+     "title": "Research Scientist Intern - Multimodal Sensing & On-Device Perception - Global Frontier Tech Recruitment Program - 2027 Start (PHD)",
+     "id": "4474564006",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -992,19 +1970,6 @@
      "new": true
     },
     {
-     "title": "Research Scientist Graduate (Seed Model - Speech) - 2027 Start (PhD)",
-     "id": "4439544781",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
      "title": "Research Scientist Graduate (Seed Model - Vision) - 2027 Start",
      "id": "4473981740",
      "location": "San Jose",
@@ -1015,58 +1980,6 @@
      "level": "Internship",
      "ai": true,
      "posted": "2026-10-01",
-     "new": true
-    },
-    {
-     "title": "Data Lake Infrastructure & Data Analytics Research Engineer Intern (AML-Ark-US) - 2027 Summer",
-     "id": "4473508319",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Research Scientist Graduate (DPU & AI Infra) - 2027 Start (PhD)",
-     "id": "4455540484",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Software Engineer Graduate (AI Compute) - 2027 Start (PhD)",
-     "id": "4475525224",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Software Engineer Intern (Global Payment - Risk & Compliance) - 2027 Summer",
-     "id": "4475526146",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-05",
      "new": true
     },
     {
@@ -1135,8 +2048,8 @@
      "new": true
     },
     {
-     "title": "Software Development Engineer Graduate (SDN Traffic Intelligence & Control) - 2026 Start (PhD)",
-     "id": "4475061179",
+     "title": "Software Development Engineer Intern (Network Automation) - 2027 Summer",
+     "id": "4475064143",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -1213,19 +2126,6 @@
      "new": true
     },
     {
-     "title": "Software Engineer Intern (Global Payment) - 2027 Summer",
-     "id": "4475001449",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
      "title": "Software Engineer Intern (Relational Database) - 2027 Summer",
      "id": "4475058410",
      "location": "San Jose",
@@ -1265,19 +2165,6 @@
      "new": true
     },
     {
-     "title": "XR Camera and Machine Vision Engineer Graduate (PICO) - 2026 Start (PhD)",
-     "id": "4475057370",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
      "title": "ASIC Design Engineer Intern (Video Silicon IP) - 2027 Summer",
      "id": "4474560092",
      "location": "San Jose",
@@ -1291,34 +2178,8 @@
      "new": true
     },
     {
-     "title": "Backend Development Engineer Intern (Infrastructure Platform Delivery) - 2027 Summer",
-     "id": "4474561056",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
      "title": "Developer Advocacy Project Intern (PICO) - 2026 Start",
      "id": "4474556225",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Network Software Development Engineer Intern (Network Switch) - 2027 Summer",
-     "id": "4474551542",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -1357,7 +2218,7 @@
     },
     {
      "title": "Self-Built Engineer Intern (CDN Platform) - 2027 Summer",
-     "id": "4474551500",
+     "id": "4474562047",
      "location": "San Jose",
      "regions": [
       "pen"
@@ -1421,19 +2282,6 @@
      "new": true
     },
     {
-     "title": "3D Graphics Innovation Engineer Graduate (PICO Foundation-Developer Technology) - 2027 Start",
-     "id": "4448871212",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
      "title": "Multi-Cloud CDN Data Platform Engineer Intern (Global Engineering CDN) - 2026 Fall (BS/MS)",
      "id": "4452600425",
      "location": "San Jose",
@@ -1460,32 +2308,6 @@
      "new": false
     },
     {
-     "title": "Senior Software Engineer, Backend and Infrastructure",
-     "id": "4462653064",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
-     "title": "Product Security Engineer Graduate (Security BP) - 2027 Start",
-     "id": "4448129857",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
      "title": "Facilities Management Project Intern (Real Estate & Facilities - AMS) - 2026 Start (BS/MS)",
      "id": "4474560108",
      "location": "San Jose",
@@ -1496,32 +2318,6 @@
      "level": "Internship",
      "ai": false,
      "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Intelligent Sensing Intern - Low-power Agent Sensing and Computing Systems - Global Frontier Tech Recruitment Program - 2027 Start (PHD)",
-     "id": "4475065132",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Operations",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "AI Perception Intern (PICO) - 2027 Start (PhD)",
-     "id": "4475059338",
-     "location": "San Jose",
-     "regions": [
-      "pen"
-     ],
-     "family": "Other",
-     "level": "Internship",
-     "ai": true,
-     "posted": "2026-10-03",
      "new": true
     },
     {
@@ -1536,815 +2332,6 @@
      "ai": false,
      "posted": "2026-10-02",
      "new": true
-    }
-   ]
-  },
-  {
-   "name": "Stripe",
-   "slug": "stripe",
-   "tier": "large",
-   "stage": "",
-   "stage_source": null,
-   "industry": "Fintech",
-   "summary": "Payments infrastructure",
-   "linkedin": "https://www.linkedin.com/company/stripe/",
-   "label": "Private · 14,939 employees",
-   "events": [
-    "2ea9ffb9-d4c2-410f-b45c-94eab588be96"
-   ],
-   "roles": [
-    {
-     "title": "Head of Specialist Solutions Architecture, Revenue (AMER)",
-     "id": "4466438178",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Executive",
-     "ai": false,
-     "posted": "2026-10-04",
-     "new": false
-    },
-    {
-     "title": "Solutions Architect, Enterprise Hunter (Presales)",
-     "id": "4465848785",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": false
-    },
-    {
-     "title": "Solutions Consultant, Enterprise (Presales)",
-     "id": "4461532664",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Product Manager, Radar",
-     "id": "4476385098",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Product Manager, Radar",
-     "id": "4476367924",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Staff Product Manager, Radar - Fraud and Abuse Prevention",
-     "id": "4476379333",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Staff Product Manager, Radar - Fraud and Abuse Prevention",
-     "id": "4476383149",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Product Manager, Startup Products",
-     "id": "4466304744",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": false
-    },
-    {
-     "title": "Product Manager, Identity & Access Management",
-     "id": "4460580199",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Designer, Web Presence & Platform",
-     "id": "4461263963",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Design",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Account Executive, Product (Payouts) - Hunter",
-     "id": "4476321183",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Account Executive, Product Sales - Currency Management",
-     "id": "4476317337",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Partner Marketing Leader, Alliances & Channel",
-     "id": "4476370690",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "SaaS Platform and AI Partner Marketing Lead",
-     "id": "4476111978",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Sales / BD",
-     "level": "Director",
-     "ai": true,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "SaaS Platform and AI Partner Marketing Lead",
-     "id": "4476124722",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Director",
-     "ai": true,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Account Executive, Product Sales (Data)",
-     "id": "4475858912",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Partner Solutions Architecture Manager",
-     "id": "4466447095",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-04",
-     "new": false
-    },
-    {
-     "title": "Software Engineer, Revenue and Financial Automation",
-     "id": "4475079489",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-04",
-     "new": true
-    },
-    {
-     "title": "Partner Development Manager, Global Financial Institutions & Stablecoins",
-     "id": "4474514739",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Partner Development Manager, Strategic Partnerships",
-     "id": "4474520495",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Account Executive - Enterprise, Growth",
-     "id": "4464684463",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
-     "title": "Account Executive, Product - Issuing & Treasury (Hunter)",
-     "id": "4473206571",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Partner Development Manager, Strategic Partnerships",
-     "id": "4459023729",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Strategy & Operations Business Partner, Solution Architecture",
-     "id": "4473543214",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Head of Events, Works in Progress",
-     "id": "4475874299",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Marketing / growth",
-     "level": "Executive",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Money Management Demand Generation Manager, Americas",
-     "id": "4464945442",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
-     "title": "Critical Support Manager - Escalations",
-     "id": "4474318630",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Customer success",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Product Support - Bridge",
-     "id": "4474328083",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Customer success",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "M&A/Integration Accounting Lead",
-     "id": "4473542333",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Finance / accounting",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Legal Program Manager, Launch Readiness",
-     "id": "4476383157",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Privacy Operations Program Manager",
-     "id": "4476318318",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Security GRC Program Manager, Third Party Risk",
-     "id": "4476320232",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "U.S. Banking Regulatory Compliance Lead",
-     "id": "4474528132",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "State & Local Policy Manager",
-     "id": "4473271562",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
-     "title": "Design Recruiter",
-     "id": "4476372574",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Senior People Partner, GTM",
-     "id": "4476375572",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Project Manager, People Mergers & Acquisitions (M&A)",
-     "id": "4466440161",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-04",
-     "new": false
-    },
-    {
-     "title": "Technical Recruiter (Fixed Term Contract)",
-     "id": "4461262993",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
-     "title": "Abuse Research Engineer",
-     "id": "4465645131",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Abuse Research Engineer",
-     "id": "4465324812",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Full Stack Engineer, Builder Experience",
-     "id": "4476317334",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Full Stack Engineer, Builder Experience",
-     "id": "4476133202",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Security Analyst",
-     "id": "4476304839",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Security Analyst",
-     "id": "4476313476",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Staff Software Engineer, Link Consumer Preference",
-     "id": "4476128422",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Staff Software Engineer, Infrastructure",
-     "id": "4475084238",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true
-    },
-    {
-     "title": "Backend Engineer, Payments and Risk",
-     "id": "4474576395",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Cloud Security Engineer",
-     "id": "4465393357",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Security Incident Response Manager, Abuse Operations",
-     "id": "4465397327",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Security Incident Response Manager, Abuse Operations",
-     "id": "4465389420",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Staff Software Engineer, Dashboard Product",
-     "id": "4465326758",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Software Engineer, New Grad",
-     "id": "4462058112",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
-     "title": "Software Engineer, Product Security Data Platforms",
-     "id": "4465027150",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-01",
-     "new": false
-    },
-    {
-     "title": "Data Analyst, Intern",
-     "id": "4474524268",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Data",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Data Scientist",
-     "id": "4474581194",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Data",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "PhD Data Scientist, Intern",
-     "id": "4474517714",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Data",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
-     "title": "Comms Strategy & Operations Associate",
-     "id": "4476383154",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Engagement Manager, Professional Services",
-     "id": "4476319341",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Strategic Business Performance, Central Strategy & Operations",
-     "id": "4462743045",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": false
-    },
-    {
-     "title": "Strategy & Transformation Advisor (Enterprise Commerce Architecture)",
-     "id": "4462410438",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": false
-    },
-    {
-     "title": "Strategic Business Performance, Central Strategy & Operations",
-     "id": "4460699391",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
     }
    ]
   },
@@ -2372,38 +2359,52 @@
      "family": "Solutions / FDE",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-04",
      "new": false
     },
     {
-     "title": "Director, ISV Partnerships",
-     "id": "4419457891",
-     "location": "US remote / anywhere",
+     "title": "Senior Product Manager, Order to Cash",
+     "id": "4459007568",
+     "location": "Palo Alto",
      "regions": [
-      "remote"
+      "pen"
      ],
-     "family": "Sales / BD",
+     "family": "Product",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-07",
      "new": false
     },
     {
-     "title": "Director, Sales Strategy & Planning",
-     "id": "4475843477",
+     "title": "Senior Data Product Manager, Product Telemetry",
+     "id": "4390158679",
+     "location": "Palo Alto / San Francisco",
+     "regions": [
+      "pen",
+      "sf"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Services Sales (Engagement Manager)",
+     "id": "4371048637",
      "location": "San Francisco",
      "regions": [
       "sf"
      ],
      "family": "Sales / BD",
-     "level": "Director",
+     "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-05",
-     "new": true
+     "posted": "2026-10-06",
+     "new": false
     },
     {
      "title": "Senior Financial Analyst",
-     "id": "4476357222",
+     "id": "4476356261",
      "location": "Palo Alto / San Francisco",
      "regions": [
       "pen",
@@ -2431,7 +2432,7 @@
     },
     {
      "title": "Legal Counsel, Procurement",
-     "id": "4476113164",
+     "id": "4476108487",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
@@ -2440,32 +2441,6 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Corporate Legal Director - Securities, M&A",
-     "id": "4475851211",
-     "location": "Palo Alto",
-     "regions": [
-      "pen"
-     ],
-     "family": "Legal / compliance",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true
-    },
-    {
-     "title": "Corporate Legal Director - Securities, M&A",
-     "id": "4475853067",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-05",
      "new": true
     },
     {
@@ -2495,8 +2470,22 @@
      "new": false
     },
     {
-     "title": "Salesforce Engineer III, FedRAMP",
-     "id": "4420206211",
+     "title": "Senior Software Engineer, Identity & Access Management (FedRamp)",
+     "id": "4467923282",
+     "location": "Palo Alto / San Francisco",
+     "regions": [
+      "pen",
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Software Engineer (Mid-Level, Senior or Staff), Infrastructure Security",
+     "id": "4391188845",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
@@ -2504,21 +2493,8 @@
      "family": "Software engineering",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-06",
      "new": false
-    },
-    {
-     "title": "Staff Engineer - Business Systems",
-     "id": "4475836687",
-     "location": "Palo Alto",
-     "regions": [
-      "pen"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true
     },
     {
      "title": "Senior Software Engineer, Storage Layer Services",
@@ -2531,19 +2507,6 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-04",
-     "new": false
-    },
-    {
-     "title": "Senior Engineering Manager, Storage Execution",
-     "id": "4466008200",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
      "new": false
     },
     {
@@ -2560,45 +2523,6 @@
      "new": false
     },
     {
-     "title": "Senior Site Reliability Engineer, Fabric",
-     "id": "4465374329",
-     "location": "San Francisco",
-     "regions": [
-      "sf"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Senior Site Reliability Engineer, Fabric",
-     "id": "4465360480",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
-     "title": "Technical Services Engineer - Weekend Shift",
-     "id": "4455988834",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false
-    },
-    {
      "title": "Technical Services Engineer, Infrastructure - Weekend",
      "id": "4429584282",
      "location": "Palo Alto",
@@ -2608,12 +2532,12 @@
      "family": "Software engineering",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-02",
+     "posted": "2026-10-03",
      "new": false
     },
     {
-     "title": "Site Reliability Engineer (Senior or Staff), Storage Layer Services (SLS)",
-     "id": "4399801817",
+     "title": "Senior Engineering Manager, Storage Execution",
+     "id": "4466008200",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
@@ -2621,7 +2545,20 @@
      "family": "Software engineering",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-09-30",
+     "posted": "2026-10-02",
+     "new": false
+    },
+    {
+     "title": "Senior Site Reliability Engineer, Fabric",
+     "id": "4465374329",
+     "location": "San Francisco",
+     "regions": [
+      "sf"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-01",
      "new": false
     },
     {
@@ -2634,8 +2571,35 @@
      "family": "Data",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-03",
+     "posted": "2026-10-04",
      "new": false
+    },
+    {
+     "title": "Startup & Venture Ecosystem Lead",
+     "id": "4476904274",
+     "location": "Palo Alto / San Francisco",
+     "regions": [
+      "pen",
+      "sf"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Startup & Venture Ecosystem Lead",
+     "id": "4476905227",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
     }
    ]
   },
@@ -2654,19 +2618,6 @@
    ],
    "roles": [
     {
-     "title": "Product Manager (SEO SaaS Product)",
-     "id": "4474542036",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Product",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true
-    },
-    {
      "title": "Sales Director/Account Executive",
      "id": "4473992298",
      "location": "San Francisco",
@@ -2680,19 +2631,6 @@
      "new": true
     },
     {
-     "title": "Sales Development Manager (Beauty & Skincare)",
-     "id": "4473512063",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-09-30",
-     "new": false
-    },
-    {
      "title": "Marketing Team Lead (Events)",
      "id": "4476346107",
      "location": "Palo Alto",
@@ -2703,19 +2641,6 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Marketing Contractor (Mandarin & English)",
-     "id": "4475820375",
-     "location": "Palo Alto",
-     "regions": [
-      "pen"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
      "new": true
     },
     {
@@ -2732,17 +2657,17 @@
      "new": false
     },
     {
-     "title": "PMIC Analog Design Engineer",
-     "id": "4448382785",
-     "location": "Santa Clara",
+     "title": "IT Security and Information Systems Manager (Mandarin)",
+     "id": "4476544314",
+     "location": "Palo Alto",
      "regions": [
       "pen"
      ],
      "family": "Software engineering",
-     "level": "Not specified",
+     "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-03",
-     "new": false
+     "posted": "2026-10-07",
+     "new": true
     },
     {
      "title": "Principle Digital IC/Physical Design Engineer",
@@ -2771,16 +2696,16 @@
      "new": false
     },
     {
-     "title": "Investigator III (Ethics and Compliance)",
-     "id": "4475807776",
+     "title": "Operations System Analyst (Mandarin)",
+     "id": "4476534634",
      "location": "San Francisco",
      "regions": [
       "sf"
      ],
-     "family": "Other",
-     "level": "Mid-senior",
+     "family": "Data",
+     "level": "Associate",
      "ai": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-07",
      "new": true
     }
    ]
