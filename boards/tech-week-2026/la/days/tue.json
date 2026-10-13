@@ -1,0 +1,986 @@
+{
+ "board": "tech-week-2026/la",
+ "day": "tue",
+ "date": "2026-10-13",
+ "pulled": "2026-10-09",
+ "early": true,
+ "window": {
+  "from": "2026-10-02",
+  "to": "2026-10-08"
+ },
+ "events_today": 202,
+ "post": [
+  "Vast",
+  "Deel",
+  "Flyby Robotics",
+  "Meter",
+  "Barry's",
+  "HubSpot"
+ ],
+ "events": [
+  {
+   "id": "a25efd1a-db53-4366-b56e-76a4e931df6f",
+   "name": "AI IRL",
+   "start": "08:30",
+   "end": "10:30",
+   "neighborhood": "El Segundo",
+   "formats": [
+    "Breakfast, Brunch or Lunch",
+    "Hackathon",
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/ai-irl-a25efd1a-db53-4366-b56e-76a4e931df6f",
+   "featured": false,
+   "hosts": [
+    "PwC"
+   ]
+  },
+  {
+   "id": "7f08ddbf-a3ce-4585-a148-976bc722619f",
+   "name": "Early-Stage B2B Tech Founders & Funders Breakfast",
+   "start": "09:30",
+   "end": "11:30",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Breakfast, Brunch or Lunch"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/early-stage-b2b-tech-founders-and-funders-breakfast-7f08ddbf-a3ce-4585-a148-976bc722619f",
+   "featured": false,
+   "hosts": [
+    "Forum Ventures"
+   ]
+  },
+  {
+   "id": "2fa10582-2b9b-4a15-b391-22c0d0e5f5c2",
+   "name": "Barry's Venice",
+   "start": "10:45",
+   "end": "",
+   "neighborhood": "Venice",
+   "formats": [
+    "Experiential"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/barry-s-venice-2fa10582-2b9b-4a15-b391-22c0d0e5f5c2",
+   "featured": false,
+   "hosts": [
+    "Barry's"
+   ]
+  },
+  {
+   "id": "0f027ac8-aabc-4cbd-b18d-6edb2797f758",
+   "name": "HubSpot & Blackbird Collective's Build Mode Exchange: Builder-Led AI Discussions for Real Work",
+   "start": "15:00",
+   "end": "19:00",
+   "neighborhood": "Culver City",
+   "formats": [
+    "Hackathon",
+    "Networking",
+    "Roundtable / Workshop"
+   ],
+   "registration": "closed",
+   "url": "https://www.tech-week.com/calendar/la/events/hubspot-and-blackbird-collective-s-build-mode-exchange-builder-led-ai-discussion-0f027ac8-aabc-4cbd-b18d-6edb2797f758",
+   "featured": false,
+   "hosts": [
+    "HubSpot"
+   ]
+  },
+  {
+   "id": "7a7ac98f-02e7-48c4-ac10-267c5aeb4361",
+   "name": "Payloads & Pints",
+   "start": "15:30",
+   "end": "18:30",
+   "neighborhood": "El Segundo",
+   "formats": [
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/payloads-and-pints-7a7ac98f-02e7-48c4-ac10-267c5aeb4361",
+   "featured": false,
+   "hosts": [
+    "PwC"
+   ]
+  },
+  {
+   "id": "6e6c5dbb-8a4d-4966-820e-cac6d41a1c08",
+   "name": "LA's Hard Tech Renaissance: Robotics & Physical AI",
+   "start": "16:00",
+   "end": "18:00",
+   "neighborhood": "West Hollywood",
+   "formats": [
+    "Happy Hour",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/la-s-hard-tech-renaissance-robotics-and-physical-ai-6e6c5dbb-8a4d-4966-820e-cac6d41a1c08",
+   "featured": false,
+   "hosts": [
+    "Deel"
+   ]
+  },
+  {
+   "id": "9329d77a-f9b4-491f-bb71-750bc95cb1b6",
+   "name": "Building the Enterprise AI Stack: Sovereignty, Safety & Accountability Quantec + Kindo +Meter",
+   "start": "16:30",
+   "end": "18:30",
+   "neighborhood": "Beverly Hills",
+   "formats": [
+    "Happy Hour",
+    "Networking",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/building-the-enterprise-ai-stack-sovereignty-safety-and-accountability-quantec-k-9329d77a-f9b4-491f-bb71-750bc95cb1b6",
+   "featured": false,
+   "hosts": [
+    "Meter"
+   ]
+  },
+  {
+   "id": "8d688367-3ac8-4261-8c32-db7c9ceb4263",
+   "name": "Scaling with Intention: Seed to A and Beyond",
+   "start": "16:30",
+   "end": "",
+   "neighborhood": "El Segundo",
+   "formats": [
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/scaling-with-intention-seed-to-a-and-beyond-8d688367-3ac8-4261-8c32-db7c9ceb4263",
+   "featured": false,
+   "hosts": [
+    "CBRE"
+   ]
+  },
+  {
+   "id": "a2473d22-4c92-41fa-8c46-377d4b8bf041",
+   "name": "Defense/ Space Tech Panel",
+   "start": "17:30",
+   "end": "20:00",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/defense-space-tech-panel-a2473d22-4c92-41fa-8c46-377d4b8bf041",
+   "featured": false,
+   "hosts": [
+    "Deel",
+    "Citizens Bank"
+   ]
+  },
+  {
+   "id": "d24b906e-38c3-4d1c-886f-8856d0578fb5",
+   "name": "Building next-generation space infrastructure",
+   "start": "18:00",
+   "end": "",
+   "neighborhood": "Long Beach",
+   "formats": [
+    "Happy Hour",
+    "Networking",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "closed",
+   "url": "https://www.tech-week.com/calendar/la/events/building-next-generation-space-infrastructure-d24b906e-38c3-4d1c-886f-8856d0578fb5",
+   "featured": true,
+   "hosts": [
+    "Vast"
+   ]
+  },
+  {
+   "id": "9120807d-dd07-485a-9cfd-9a290a119758",
+   "name": "From Local to Global: A Wine Tasting on Scaling Your Team Everywhere",
+   "start": "18:00",
+   "end": "20:00",
+   "neighborhood": "Long Beach",
+   "formats": [
+    "Experiential",
+    "Happy Hour",
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/from-local-to-global-a-wine-tasting-on-scaling-your-team-everywhere-9120807d-dd07-485a-9cfd-9a290a119758",
+   "featured": false,
+   "hosts": [
+    "Deel"
+   ]
+  },
+  {
+   "id": "3a22e259-75d8-448f-bada-311234d65cd5",
+   "name": "Factory Field Day at Flyby Robotics",
+   "start": "19:00",
+   "end": "22:00",
+   "neighborhood": "El Segundo",
+   "formats": [
+    "Dinner",
+    "Happy Hour",
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/factory-field-day-at-flyby-robotics-3a22e259-75d8-448f-bada-311234d65cd5",
+   "featured": false,
+   "hosts": [
+    "Flyby Robotics"
+   ]
+  }
+ ],
+ "companies": [
+  {
+   "name": "Vast",
+   "slug": "vast",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Aerospace & defense",
+   "summary": "Commercial space stations",
+   "linkedin": "https://www.linkedin.com/company/vastllc/",
+   "label": "Private · 1,052 employees",
+   "events": [
+    "d24b906e-38c3-4d1c-886f-8856d0578fb5"
+   ],
+   "roles": [
+    {
+     "title": "Propulsion Engineer - Pressure Vessels Lead (COPV)",
+     "id": "4476108436",
+     "regions": [
+      "south"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Long Beach"
+    },
+    {
+     "title": "Lead Manufacturing Engineer, Propulsion",
+     "id": "4476350368",
+     "regions": [
+      "south"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Long Beach"
+    }
+   ]
+  },
+  {
+   "name": "Deel",
+   "slug": "deel",
+   "tier": "growth",
+   "stage": "Series E",
+   "stage_source": "https://www.businesswire.com/news/home/20251016949787/en/Deel-Secures-%24300-Million-in-Series-E-Funding",
+   "industry": "HR & payroll",
+   "summary": "Global payroll, HR and EOR",
+   "linkedin": "https://www.linkedin.com/company/deel/",
+   "label": "Private · 9,488 employees",
+   "events": [
+    "6e6c5dbb-8a4d-4966-820e-cac6d41a1c08",
+    "a2473d22-4c92-41fa-8c46-377d4b8bf041",
+    "9120807d-dd07-485a-9cfd-9a290a119758"
+   ],
+   "roles": [
+    {
+     "title": "Principal Product Marketing Manager | NAM",
+     "id": "4476549455",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "Flyby Robotics",
+   "slug": "flyby-robotics",
+   "tier": "early",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Robotics",
+   "summary": "Drones built in the US",
+   "linkedin": "https://www.linkedin.com/company/flyby-food/",
+   "label": "Private · 14 employees",
+   "events": [
+    "3a22e259-75d8-448f-bada-311234d65cd5"
+   ],
+   "roles": [
+    {
+     "title": "Enterprise Drone Sales",
+     "id": "4476109299",
+     "regions": [
+      "south"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "El Segundo"
+    }
+   ]
+  },
+  {
+   "name": "Meter",
+   "slug": "meter",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Cloud & infrastructure",
+   "summary": "Networking for businesses as a service",
+   "linkedin": "https://www.linkedin.com/company/meter-com/",
+   "label": "Private · 220 employees",
+   "events": [
+    "9329d77a-f9b4-491f-bb71-750bc95cb1b6"
+   ],
+   "roles": [
+    {
+     "title": "Sales Engineering, Channel",
+     "id": "4475554090",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "Barry's",
+   "slug": "barry-s",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Fitness & wellness",
+   "summary": "Boutique fitness studios",
+   "linkedin": "https://www.linkedin.com/company/barry%27s-bootcamp/",
+   "label": "Private · 1,245 employees",
+   "events": [
+    "2fa10582-2b9b-4a15-b391-22c0d0e5f5c2"
+   ],
+   "roles": [
+    {
+     "title": "Instructor",
+     "id": "4126251591",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Client Specialist",
+     "id": "4411512744",
+     "regions": [
+      "la"
+     ],
+     "family": "Customer success",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "West Hollywood"
+    }
+   ]
+  },
+  {
+   "name": "HubSpot",
+   "slug": "hubspot",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Enterprise software",
+   "summary": "CRM for marketing, sales and service",
+   "linkedin": "https://www.linkedin.com/company/hubspot/",
+   "label": "Public · NYSE: HUBS · 12,118 employees",
+   "events": [
+    "0f027ac8-aabc-4cbd-b18d-6edb2797f758"
+   ],
+   "roles": [
+    {
+     "title": "Principal Data Analyst",
+     "id": "4475817736",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "PwC",
+   "slug": "pwc",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Professional services",
+   "summary": "Audit, tax and consulting",
+   "linkedin": "https://www.linkedin.com/company/pwc/",
+   "label": "Private · 297,397 employees",
+   "events": [
+    "a25efd1a-db53-4366-b56e-76a4e931df6f",
+    "7a7ac98f-02e7-48c4-ac10-267c5aeb4361"
+   ],
+   "roles": [
+    {
+     "title": "SAP Supply Chain Senior Manager",
+     "id": "4477429570",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Irvine / Los Angeles"
+    },
+    {
+     "title": "SAP Supply Chain Manager",
+     "id": "4477444031",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Los Angeles / Irvine"
+    },
+    {
+     "title": "Oracle Cloud Finance - Manager",
+     "id": "4476961092",
+     "regions": [
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "Irvine"
+    },
+    {
+     "title": "Manager, Solution Architect",
+     "id": "4476962104",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "Los Angeles / Irvine"
+    },
+    {
+     "title": "HCP Engagements - Managed Services - Health PLS, Senior Associate",
+     "id": "4476956319",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Customer Managed Services - Senior Manager",
+     "id": "4476961099",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "Irvine / Los Angeles"
+    },
+    {
+     "title": "BCM - Assurance - Digital Assets Manager",
+     "id": "4476955335",
+     "regions": [
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "AI Engineer",
+     "id": "4477437267",
+     "regions": [
+      "la"
+     ],
+     "family": "AI / ML",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "SAP Core Finance EUR Director",
+     "id": "4476105318",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Los Angeles / Irvine"
+    },
+    {
+     "title": "Procurement Strategy and Strategic Sourcing - Value Capture Senior Associate",
+     "id": "4476338807",
+     "regions": [
+      "la"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Managed Services - SAP RISE/CALM - Manager",
+     "id": "4475897710",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Irvine / Los Angeles"
+    },
+    {
+     "title": "Delina Privileged Access Management - Sr Associate",
+     "id": "4475300255",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Strategy& Strategy Consulting Senior Associate Intern - Summer 2027",
+     "id": "4474742159",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Senior Engineering Manager, Google Cloud AI/ML",
+     "id": "4474131094",
+     "regions": [
+      "oc"
+     ],
+     "family": "AI / ML",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "Security Risk & Engineering- Cloud Security- Manager",
+     "id": "4474124494",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Security & Risk Engineering - Cloud Security Consultant - Director",
+     "id": "4474125494",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Oracle B2B Eloqua Senior Manager",
+     "id": "4473990050",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Other",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles / Irvine"
+    },
+    {
+     "title": "Management Consulting - Sector Operations - Health Senior Associate Intern - Summer 2027",
+     "id": "4474735479",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Management Consulting - Operations & Supply Chain Solutions Senior Associate Intern - Summer 2027",
+     "id": "4474732620",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "IFS Cloud Lead, Senior Manager",
+     "id": "4474799429",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Health Actuary Consultant- Payer/Provider- Senior Associate",
+     "id": "4474132086",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Google AI & Data Solutions Architect, Senior Manager",
+     "id": "4474126484",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Director",
+     "ai": true,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Gemini Tech Lead, Manager",
+     "id": "4474371296",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Irvine / Los Angeles"
+    },
+    {
+     "title": "Engineering Manager, Google Cloud AI/ML",
+     "id": "4474128425",
+     "regions": [
+      "la"
+     ],
+     "family": "AI / ML",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Director, AI & Data Solution Architect",
+     "id": "4474124506",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Director",
+     "ai": true,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Delivering Deal Value (DDV) Senior Associate Intern - Summer 2027",
+     "id": "4474738369",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Cybersecurity, Privacy and Forensics - Threat Detection Response - Experienced Associate",
+     "id": "4474552379",
+     "regions": [
+      "la"
+     ],
+     "family": "Legal / compliance",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Corporate Deals Technology Manager",
+     "id": "4474367391",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "AI Governance Sr Associate",
+     "id": "4474555209",
+     "regions": [
+      "la"
+     ],
+     "family": "Legal / compliance",
+     "level": "Entry level",
+     "ai": true,
+     "posted": "2026-10-02",
+     "new": false,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "AI Engineer / Data Scientist, AI Experienced Associate",
+     "id": "4474555201",
+     "regions": [
+      "la"
+     ],
+     "family": "AI / ML",
+     "level": "Associate",
+     "ai": true,
+     "posted": "2026-10-02",
+     "new": false,
+     "location": "Los Angeles"
+    }
+   ]
+  },
+  {
+   "name": "CBRE",
+   "slug": "cbre",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Professional services",
+   "summary": "Commercial real estate services",
+   "linkedin": "https://www.linkedin.com/company/cbre/",
+   "label": "Public · NYSE: CBRE · 73,845 employees",
+   "events": [
+    "8d688367-3ac8-4261-8c32-db7c9ceb4263"
+   ],
+   "roles": [
+    {
+     "title": "Software Engineer",
+     "id": "4477466537",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Area Maintenance Manager",
+     "id": "4476128483",
+     "regions": [
+      "south"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Long Beach"
+    },
+    {
+     "title": "Regional Maintenance Planner",
+     "id": "4475864626",
+     "regions": [
+      "remote"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Senior Marketing Specialist",
+     "id": "4475070812",
+     "regions": [
+      "south"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": true,
+     "location": "El Segundo"
+    },
+    {
+     "title": "Mail Services Associate onsite in Newport Beach, CA",
+     "id": "4474578357",
+     "regions": [
+      "oc"
+     ],
+     "family": "Other",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Newport Beach"
+    }
+   ]
+  },
+  {
+   "name": "Citizens Bank",
+   "slug": "citizens-bank",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Banking",
+   "summary": "Retail and commercial bank",
+   "linkedin": "https://www.linkedin.com/company/citizens-bank/",
+   "label": "Public · NYSE: CFG · 22,998 employees",
+   "events": [
+    "a2473d22-4c92-41fa-8c46-377d4b8bf041"
+   ],
+   "roles": [
+    {
+     "title": "PB Lending Specialist - Residential",
+     "id": "4466798883",
+     "regions": [
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "Newport Beach"
+    }
+   ]
+  },
+  {
+   "name": "Forum Ventures",
+   "slug": "forum-ventures",
+   "tier": "vc",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Investors",
+   "summary": "Pre-seed fund and accelerator for B2B startups",
+   "linkedin": "https://www.linkedin.com/company/forumvc/",
+   "label": "Private · 116 employees",
+   "events": [
+    "7f08ddbf-a3ce-4585-a148-976bc722619f"
+   ],
+   "roles": [
+    {
+     "title": "Founder-To-Be, The Foundry",
+     "id": "4473989825",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  }
+ ]
+}

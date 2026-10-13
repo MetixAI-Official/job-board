@@ -51,10 +51,12 @@ def board_regions(day: Day) -> set[str]:
 def test_links_point_where_they_should(day: Day) -> None:
     regions = board_regions(day)
     event_ids = {event["id"] for event in day["events"]}
+    hiring = {company["name"] for company in day["companies"]}
     for event in day["events"]:
         assert event["url"].startswith("https://www.tech-week.com/"), event["url"]
         assert "src=" not in event["url"], event["url"]
         assert event["hosts"], event["name"]
+        assert set(event["hosts"]) <= hiring, event["name"]
     for company in day["companies"]:
         assert set(company["events"]) <= event_ids, company["name"]
         for role in company["roles"]:

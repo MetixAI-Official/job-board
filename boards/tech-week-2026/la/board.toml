@@ -1,0 +1,57 @@
+name = "LA Tech Week 2026"
+event = "LA Tech Week"
+area = "Los Angeles area"
+dates = "Oct 12 to 18, 2026"
+start = 2026-10-12
+eyebrow = "LA Tech Week · Oct 12-18, 2026 · Independent list"
+url = "https://metixai-official.github.io/job-board/tech-week-2026/la"
+calendar = "https://www.tech-week.com/calendar/la"
+repo = "https://github.com/MetixAI-Official/job-board"
+via = "tw-la26"
+release = "Out 7am PT"
+
+# Location filter on the page, in order. "remote" is a US posting that names no city.
+regions = [
+  { key = "la", label = "Los Angeles" },
+  { key = "west", label = "Westside" },
+  { key = "south", label = "South Bay" },
+  { key = "valley", label = "Pasadena and the Valley" },
+  { key = "oc", label = "Orange County" },
+  { key = "remote", label = "US remote" },
+]
+
+[[days]]
+slug = "mon"
+weekday = "Mon"
+dates = "Oct 12"
+title = "Monday, Oct 12"
+
+[[days]]
+slug = "tue"
+weekday = "Tue"
+dates = "Oct 13"
+title = "Tuesday, Oct 13"
+
+[[days]]
+slug = "wed"
+weekday = "Wed"
+dates = "Oct 14"
+title = "Wednesday, Oct 14"
+
+[[days]]
+slug = "thu"
+weekday = "Thu"
+dates = "Oct 15"
+title = "Thursday, Oct 15"
+
+[[days]]
+slug = "fri"
+weekday = "Fri"
+dates = "Oct 16"
+title = "Friday, Oct 16"
+
+[[days]]
+slug = "weekend"
+weekday = "Weekend"
+dates = "Oct 17-18"
+title = "Weekend, Oct 17-18"

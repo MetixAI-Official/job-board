@@ -1,0 +1,344 @@
+{
+ "board": "tech-week-2026/la",
+ "day": "weekend",
+ "date": "2026-10-17",
+ "pulled": "2026-10-09",
+ "early": true,
+ "window": {
+  "from": "2026-10-02",
+  "to": "2026-10-08"
+ },
+ "events_today": 66,
+ "post": [
+  "micro1",
+  "MongoDB"
+ ],
+ "events": [
+  {
+   "id": "6f3ad228-16be-4f65-9a2d-1f6e55786a79",
+   "name": "Founders Running Club Run in Santa Monica",
+   "start": "07:00",
+   "end": "",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/founders-running-club-run-in-santa-monica-6f3ad228-16be-4f65-9a2d-1f6e55786a79",
+   "featured": false,
+   "hosts": [
+    "MongoDB"
+   ]
+  },
+  {
+   "id": "604dde2f-2c5b-4097-98ee-d296a356c0f1",
+   "name": "malibu whiteout party",
+   "start": "17:00",
+   "end": "21:00",
+   "neighborhood": "Malibu",
+   "formats": [
+    "Happy Hour"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/malibu-whiteout-party-604dde2f-2c5b-4097-98ee-d296a356c0f1",
+   "featured": false,
+   "hosts": [
+    "micro1"
+   ]
+  }
+ ],
+ "companies": [
+  {
+   "name": "micro1",
+   "slug": "micro1",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "AI infrastructure",
+   "summary": "Expert talent and human data for AI labs",
+   "linkedin": "https://www.linkedin.com/company/micro1/",
+   "label": "Private · 5,448 employees",
+   "events": [
+    "604dde2f-2c5b-4097-98ee-d296a356c0f1"
+   ],
+   "roles": [
+    {
+     "title": "Registered Nurse",
+     "id": "4477405474",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Recruiter",
+     "id": "4477415444",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Military Writing Specialist",
+     "id": "4477403511",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Member of Legal Staff, Corporate Counsel",
+     "id": "4477416481",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Hospitalist Physician",
+     "id": "4477400743",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Family Medicine Physician (MD)",
+     "id": "4477403572",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Accounts Payable Analyst",
+     "id": "4477424048",
+     "regions": [
+      "remote"
+     ],
+     "family": "Finance / accounting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Medical Doctor - Physician Expert",
+     "id": "4476399097",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Financial Services Expert",
+     "id": "4476111301",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Immigration Attorney",
+     "id": "4475834490",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Family Law Attorney (AAML Registered)",
+     "id": "4475831641",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Equity Research Expert",
+     "id": "4475842098",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "BigLaw Lawyer",
+     "id": "4475840101",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Associate Recruiter",
+     "id": "4475801113",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Defense & Cleared Workforce Recruiter",
+     "id": "4475007226",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Compliance Attorney",
+     "id": "4474754361",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "AI/ML Engineer",
+     "id": "4474709225",
+     "regions": [
+      "remote"
+     ],
+     "family": "AI / ML",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-02",
+     "new": false,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "MongoDB",
+   "slug": "mongodb",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Data infrastructure",
+   "summary": "Document database and Atlas cloud",
+   "linkedin": "https://www.linkedin.com/company/mongodbinc/",
+   "label": "Public · NASDAQ: MDB · 7,726 employees",
+   "events": [
+    "6f3ad228-16be-4f65-9a2d-1f6e55786a79"
+   ],
+   "roles": [
+    {
+     "title": "Senior Project Manager - Professional Services",
+     "id": "4476510711",
+     "regions": [
+      "la"
+     ],
+     "family": "Operations",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Legal Counsel, Procurement",
+     "id": "4476108487",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Corporate Legal Director - Securities, M&A",
+     "id": "4475836701",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "board": "tech-week-2026/la",
+ "day": "mon",
+ "date": "2026-10-12",
+ "pulled": "2026-10-09",
+ "early": true,
+ "window": {
+  "from": "2026-10-02",
+  "to": "2026-10-08"
+ },
+ "events_today": 92,
+ "post": [
+  "Armada",
+  "OpenArt AI",
+  "Outpost",
+  "TriNet"
+ ],
+ "events": [
+  {
+   "id": "f5957a3b-44d7-4066-a08f-338c3f146533",
+   "name": "OpenArt AI Lunch & Learn: Nerding Out on Film & TV Workflows",
+   "start": "11:30",
+   "end": "13:30",
+   "neighborhood": "Culver City",
+   "formats": [
+    "Breakfast, Brunch or Lunch",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/openart-ai-lunch-and-learn-nerding-out-on-film-and-tv-workflows-f5957a3b-44d7-4066-a08f-338c3f146533",
+   "featured": false,
+   "hosts": [
+    "OpenArt AI"
+   ]
+  },
+  {
+   "id": "c90226af-2973-4cd7-8454-7f04c16419fb",
+   "name": "The Precision Health Opportunity",
+   "start": "16:00",
+   "end": "",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Panel / Fireside Chat"
+   ],
+   "registration": "closed",
+   "url": "https://www.tech-week.com/calendar/la/events/the-precision-health-opportunity-c90226af-2973-4cd7-8454-7f04c16419fb",
+   "featured": false,
+   "hosts": [
+    "TriNet"
+   ]
+  },
+  {
+   "id": "a3fa14ee-3ce3-4da9-ab73-33a3445aa7a5",
+   "name": "Hardware Meets Intelligence: AI for Space and Defense",
+   "start": "17:30",
+   "end": "20:30",
+   "neighborhood": "Playa Vista",
+   "formats": [
+    "Networking",
+    "Panel / Fireside Chat",
+    "Pitch Event / Demo Day"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/hardware-meets-intelligence-ai-for-space-and-defense-a3fa14ee-3ce3-4da9-ab73-33a3445aa7a5",
+   "featured": false,
+   "hosts": [
+    "Outpost"
+   ]
+  },
+  {
+   "id": "52706373-f3eb-45a6-a1f2-2272896f1d4d",
+   "name": "Money Memories Live: The Founder Stories Behind Billion-Dollar Decisions",
+   "start": "18:00",
+   "end": "",
+   "neighborhood": "Playa del Rey",
+   "formats": [
+    "Pitch Event / Demo Day"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/money-memories-live-the-founder-stories-behind-billion-dollar-decisions-52706373-f3eb-45a6-a1f2-2272896f1d4d",
+   "featured": false,
+   "hosts": [
+    "Armada"
+   ]
+  }
+ ],
+ "companies": [
+  {
+   "name": "Armada",
+   "slug": "armada",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "AI infrastructure",
+   "summary": "Edge computing and modular data centers",
+   "linkedin": "https://www.linkedin.com/company/armadaai/",
+   "label": "Private · 587 employees",
+   "events": [
+    "52706373-f3eb-45a6-a1f2-2272896f1d4d"
+   ],
+   "roles": [
+    {
+     "title": "Senior Sales Coordinator, AI Factory",
+     "id": "4477424301",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Finance Manager",
+     "id": "4474596122",
+     "regions": [
+      "remote"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Commercial Counsel",
+     "id": "4474521267",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "OpenArt AI",
+   "slug": "openart-ai",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "AI applications",
+   "summary": "AI image and video creation",
+   "linkedin": "https://www.linkedin.com/company/openart-ai/",
+   "label": "Private · 108 employees",
+   "events": [
+    "f5957a3b-44d7-4066-a08f-338c3f146533"
+   ],
+   "roles": [
+    {
+     "title": "Forward Deployed Creatives",
+     "id": "4474502921",
+     "regions": [
+      "remote"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-02",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "Outpost",
+   "slug": "outpost",
+   "tier": "early",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Aerospace & defense",
+   "summary": "Spacecraft that return payloads from orbit",
+   "linkedin": "https://www.linkedin.com/company/outpostspace/",
+   "label": "Private · 35 employees",
+   "events": [
+    "a3fa14ee-3ce3-4da9-ab73-33a3445aa7a5"
+   ],
+   "roles": [
+    {
+     "title": "Senior Aerothermal Analysis Engineer",
+     "id": "4475097213",
+     "regions": [
+      "la"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-03",
+     "new": true,
+     "location": "Los Angeles"
+    }
+   ]
+  },
+  {
+   "name": "TriNet",
+   "slug": "trinet",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "HR & payroll",
+   "summary": "HR, payroll and benefits for small businesses",
+   "linkedin": "https://www.linkedin.com/company/trinet/",
+   "label": "Public · NYSE: TNET · 4,439 employees",
+   "events": [
+    "c90226af-2973-4cd7-8454-7f04c16419fb"
+   ],
+   "roles": [
+    {
+     "title": "Sales Development Representative",
+     "id": "4475839016",
+     "regions": [
+      "oc"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-05",
+     "new": false,
+     "location": "Irvine"
+    }
+   ]
+  }
+ ]
+}
