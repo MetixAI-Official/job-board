@@ -2,18 +2,17 @@
  "board": "tech-week-2026/la",
  "day": "fri",
  "date": "2026-10-16",
- "pulled": "2026-10-09",
+ "pulled": "2026-10-13",
  "early": true,
  "window": {
-  "from": "2026-10-02",
-  "to": "2026-10-08"
+  "from": "2026-10-06",
+  "to": "2026-10-12"
  },
  "events_today": 82,
  "post": [
   "ElevenLabs",
-  "Neros Technologies",
-  "Senra Systems",
   "Rangeview",
+  "Senra Systems",
   "Amplitude"
  ],
  "events": [
@@ -80,7 +79,6 @@
    "url": "https://www.tech-week.com/calendar/la/events/defense-tech-social-cc7613c0-2d53-49ef-847f-7e3b4d5ae5c3",
    "featured": false,
    "hosts": [
-    "Neros Technologies",
     "Rangeview"
    ]
   }
@@ -101,7 +99,85 @@
    ],
    "roles": [
     {
-     "title": "Enterprise Sales Lead, Financial Services",
+     "title": "Product Engineer - ElevenCreative Enterprise",
+     "id": "4478569586",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Growth Marketer- Reception.ai",
+     "id": "4478394027",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-12",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Value Strategist",
+     "id": "4477648044",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Lead Generation Strategy and Operations",
+     "id": "4477842362",
+     "regions": [
+      "remote"
+     ],
+     "family": "Operations",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Fullstack Engineer (Frontend Leaning) - Studio",
+     "id": "4477679321",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Fullstack Engineer (Backend Leaning) - Flows",
+     "id": "4477678387",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Enterprise Sales Lead- Financial Services",
      "id": "4477441325",
      "regions": [
       "remote"
@@ -127,19 +203,6 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Marketing Data Scientist",
-     "id": "4475895904",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
      "title": "IT Engineer",
      "id": "4476181567",
      "regions": [
@@ -151,728 +214,6 @@
      "posted": "2026-10-06",
      "new": false,
      "location": "US remote / anywhere"
-    },
-    {
-     "title": "Data Scientist - Product Analytics",
-     "id": "4475851163",
-     "regions": [
-      "remote"
-     ],
-     "family": "Data",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Systems Architect",
-     "id": "4474362718",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Sales Finance",
-     "id": "4474366643",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Sales Development Lead - United States",
-     "id": "4474373322",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Sales Development - United States",
-     "id": "4474367535",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Sales Development - Government",
-     "id": "4474362701",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Safety Engineer - Free Tier Abuse",
-     "id": "4474362730",
-     "regions": [
-      "la"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Revenue Strategy & Operations - North America",
-     "id": "4474369505",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Research Engineer - Web Crawlers",
-     "id": "4474364671",
-     "regions": [
-      "remote"
-     ],
-     "family": "AI / ML",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Research Engineer - Inference",
-     "id": "4474377006",
-     "regions": [
-      "remote"
-     ],
-     "family": "AI / ML",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Research Engineer - Data Infrastructure",
-     "id": "4474371431",
-     "regions": [
-      "remote"
-     ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Research Engineer",
-     "id": "4474376038",
-     "regions": [
-      "remote"
-     ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Operations Recruiter",
-     "id": "4474365619",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Mid-Market Lead - East",
-     "id": "4474357866",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Localization Specialist",
-     "id": "4474361731",
-     "regions": [
-      "remote"
-     ],
-     "family": "Other",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Influencer Marketer",
-     "id": "4474372398",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Head of Revenue Operations",
-     "id": "4474367576",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Full-Stack Engineer - Creative Studio",
-     "id": "4474361713",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Full-Stack Engineer (Front-End Leaning)",
-     "id": "4474367548",
-     "regions": [
-      "la"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Full-Stack Engineer (Back-End Leaning)",
-     "id": "4474359742",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Full-Stack Engineer",
-     "id": "4474373328",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Frontend Leaning Engineer - Creative & Studio",
-     "id": "4474372405",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Forward Deployed Creative",
-     "id": "4474368551",
-     "regions": [
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Field Marketer - North America",
-     "id": "4474359749",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Experiential Graphic Designer - Events",
-     "id": "4474372441",
-     "regions": [
-      "remote"
-     ],
-     "family": "Design",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Events Lead - North America",
-     "id": "4474364719",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Enterprise Solutions Engineer - USA",
-     "id": "4474360776",
-     "regions": [
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Enterprise Proposals Lead",
-     "id": "4474359750",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Enterprise Deployment - Chief of Staff",
-     "id": "4474362724",
-     "regions": [
-      "remote"
-     ],
-     "family": "Operations",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Engineering - Internal AI Transformation",
-     "id": "4474373338",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": true,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Developer Experience Engineer",
-     "id": "4474376052",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Deployment Strategist - North America",
-     "id": "4474369529",
-     "regions": [
-      "la",
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Deal Operations Strategist",
-     "id": "4474372416",
-     "regions": [
-      "remote"
-     ],
-     "family": "Operations",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Creative Strategist, Mobile",
-     "id": "4474376060",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Content Creator & Strategist",
-     "id": "4474370516",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Compensation & Total Rewards",
-     "id": "4474370555",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Brand Marketing",
-     "id": "4474373337",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "B2B SEO/AEO Expert",
-     "id": "4474359753",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Automation Engineer - Influencers",
-     "id": "4474376027",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Manager Lead - Enterprise",
-     "id": "4474371462",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Manager - Enterprise",
-     "id": "4474376061",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Executive Lead - Government",
-     "id": "4474361735",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Executive - Strategic",
-     "id": "4474366605",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Executive - SMB/Corporate",
-     "id": "4474372451",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Executive - Mid-Market",
-     "id": "4474357870",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Executive - Government",
-     "id": "4474372454",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Executive - Enterprise",
-     "id": "4474370515",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    }
-   ]
-  },
-  {
-   "name": "Neros Technologies",
-   "slug": "neros-technologies",
-   "tier": "growth",
-   "stage": "",
-   "stage_source": null,
-   "industry": "Aerospace & defense",
-   "summary": "Low-cost drones for defense",
-   "linkedin": "https://www.linkedin.com/company/neros-tech/",
-   "label": "Private · 107 employees",
-   "events": [
-    "cc7613c0-2d53-49ef-847f-7e3b4d5ae5c3"
-   ],
-   "roles": [
-    {
-     "title": "Staff Accountant",
-     "id": "4410884705",
-     "regions": [
-      "south"
-     ],
-     "family": "Finance / accounting",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Torrance"
-    },
-    {
-     "title": "Senior Mechanical Engineer",
-     "id": "4210138303",
-     "regions": [
-      "south"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Torrance"
-    },
-    {
-     "title": "IT Infrastructure Engineer",
-     "id": "4414069774",
-     "regions": [
-      "south"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Torrance"
-    },
-    {
-     "title": "FPV Test Pilot",
-     "id": "4397207331",
-     "regions": [
-      "south"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Torrance"
-    }
-   ]
-  },
-  {
-   "name": "Senra Systems",
-   "slug": "senra-systems",
-   "tier": "early",
-   "stage": "",
-   "stage_source": null,
-   "industry": "Aerospace & defense",
-   "summary": "Automated wire harness manufacturing",
-   "linkedin": "https://www.linkedin.com/company/senra-systems/",
-   "label": "Private · 89 employees",
-   "events": [
-    "f8b870b5-bc91-407a-9f4f-c29c91fde46d"
-   ],
-   "roles": [
-    {
-     "title": "Harnessing Technical Trainer",
-     "id": "4477173782",
-     "regions": [
-      "oc"
-     ],
-     "family": "Other",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Irvine"
-    },
-    {
-     "title": "Estimating Engineer II",
-     "id": "4474306046",
-     "regions": [
-      "oc"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Cypress"
     }
    ]
   },
@@ -906,6 +247,35 @@
    ]
   },
   {
+   "name": "Senra Systems",
+   "slug": "senra-systems",
+   "tier": "early",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Aerospace & defense",
+   "summary": "Automated wire harness manufacturing",
+   "linkedin": "https://www.linkedin.com/company/senra-systems/",
+   "label": "Private · 89 employees",
+   "events": [
+    "f8b870b5-bc91-407a-9f4f-c29c91fde46d"
+   ],
+   "roles": [
+    {
+     "title": "Harnessing Technical Trainer",
+     "id": "4477173782",
+     "regions": [
+      "oc"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Irvine"
+    }
+   ]
+  },
+  {
    "name": "Amplitude",
    "slug": "amplitude",
    "tier": "large",
@@ -920,42 +290,16 @@
    ],
    "roles": [
     {
-     "title": "Principal Program Manager, Global Mobility & Immigration",
-     "id": "4476117301",
+     "title": "Senior Equity Administration Analyst",
+     "id": "4476519426",
      "regions": [
       "remote"
      ],
-     "family": "People / recruiting",
+     "family": "Data",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-07",
      "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Legal Operations Manager",
-     "id": "4475058783",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Sr. Marketing Automation Specialist",
-     "id": "4474563442",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
      "location": "US remote / anywhere"
     }
    ]

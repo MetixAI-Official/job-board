@@ -2,18 +2,16 @@
  "board": "tech-week-2026/la",
  "day": "mon",
  "date": "2026-10-12",
- "pulled": "2026-10-09",
- "early": true,
+ "pulled": "2026-10-12",
+ "early": false,
  "window": {
-  "from": "2026-10-02",
-  "to": "2026-10-08"
+  "from": "2026-10-05",
+  "to": "2026-10-11"
  },
  "events_today": 92,
  "post": [
   "Armada",
-  "OpenArt AI",
-  "Outpost",
-  "TriNet"
+  "OpenArt AI"
  ],
  "events": [
   {
@@ -31,40 +29,6 @@
    "featured": false,
    "hosts": [
     "OpenArt AI"
-   ]
-  },
-  {
-   "id": "c90226af-2973-4cd7-8454-7f04c16419fb",
-   "name": "The Precision Health Opportunity",
-   "start": "16:00",
-   "end": "",
-   "neighborhood": "Santa Monica",
-   "formats": [
-    "Panel / Fireside Chat"
-   ],
-   "registration": "closed",
-   "url": "https://www.tech-week.com/calendar/la/events/the-precision-health-opportunity-c90226af-2973-4cd7-8454-7f04c16419fb",
-   "featured": false,
-   "hosts": [
-    "TriNet"
-   ]
-  },
-  {
-   "id": "a3fa14ee-3ce3-4da9-ab73-33a3445aa7a5",
-   "name": "Hardware Meets Intelligence: AI for Space and Defense",
-   "start": "17:30",
-   "end": "20:30",
-   "neighborhood": "Playa Vista",
-   "formats": [
-    "Networking",
-    "Panel / Fireside Chat",
-    "Pitch Event / Demo Day"
-   ],
-   "registration": "open",
-   "url": "https://www.tech-week.com/calendar/la/events/hardware-meets-intelligence-ai-for-space-and-defense-a3fa14ee-3ce3-4da9-ab73-33a3445aa7a5",
-   "featured": false,
-   "hosts": [
-    "Outpost"
    ]
   },
   {
@@ -111,32 +75,6 @@
      "posted": "2026-10-08",
      "new": true,
      "location": "US remote / anywhere"
-    },
-    {
-     "title": "Finance Manager",
-     "id": "4474596122",
-     "regions": [
-      "remote"
-     ],
-     "family": "Finance / accounting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Commercial Counsel",
-     "id": "4474521267",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
     }
    ]
   },
@@ -155,75 +93,17 @@
    ],
    "roles": [
     {
-     "title": "Forward Deployed Creatives",
-     "id": "4474502921",
-     "regions": [
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    }
-   ]
-  },
-  {
-   "name": "Outpost",
-   "slug": "outpost",
-   "tier": "early",
-   "stage": "",
-   "stage_source": null,
-   "industry": "Aerospace & defense",
-   "summary": "Spacecraft that return payloads from orbit",
-   "linkedin": "https://www.linkedin.com/company/outpostspace/",
-   "label": "Private · 35 employees",
-   "events": [
-    "a3fa14ee-3ce3-4da9-ab73-33a3445aa7a5"
-   ],
-   "roles": [
-    {
-     "title": "Senior Aerothermal Analysis Engineer",
-     "id": "4475097213",
+     "title": "Legal Counsel",
+     "id": "4476757496",
      "regions": [
       "la"
      ],
-     "family": "Hardware / supply chain",
+     "family": "Legal / compliance",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-03",
+     "posted": "2026-10-07",
      "new": true,
      "location": "Los Angeles"
-    }
-   ]
-  },
-  {
-   "name": "TriNet",
-   "slug": "trinet",
-   "tier": "large",
-   "stage": "",
-   "stage_source": null,
-   "industry": "HR & payroll",
-   "summary": "HR, payroll and benefits for small businesses",
-   "linkedin": "https://www.linkedin.com/company/trinet/",
-   "label": "Public · NYSE: TNET · 4,439 employees",
-   "events": [
-    "c90226af-2973-4cd7-8454-7f04c16419fb"
-   ],
-   "roles": [
-    {
-     "title": "Sales Development Representative",
-     "id": "4475839016",
-     "regions": [
-      "oc"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "Irvine"
     }
    ]
   }

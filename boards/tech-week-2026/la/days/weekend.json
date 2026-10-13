@@ -2,11 +2,11 @@
  "board": "tech-week-2026/la",
  "day": "weekend",
  "date": "2026-10-17",
- "pulled": "2026-10-09",
+ "pulled": "2026-10-13",
  "early": true,
  "window": {
-  "from": "2026-10-02",
-  "to": "2026-10-08"
+  "from": "2026-10-06",
+  "to": "2026-10-12"
  },
  "events_today": 66,
  "post": [
@@ -63,6 +63,136 @@
    ],
    "roles": [
     {
+     "title": "Recruiter",
+     "id": "4478543424",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Member of Legal Staff, Corporate Counsel",
+     "id": "4478551057",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Family Law Attorney (AAML Registered)",
+     "id": "4478574277",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Equity Research Expert",
+     "id": "4478567518",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Cleared Recruiter",
+     "id": "4478570160",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "BigLaw Lawyer",
+     "id": "4478563700",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Accounts Payable Analyst",
+     "id": "4478540510",
+     "regions": [
+      "remote"
+     ],
+     "family": "Finance / accounting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Medical Coder",
+     "id": "4477152216",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Data Analyst",
+     "id": "4478050164",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Everyday AI Agent Tester",
+     "id": "4477889155",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
      "title": "Registered Nurse",
      "id": "4477405474",
      "regions": [
@@ -73,45 +203,6 @@
      "ai": false,
      "posted": "2026-10-08",
      "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Recruiter",
-     "id": "4477415444",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Military Writing Specialist",
-     "id": "4477403511",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Member of Legal Staff, Corporate Counsel",
-     "id": "4477416481",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
      "location": "US remote / anywhere"
     },
     {
@@ -141,19 +232,6 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Accounts Payable Analyst",
-     "id": "4477424048",
-     "regions": [
-      "remote"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
      "title": "Medical Doctor - Physician Expert",
      "id": "4476399097",
      "regions": [
@@ -178,110 +256,6 @@
      "posted": "2026-10-06",
      "new": false,
      "location": "US remote / anywhere"
-    },
-    {
-     "title": "Immigration Attorney",
-     "id": "4475834490",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Family Law Attorney (AAML Registered)",
-     "id": "4475831641",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Equity Research Expert",
-     "id": "4475842098",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "BigLaw Lawyer",
-     "id": "4475840101",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Associate Recruiter",
-     "id": "4475801113",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Defense & Cleared Workforce Recruiter",
-     "id": "4475007226",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Compliance Attorney",
-     "id": "4474754361",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "AI/ML Engineer",
-     "id": "4474709225",
-     "regions": [
-      "remote"
-     ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
     }
    ]
   },
@@ -300,8 +274,48 @@
    ],
    "roles": [
     {
+     "title": "Senior Product Security Engineer, Assessments",
+     "id": "4478578297",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Growth Marketing Manager",
+     "id": "4477601160",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Startup & Venture Ecosystem Lead",
+     "id": "4476901476",
+     "regions": [
+      "la",
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
      "title": "Senior Project Manager - Professional Services",
-     "id": "4476510711",
+     "id": "4476512688",
      "regions": [
       "la"
      ],
@@ -314,7 +328,7 @@
     },
     {
      "title": "Legal Counsel, Procurement",
-     "id": "4476108487",
+     "id": "4476105592",
      "regions": [
       "remote"
      ],
@@ -322,19 +336,6 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Corporate Legal Director - Securities, M&A",
-     "id": "4475836701",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-05",
      "new": true,
      "location": "US remote / anywhere"
     }

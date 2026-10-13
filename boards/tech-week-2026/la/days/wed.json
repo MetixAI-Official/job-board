@@ -2,22 +2,21 @@
  "board": "tech-week-2026/la",
  "day": "wed",
  "date": "2026-10-14",
- "pulled": "2026-10-09",
+ "pulled": "2026-10-13",
  "early": true,
  "window": {
-  "from": "2026-10-02",
-  "to": "2026-10-08"
+  "from": "2026-10-06",
+  "to": "2026-10-12"
  },
  "events_today": 174,
  "post": [
-  "General Matter",
-  "Inversion",
   "Deel",
   "emberos",
-  "GMI Cloud",
+  "General Matter",
   "Microsoft",
   "Stripe",
-  "GitLab"
+  "GitLab",
+  "Databricks"
  ],
  "events": [
   {
@@ -50,22 +49,6 @@
    "featured": false,
    "hosts": [
     "PwC"
-   ]
-  },
-  {
-   "id": "971714de-0d1f-47f3-a716-07158c1e2954",
-   "name": "Scaling Long-Form AI Video with MCP",
-   "start": "11:30",
-   "end": "14:30",
-   "neighborhood": "Malibu",
-   "formats": [
-    "Panel / Fireside Chat"
-   ],
-   "registration": "open",
-   "url": "https://www.tech-week.com/calendar/la/events/scaling-long-form-ai-video-with-mcp-971714de-0d1f-47f3-a716-07158c1e2954",
-   "featured": false,
-   "hosts": [
-    "GMI Cloud"
    ]
   },
   {
@@ -102,22 +85,6 @@
    ]
   },
   {
-   "id": "f5a4010b-8a3d-42f3-852a-809188424bfe",
-   "name": "Highways in Space",
-   "start": "16:00",
-   "end": "",
-   "neighborhood": "Playa Vista",
-   "formats": [
-    "Panel / Fireside Chat"
-   ],
-   "registration": "open",
-   "url": "https://www.tech-week.com/calendar/la/events/highways-in-space-f5a4010b-8a3d-42f3-852a-809188424bfe",
-   "featured": false,
-   "hosts": [
-    "Inversion"
-   ]
-  },
-  {
    "id": "f2b46a9b-ba18-4752-b786-c4ea888ea84c",
    "name": "Building AI for the Physical World",
    "start": "16:30",
@@ -132,6 +99,24 @@
    "featured": true,
    "hosts": [
     "JPMorgan Chase & Co."
+   ]
+  },
+  {
+   "id": "d0bd42c1-5c5b-479d-825e-ea6b1e7c436c",
+   "name": "Future Legacies Series: Beauty Tech at Scale",
+   "start": "17:00",
+   "end": "20:00",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Happy Hour",
+    "Networking",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/future-legacies-series-beauty-tech-at-scale-d0bd42c1-5c5b-479d-825e-ea6b1e7c436c",
+   "featured": false,
+   "hosts": [
+    "Helios & Partners"
    ]
   },
   {
@@ -168,6 +153,23 @@
    "featured": false,
    "hosts": [
     "GitLab"
+   ]
+  },
+  {
+   "id": "79f7463c-b07a-4dbf-92c7-b2710d522400",
+   "name": "Drinks & Data: An AI Happy Hour",
+   "start": "18:00",
+   "end": "21:00",
+   "neighborhood": "Venice",
+   "formats": [
+    "Happy Hour",
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/drinks-and-data-an-ai-happy-hour-79f7463c-b07a-4dbf-92c7-b2710d522400",
+   "featured": true,
+   "hosts": [
+    "Databricks"
    ]
   },
   {
@@ -256,129 +258,6 @@
  ],
  "companies": [
   {
-   "name": "General Matter",
-   "slug": "general-matter",
-   "tier": "early",
-   "stage": "",
-   "stage_source": null,
-   "industry": "Energy",
-   "summary": "Nuclear fuel enrichment",
-   "linkedin": "https://www.linkedin.com/company/generalmatter/",
-   "label": "Private · 16 employees",
-   "events": [
-    "6f335b55-e820-4849-a015-2a58867d570c"
-   ],
-   "roles": [
-    {
-     "title": "Technical Program Manager, Software",
-     "id": "4476503035",
-     "regions": [
-      "la"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-07",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "IT Procurement Specialist",
-     "id": "4475893293",
-     "regions": [
-      "la"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Financial Analyst (New Grad)",
-     "id": "4475885531",
-     "regions": [
-      "la"
-     ],
-     "family": "Finance / accounting",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Embedded Software Engineer, Motor Control & Real-Time Systems",
-     "id": "4476100037",
-     "regions": [
-      "la"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles"
-    }
-   ]
-  },
-  {
-   "name": "Inversion",
-   "slug": "inversion",
-   "tier": "early",
-   "stage": "",
-   "stage_source": null,
-   "industry": "Aerospace & defense",
-   "summary": "Spacecraft that deliver cargo from orbit",
-   "linkedin": "https://www.linkedin.com/company/inversion-space/",
-   "label": "Private · 109 employees",
-   "events": [
-    "f5a4010b-8a3d-42f3-852a-809188424bfe"
-   ],
-   "roles": [
-    {
-     "title": "Senior Mechanical Engineer (Accurate Landing)",
-     "id": "4416926079",
-     "regions": [
-      "la"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Senior GNC Engineer",
-     "id": "4410984087",
-     "regions": [
-      "la"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Avionics Harness Engineer II",
-     "id": "4399922185",
-     "regions": [
-      "la"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Los Angeles"
-    }
-   ]
-  },
-  {
    "name": "Deel",
    "slug": "deel",
    "tier": "growth",
@@ -401,6 +280,19 @@
      ],
      "family": "Marketing / growth",
      "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Chief Scientist Officer",
+     "id": "4476708306",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Executive",
      "ai": false,
      "posted": "2026-10-07",
      "new": true,
@@ -438,31 +330,31 @@
    ]
   },
   {
-   "name": "GMI Cloud",
-   "slug": "gmi-cloud",
-   "tier": "growth",
+   "name": "General Matter",
+   "slug": "general-matter",
+   "tier": "early",
    "stage": "",
    "stage_source": null,
-   "industry": "AI infrastructure",
-   "summary": "GPU cloud for AI training and inference",
-   "linkedin": "https://www.linkedin.com/company/gmi-cloud-ai/",
-   "label": "Private · 114 employees",
+   "industry": "Energy",
+   "summary": "Nuclear fuel enrichment",
+   "linkedin": "https://www.linkedin.com/company/generalmatter/",
+   "label": "Private · 16 employees",
    "events": [
-    "971714de-0d1f-47f3-a716-07158c1e2954"
+    "6f335b55-e820-4849-a015-2a58867d570c"
    ],
    "roles": [
     {
-     "title": "Site Reliability Engineer (SRE) - K8S/Slurm",
-     "id": "4474104356",
+     "title": "Technical Program Manager, Software",
+     "id": "4476503035",
      "regions": [
-      "remote"
+      "la"
      ],
-     "family": "Software engineering",
-     "level": "Associate",
+     "family": "Product",
+     "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Los Angeles"
     }
    ]
   },
@@ -480,6 +372,162 @@
     "cf41b92e-600e-4017-9b39-c5ad9382cc89"
    ],
    "roles": [
+    {
+     "title": "Senior Software Engineer - Azure Compute Next Gen Platform",
+     "id": "4478052519",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Senior Economist",
+     "id": "4478054429",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Category Director, General Contractor",
+     "id": "4478061027",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Strategy & Operations Senior Manager, Continuous Improvement",
+     "id": "4477670813",
+     "regions": [
+      "remote"
+     ],
+     "family": "Operations",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Senior & Principal Security Researcher",
+     "id": "4477671761",
+     "regions": [
+      "remote"
+     ],
+     "family": "AI / ML",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Principal Software Engineer - AI Systems Observability",
+     "id": "4477689111",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Principal Software Engineer",
+     "id": "4477680399",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Director, Partner Development Manager",
+     "id": "4477680427",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Director, Cost Management - Air Gap Cloud",
+     "id": "4477674616",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Dir Category",
+     "id": "4477670815",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Business Operations Manager",
+     "id": "4477673654",
+     "regions": [
+      "remote"
+     ],
+     "family": "Operations",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Azure Solution Engineering Manager",
+     "id": "4477676616",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
     {
      "title": "Senior Hardware Engineer",
      "id": "4477176138",
@@ -507,19 +555,6 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Principal Technical Program Manager",
-     "id": "4477169430",
-     "regions": [
-      "remote"
-     ],
-     "family": "Product",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
      "title": "Principal Datacenter Design Strategist",
      "id": "4477177073",
      "regions": [
@@ -530,19 +565,6 @@
      "ai": false,
      "posted": "2026-10-08",
      "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Media & Entertainment Industry Advisor",
-     "id": "4477155882",
-     "regions": [
-      "remote"
-     ],
-     "family": "Other",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
      "location": "US remote / anywhere"
     },
     {
@@ -572,6 +594,162 @@
      "location": "US remote / anywhere"
     },
     {
+     "title": "Strategic Unified Global Black Belt",
+     "id": "4476717513",
+     "regions": [
+      "remote"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Sr Cloud Solution Architect - Copilot",
+     "id": "4476717518",
+     "regions": [
+      "remote"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Software Engineer II",
+     "id": "4476726156",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Senior Partner Development Manager-Healthcare",
+     "id": "4476722263",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Senior Director, Business Process Sales Leader",
+     "id": "4476723219",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Principal Software Engineer - Networking",
+     "id": "4476721346",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Principal Software Engineer - AKS Flex: High Scale",
+     "id": "4476723216",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Principal Product Manager",
+     "id": "4476728162",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Cowork and Agents Solution Sales Advisor",
+     "id": "4476719424",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Cloud and AI Platform Partner Solution Sales",
+     "id": "4476719427",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Cloud Solution Architect - Security",
+     "id": "4476721342",
+     "regions": [
+      "remote"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Services Account Executive",
+     "id": "4476198020",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
      "title": "Senior Director of Business Strategy",
      "id": "4476184473",
      "regions": [
@@ -581,305 +759,6 @@
      "level": "Not specified",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Principal Software Engineer",
-     "id": "4476192257",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Surface Specialist",
-     "id": "4475324117",
-     "regions": [
-      "remote"
-     ],
-     "family": "Other",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Sales Excellence Manager - U.S. Public Sector",
-     "id": "4475324124",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Field Product Marketing Manager",
-     "id": "4475324123",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Support Partner Success Manager",
-     "id": "4474732832",
-     "regions": [
-      "remote"
-     ],
-     "family": "Customer success",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Support Escalation Manager (Area Support Lead)",
-     "id": "4474199206",
-     "regions": [
-      "remote"
-     ],
-     "family": "Customer success",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Strategic Account Technology- Strategist",
-     "id": "4474189360",
-     "regions": [
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Strategic Account Technology - Strategist",
-     "id": "4474183615",
-     "regions": [
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Senior Software Engineer",
-     "id": "4474193377",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Senior Security Engineer and Principal Security Engineer (Services)- Multiple Positions",
-     "id": "4474181677",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Security Research Engineer - Project Perception",
-     "id": "4474743365",
-     "regions": [
-      "remote"
-     ],
-     "family": "AI / ML",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Security Engineer II (Services)",
-     "id": "4474198201",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Security Channel Strategy Lead",
-     "id": "4474300186",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Retail Partner Marketing Manager",
-     "id": "4474736722",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Partner Technology Strategist",
-     "id": "4474749057",
-     "regions": [
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Partner Solution Architect, Fabric & Data",
-     "id": "4474179789",
-     "regions": [
-      "remote"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Director of WW Commercial Strategy & Planning",
-     "id": "4474739543",
-     "regions": [
-      "remote"
-     ],
-     "family": "Operations",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "D365 Sales and Service Business Architect",
-     "id": "4474199235",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Cybersecurity Lead Investigator",
-     "id": "4474732836",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Customer and Partner Engagement Manager",
-     "id": "4474188393",
-     "regions": [
-      "remote"
-     ],
-     "family": "Customer success",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Commercial Sales Executive",
-     "id": "4474183620",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Commercial Executive",
-     "id": "4474732834",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Area Support Lead Crisis Prevention and Management",
-     "id": "4474196242",
-     "regions": [
-      "remote"
-     ],
-     "family": "Customer success",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
      "new": true,
      "location": "US remote / anywhere"
     }
@@ -899,6 +778,84 @@
     "0fe132b7-43e0-4c9b-813d-cf1b70a9aa23"
    ],
    "roles": [
+    {
+     "title": "Technical Program Manager, Extensibility",
+     "id": "4467288018",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Staff Software Engineer,",
+     "id": "4477622266",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Staff Product Designer, Checkout",
+     "id": "4477879052",
+     "regions": [
+      "remote"
+     ],
+     "family": "Design",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Software Engineer, Internal Identity",
+     "id": "4477879054",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Security Analyst",
+     "id": "4477626026",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Backend/API Engineer, Money as a Service",
+     "id": "4477873174",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Executive",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
     {
      "title": "Solutions Architect, AI",
      "id": "4477471223",
@@ -922,6 +879,32 @@
      "level": "Mid-senior",
      "ai": true,
      "posted": "2026-10-08",
+     "new": false,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Staff Machine Learning Engineer, Radar",
+     "id": "4476931175",
+     "regions": [
+      "remote"
+     ],
+     "family": "AI / ML",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Program Manager, Risk Ops Enablement",
+     "id": "4476772170",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
      "new": false,
      "location": "US remote / anywhere"
     },
@@ -952,12 +935,12 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Staff Product Manager, Radar - Fraud and Abuse Prevention",
-     "id": "4476383149",
+     "title": "Security GRC Program Manager, Third Party Risk",
+     "id": "4476320232",
      "regions": [
       "remote"
      ],
-     "family": "Product",
+     "family": "Legal / compliance",
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
@@ -978,16 +961,29 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Partner Marketing Leader, Alliances & Channel",
-     "id": "4476370690",
+     "title": "Product Manager, Radar",
+     "id": "4476367924",
      "regions": [
       "remote"
      ],
-     "family": "Marketing / growth",
-     "level": "Director",
+     "family": "Product",
+     "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
      "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "Privacy Operations Program Manager",
+     "id": "4476318318",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
      "location": "US remote / anywhere"
     },
     {
@@ -1004,12 +1000,12 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Full Stack Engineer, Builder Experience",
-     "id": "4476133202",
+     "title": "Engagement Manager, Professional Services",
+     "id": "4476319341",
      "regions": [
       "remote"
      ],
-     "family": "Software engineering",
+     "family": "Other",
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
@@ -1027,84 +1023,6 @@
      "ai": false,
      "posted": "2026-10-06",
      "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Account Executive, Product Sales (Data)",
-     "id": "4475858912",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Software Engineer, Revenue and Financial Automation",
-     "id": "4475079489",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "U.S. Banking Regulatory Compliance Lead",
-     "id": "4474528132",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Partner Development Manager, Strategic Partnerships",
-     "id": "4474520495",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Data Scientist",
-     "id": "4474581194",
-     "regions": [
-      "remote"
-     ],
-     "family": "Data",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Backend Engineer, Payments and Risk",
-     "id": "4474576395",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
      "location": "US remote / anywhere"
     }
    ]
@@ -1124,15 +1042,41 @@
    ],
    "roles": [
     {
-     "title": "Recruiter, R&D",
-     "id": "4477435430",
+     "title": "Senior Revenue Operations Manager",
+     "id": "4477897344",
      "regions": [
       "remote"
      ],
-     "family": "People / recruiting",
+     "family": "Sales / BD",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-08",
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "People Technology Analyst - Workday",
+     "id": "4478006168",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "US remote / anywhere"
+    },
+    {
+     "title": "SMB Account Executive, Growth",
+     "id": "4477849082",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
      "new": true,
      "location": "US remote / anywhere"
     },
@@ -1150,16 +1094,16 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Manager, Support Engineering (AMER)",
-     "id": "4477434515",
+     "title": "Business Development Representative",
+     "id": "4476906127",
      "regions": [
       "remote"
      ],
-     "family": "Software engineering",
+     "family": "Sales / BD",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
+     "posted": "2026-10-07",
+     "new": false,
      "location": "US remote / anywhere"
     },
     {
@@ -1176,660 +1120,59 @@
      "location": "US remote / anywhere"
     },
     {
-     "title": "Engineering Manager, SSCS: Supply Chain",
-     "id": "4475577372",
+     "title": "Strategic Account Executive, France",
+     "id": "4476193121",
      "regions": [
       "remote"
      ],
-     "family": "Hardware / supply chain",
+     "family": "Sales / BD",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-06",
      "new": true,
      "location": "US remote / anywhere"
     },
     {
-     "title": "Engineering Manager, Dedicated Infrastructure",
-     "id": "4475851129",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Staff Fullstack Engineer, Data Products (Golang / Node)",
-     "id": "4475012100",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Social Impact Manager",
-     "id": "4474373297",
+     "title": "Pipeline Programs Manager",
+     "id": "4476337971",
      "regions": [
       "remote"
      ],
      "family": "Other",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Senior Renewal Operations Manager",
-     "id": "4475002496",
-     "regions": [
-      "remote"
-     ],
-     "family": "Operations",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Senior Product Manager, CRM & GTM Systems",
-     "id": "4475002498",
-     "regions": [
-      "remote"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Senior Product Manager, Billing Engine & Platforms Monetization",
-     "id": "4475004339",
-     "regions": [
-      "remote"
-     ],
-     "family": "Product",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Principal Product Marketing Manager, Competitive",
-     "id": "4474363639",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Global Sales Director of SMB, New Business",
-     "id": "4475011085",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
+     "posted": "2026-10-06",
      "new": true,
      "location": "US remote / anywhere"
     }
    ]
   },
   {
-   "name": "Wells Fargo",
-   "slug": "wells-fargo",
-   "tier": "pro",
+   "name": "Databricks",
+   "slug": "databricks",
+   "tier": "large",
    "stage": "",
    "stage_source": null,
-   "industry": "Banking",
-   "summary": "US bank",
-   "linkedin": "https://www.linkedin.com/company/wellsfargo/",
-   "label": "Public · NYSE: WFC · 214,927 employees",
+   "industry": "Data infrastructure",
+   "summary": "Data and AI platform",
+   "linkedin": "https://www.linkedin.com/company/databricks/",
+   "label": "Private · 15,136 employees",
    "events": [
-    "357029d1-1349-40a3-8456-a0b51376bf5d"
+    "79f7463c-b07a-4dbf-92c7-b2710d522400"
    ],
    "roles": [
     {
-     "title": "Teller Part Time Beverly Hills",
-     "id": "4477468742",
+     "title": "GTM Product Enablement Lead",
+     "id": "4476569104",
      "regions": [
-      "west"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "Beverly Hills"
-    },
-    {
-     "title": "Teller Northridge CA",
-     "id": "4476986409",
-     "regions": [
-      "la"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Teller Bilingual Part Time Hacienda and Valley",
-     "id": "4476992097",
-     "regions": [
-      "valley"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "City of Industry"
-    },
-    {
-     "title": "Teller Baldwin Hills Crenshaw",
-     "id": "4477473414",
-     "regions": [
-      "la"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Branch Manager Westside",
-     "id": "4477479127",
-     "regions": [
-      "west"
-     ],
-     "family": "Operations",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "Santa Monica"
-    },
-    {
-     "title": "Senior Counsel - AVP, Employment Counseling & Litigation",
-     "id": "4476500020",
-     "regions": [
-      "la"
-     ],
-     "family": "Legal / compliance",
-     "level": "Executive",
-     "ai": false,
-     "posted": "2026-10-07",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Relationship Banker Dana Point",
-     "id": "4476549073",
-     "regions": [
-      "oc"
+      "remote"
      ],
      "family": "Sales / BD",
-     "level": "Associate",
+     "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-07",
      "new": true,
-     "location": "Laguna Niguel"
-    },
-    {
-     "title": "Teller Part Time Pasadena Lake",
-     "id": "4475892007",
-     "regions": [
-      "valley"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Pasadena"
-    },
-    {
-     "title": "Teller Part Time Covina",
-     "id": "4476146039",
-     "regions": [
-      "valley"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Covina"
-    },
-    {
-     "title": "Teller Carson",
-     "id": "4476500019",
-     "regions": [
-      "south"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Carson"
-    },
-    {
-     "title": "Teller Bilingual Spanish Gardena",
-     "id": "4476137258",
-     "regions": [
-      "south"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Gardena"
-    },
-    {
-     "title": "Teller Bilingual Part Time Spanish Placentia CA",
-     "id": "4476135269",
-     "regions": [
-      "oc"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Placentia"
-    },
-    {
-     "title": "Senior Premier Banker Route 66 District",
-     "id": "4476389406",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "La Verne / Claremont"
-    },
-    {
-     "title": "Senior Premier Banker Pasadena Valley",
-     "id": "4475887089",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "La Canada Flintridge"
-    },
-    {
-     "title": "Senior Premier Banker North County LA",
-     "id": "4476138229",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "Stevenson Ranch / Santa Clarita"
-    },
-    {
-     "title": "Senior Premier Banker - Westchester",
-     "id": "4476137266",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Senior Premier Banker - South Pasadena",
-     "id": "4475885279",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "South Pasadena"
-    },
-    {
-     "title": "Senior Lead Treasury Management Consultant (International Business)",
-     "id": "4475888078",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Senior Client Associate",
-     "id": "4476145074",
-     "regions": [
-      "oc"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "Irvine"
-    },
-    {
-     "title": "Roving Personal Banker San Gabriel Mountain",
-     "id": "4475892008",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Baldwin Park / Covina"
-    },
-    {
-     "title": "Personal Banker North OC District",
-     "id": "4476396069",
-     "regions": [
-      "la",
-      "oc"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "Santa Fe Springs / Placentia"
-    },
-    {
-     "title": "Financial Consultant",
-     "id": "4475888061",
-     "regions": [
-      "oc"
-     ],
-     "family": "Consulting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "Irvine"
-    },
-    {
-     "title": "Executive Director, LIHTC Senior Asset Manager",
-     "id": "4476388462",
-     "regions": [
-      "la"
-     ],
-     "family": "Finance / accounting",
-     "level": "Executive",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Branch Operations Manager Imperial Gateway",
-     "id": "4476126883",
-     "regions": [
-      "la",
-      "south"
-     ],
-     "family": "Operations",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Gardena / Carson"
-    },
-    {
-     "title": "Associate Personal Banker Pacific Palisades",
-     "id": "4476146037",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Teller Part Time Redondo Beach Riviera Village",
-     "id": "4475875793",
-     "regions": [
-      "south"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": true,
-     "location": "Redondo Beach"
-    },
-    {
-     "title": "Senior Premier Banker Ventura & Vesper",
-     "id": "4475879557",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Senior Premier Banker - Greater Long Beach",
-     "id": "4475878715",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "Cerritos"
-    },
-    {
-     "title": "Teller Part Time Panorama City",
-     "id": "4475088317",
-     "regions": [
-      "la"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Teller Part Time Route 66",
-     "id": "4474527559",
-     "regions": [
-      "valley"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Glendora / Pomona"
-    },
-    {
-     "title": "Teller Part Time",
-     "id": "4474584573",
-     "regions": [
-      "oc"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "Buena Park"
-    },
-    {
-     "title": "Teller Full-Time San Clemente",
-     "id": "4474536259",
-     "regions": [
-      "oc"
-     ],
-     "family": "Finance / accounting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "San Clemente"
-    },
-    {
-     "title": "Senior Lead Wealth Custom Credit Banker",
-     "id": "4474530447",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Relationship Banker Ventura Corridor District",
-     "id": "4474113288",
-     "regions": [
-      "la",
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "Los Angeles / Calabasas"
-    },
-    {
-     "title": "Relationship Banker Santa Ana, CA",
-     "id": "4474525614",
-     "regions": [
-      "oc"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Santa Ana"
-    },
-    {
-     "title": "Relationship Banker Route 66 District",
-     "id": "4474580685",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "San Dimas / Glendora"
-    },
-    {
-     "title": "Relationship Banker Northwest Valley District",
-     "id": "4474123014",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Personal Banker",
-     "id": "4474592343",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Community Mortgage Bank Sales Consultant (SAFE)",
-     "id": "4474121007",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Pasadena"
-    },
-    {
-     "title": "Branch Operations Manager- Route 66 District",
-     "id": "4475043149",
-     "regions": [
-      "valley"
-     ],
-     "family": "Operations",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": false,
-     "location": "Claremont"
+     "location": "US remote / anywhere"
     }
    ]
   },
@@ -1848,10 +1191,142 @@
    ],
    "roles": [
     {
+     "title": "Pricing, Promotions, and Revenue Management Consulting Director",
+     "id": "4478004014",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Sales / BD",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false,
+     "location": "Irvine / Los Angeles"
+    },
+    {
+     "title": "Identity and Access Management - Sr Associate",
+     "id": "4478003073",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Deals - Financial Due Diligence, Senior Associate - Midwest, West",
+     "id": "4477899161",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Salesforce CPQ/Revenue Cloud Manager",
+     "id": "4477494421",
+     "regions": [
+      "oc"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Irvine"
+    },
+    {
+     "title": "Salesforce CPQ/Revenue Cloud Director",
+     "id": "4477490608",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Salesforce CPQ/Revenue Cloud - Senior Associate",
+     "id": "4477488737",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Irvine / Los Angeles"
+    },
+    {
+     "title": "SAP Trade Promotion Management Solution Consultant – Senior Associate",
+     "id": "4477638474",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "SAP Supply Chain Senior Associate",
+     "id": "4477497258",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Los Angeles / Irvine"
+    },
+    {
+     "title": "Microsoft D365 CRM + Copilot/AI Functional Lead, Manager",
+     "id": "4477491582",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "AI & GenAI Data Scientist-Director",
+     "id": "4477498223",
+     "regions": [
+      "oc"
+     ],
+     "family": "Data",
+     "level": "Director",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Irvine"
+    },
+    {
      "title": "SAP Supply Chain Senior Manager",
      "id": "4477429570",
      "regions": [
-      "la",
       "oc"
      ],
      "family": "Hardware / supply chain",
@@ -1859,11 +1334,11 @@
      "ai": false,
      "posted": "2026-10-08",
      "new": true,
-     "location": "Irvine / Los Angeles"
+     "location": "Irvine"
     },
     {
      "title": "SAP Supply Chain Manager",
-     "id": "4477444031",
+     "id": "4477435324",
      "regions": [
       "la",
       "oc"
@@ -1873,7 +1348,7 @@
      "ai": false,
      "posted": "2026-10-08",
      "new": true,
-     "location": "Los Angeles / Irvine"
+     "location": "Irvine / Los Angeles"
     },
     {
      "title": "Oracle Cloud Finance - Manager",
@@ -1916,20 +1391,6 @@
      "location": "Los Angeles"
     },
     {
-     "title": "Customer Managed Services - Senior Manager",
-     "id": "4476961099",
-     "regions": [
-      "la",
-      "oc"
-     ],
-     "family": "Consulting",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "Irvine / Los Angeles"
-    },
-    {
      "title": "BCM - Assurance - Digital Assets Manager",
      "id": "4476955335",
      "regions": [
@@ -1956,6 +1417,32 @@
      "location": "Los Angeles"
     },
     {
+     "title": "BCM - Assurance - Digital Assets Senior Manager",
+     "id": "4476903204",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "AWM - Assurance - Digital Assets Manager",
+     "id": "4476907012",
+     "regions": [
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
      "title": "SAP Core Finance EUR Director",
      "id": "4476105318",
      "regions": [
@@ -1973,14 +1460,15 @@
      "title": "Procurement Strategy and Strategic Sourcing - Value Capture Senior Associate",
      "id": "4476338807",
      "regions": [
-      "la"
+      "la",
+      "oc"
      ],
      "family": "Hardware / supply chain",
      "level": "Associate",
      "ai": false,
      "posted": "2026-10-06",
      "new": true,
-     "location": "Los Angeles"
+     "location": "Los Angeles / Irvine"
     },
     {
      "title": "Managed Services - SAP RISE/CALM - Manager",
@@ -1995,254 +1483,307 @@
      "posted": "2026-10-06",
      "new": true,
      "location": "Irvine / Los Angeles"
+    }
+   ]
+  },
+  {
+   "name": "Wells Fargo",
+   "slug": "wells-fargo",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Banking",
+   "summary": "US bank",
+   "linkedin": "https://www.linkedin.com/company/wellsfargo/",
+   "label": "Public · NYSE: WFC · 214,927 employees",
+   "events": [
+    "357029d1-1349-40a3-8456-a0b51376bf5d"
+   ],
+   "roles": [
+    {
+     "title": "Teller Walnut",
+     "id": "4478711094",
+     "regions": [
+      "valley"
+     ],
+     "family": "Finance / accounting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true,
+     "location": "Walnut"
     },
     {
-     "title": "Delina Privileged Access Management - Sr Associate",
-     "id": "4475300255",
+     "title": "Personal Banker Pasadena District",
+     "id": "4478032162",
+     "regions": [
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false,
+     "location": "San Gabriel"
+    },
+    {
+     "title": "District Manager Southland Valley",
+     "id": "4478054128",
+     "regions": [
+      "valley"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "Calabasas"
+    },
+    {
+     "title": "Branch Manager Greater Long Beach",
+     "id": "4478026305",
+     "regions": [
+      "south"
+     ],
+     "family": "Operations",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "Long Beach"
+    },
+    {
+     "title": "Senior Premier Banker - Alhambra Main",
+     "id": "4477883269",
+     "regions": [
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Alhambra"
+    },
+    {
+     "title": "Personal Banker Long Beach District",
+     "id": "4477666238",
+     "regions": [
+      "south"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Signal Hill"
+    },
+    {
+     "title": "Branch Manager Imperial Gateway",
+     "id": "4477884196",
      "regions": [
       "la"
      ],
-     "family": "Software engineering",
-     "level": "Entry level",
+     "family": "Operations",
+     "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "Los Angeles"
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "South Gate"
     },
     {
-     "title": "Strategy& Strategy Consulting Senior Associate Intern - Summer 2027",
-     "id": "4474742159",
+     "title": "Associate Personal Banker Bilingual Spanish East Palmdale",
+     "id": "4477636134",
+     "regions": [
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Palmdale"
+    },
+    {
+     "title": "Branch Manager Westside",
+     "id": "4477479127",
+     "regions": [
+      "west"
+     ],
+     "family": "Operations",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false,
+     "location": "Santa Monica"
+    },
+    {
+     "title": "Senior Counsel - AVP, Employment Counseling & Litigation",
+     "id": "4476500020",
      "regions": [
       "la"
      ],
-     "family": "Consulting",
-     "level": "Internship",
+     "family": "Legal / compliance",
+     "level": "Executive",
      "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
+     "posted": "2026-10-07",
+     "new": false,
      "location": "Los Angeles"
     },
     {
-     "title": "Senior Engineering Manager, Google Cloud AI/ML",
-     "id": "4474131094",
+     "title": "Relationship Banker Dana Point",
+     "id": "4476549073",
      "regions": [
       "oc"
      ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-10-02",
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-07",
      "new": true,
-     "location": "Irvine"
+     "location": "Laguna Niguel"
     },
     {
-     "title": "Security Risk & Engineering- Cloud Security- Manager",
-     "id": "4474124494",
+     "title": "Teller Part Time Balboa Devonshire",
+     "id": "4476385519",
      "regions": [
       "la"
      ],
      "family": "Finance / accounting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Security & Risk Engineering - Cloud Security Consultant - Director",
-     "id": "4474125494",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Oracle B2B Eloqua Senior Manager",
-     "id": "4473990050",
-     "regions": [
-      "la",
-      "oc"
-     ],
-     "family": "Other",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles / Irvine"
-    },
-    {
-     "title": "Management Consulting - Sector Operations - Health Senior Associate Intern - Summer 2027",
-     "id": "4474735479",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Management Consulting - Operations & Supply Chain Solutions Senior Associate Intern - Summer 2027",
-     "id": "4474732620",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "IFS Cloud Lead, Senior Manager",
-     "id": "4474799429",
-     "regions": [
-      "la"
-     ],
-     "family": "Software engineering",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Health Actuary Consultant- Payer/Provider- Senior Associate",
-     "id": "4474132086",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
      "level": "Associate",
      "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Google AI & Data Solutions Architect, Senior Manager",
-     "id": "4474126484",
-     "regions": [
-      "la"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Director",
-     "ai": true,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Gemini Tech Lead, Manager",
-     "id": "4474371296",
-     "regions": [
-      "la",
-      "oc"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Irvine / Los Angeles"
-    },
-    {
-     "title": "Engineering Manager, Google Cloud AI/ML",
-     "id": "4474128425",
-     "regions": [
-      "la"
-     ],
-     "family": "AI / ML",
-     "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Director, AI & Data Solution Architect",
-     "id": "4474124506",
-     "regions": [
-      "la"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Director",
-     "ai": true,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Delivering Deal Value (DDV) Senior Associate Intern - Summer 2027",
-     "id": "4474738369",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Internship",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Cybersecurity, Privacy and Forensics - Threat Detection Response - Experienced Associate",
-     "id": "4474552379",
-     "regions": [
-      "la"
-     ],
-     "family": "Legal / compliance",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Corporate Deals Technology Manager",
-     "id": "4474367391",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "AI Governance Sr Associate",
-     "id": "4474555209",
-     "regions": [
-      "la"
-     ],
-     "family": "Legal / compliance",
-     "level": "Entry level",
-     "ai": true,
-     "posted": "2026-10-02",
+     "posted": "2026-10-06",
      "new": false,
      "location": "Los Angeles"
     },
     {
-     "title": "AI Engineer / Data Scientist, AI Experienced Associate",
-     "id": "4474555201",
+     "title": "Teller Bilingual Part Time Spanish Placentia CA",
+     "id": "4476135269",
+     "regions": [
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Placentia"
+    },
+    {
+     "title": "Senior Premier Banker Route 66 District",
+     "id": "4476500004",
+     "regions": [
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Azusa / Glendora"
+    },
+    {
+     "title": "Senior Premier Banker Pasadena Valley",
+     "id": "4475887089",
+     "regions": [
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "La Canada Flintridge"
+    },
+    {
+     "title": "Senior Premier Banker North County LA",
+     "id": "4476136282",
+     "regions": [
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Santa Clarita / Stevenson Ranch"
+    },
+    {
+     "title": "Senior Premier Banker - Westchester",
+     "id": "4476137266",
      "regions": [
       "la"
      ],
-     "family": "AI / ML",
-     "level": "Associate",
-     "ai": true,
-     "posted": "2026-10-02",
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
      "new": false,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Senior Premier Banker - Greater Long Beach",
+     "id": "4475886224",
+     "regions": [
+      "south"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Long Beach"
+    },
+    {
+     "title": "Senior Client Associate",
+     "id": "4476145074",
+     "regions": [
+      "oc"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Irvine"
+    },
+    {
+     "title": "Financial Consultant",
+     "id": "4475888061",
+     "regions": [
+      "oc"
+     ],
+     "family": "Consulting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Irvine"
+    },
+    {
+     "title": "Executive Director, LIHTC Senior Asset Manager",
+     "id": "4476388462",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Executive",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Associate Personal Banker Pacific Palisades",
+     "id": "4476146037",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
      "location": "Los Angeles"
     }
    ]
@@ -2262,6 +1803,45 @@
     "f2b46a9b-ba18-4752-b786-c4ea888ea84c"
    ],
    "roles": [
+    {
+     "title": "Lead Software Engineer .Net",
+     "id": "4477623235",
+     "regions": [
+      "oc"
+     ],
+     "family": "Software engineering",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Irvine"
+    },
+    {
+     "title": "Hiring Event - Part Time Associate Banker Downtown LA South (30 Hours)",
+     "id": "4477628071",
+     "regions": [
+      "south"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Inglewood"
+    },
+    {
+     "title": "Associate Banker, 30 Hours, South LA Area - Multiple locations",
+     "id": "4477610867",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "Lynwood"
+    },
     {
      "title": "Part Time (20 hours) Associate Banker, Azusa and Rowland Branch, West Covina, CA",
      "id": "4477134467",
@@ -2289,17 +1869,30 @@
      "location": "Los Angeles"
     },
     {
-     "title": "J.P. Morgan Wealth Management - Private Client Advisor - Long Beach, Buena Park, Cerritos, CA and Surrounding Areas",
-     "id": "4245516694",
+     "title": "Hiring Event - Part Time Associate Banker SF Valley South (30 Hours)",
+     "id": "4476579615",
      "regions": [
-      "south"
+      "la"
      ],
      "family": "Sales / BD",
      "level": "Not specified",
      "ai": false,
-     "posted": "2026-10-08",
+     "posted": "2026-10-07",
      "new": true,
-     "location": "Long Beach"
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Business Relationship Manager Senior Deepening - Vice President",
+     "id": "4476581491",
+     "regions": [
+      "south"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false,
+     "location": "Manhattan Beach"
     },
     {
      "title": "Relationship Banker - Desoto & Ventura - Woodland Hills, CA",
@@ -2308,6 +1901,19 @@
       "la"
      ],
      "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Branch Operations Lead - Century City - Los Angeles, CA",
+     "id": "4476322176",
+     "regions": [
+      "la"
+     ],
+     "family": "Operations",
      "level": "Not specified",
      "ai": false,
      "posted": "2026-10-06",
@@ -2326,136 +1932,6 @@
      "posted": "2026-10-06",
      "new": true,
      "location": "Northridge"
-    },
-    {
-     "title": "U.S Private Bank - Associate, Private Banker",
-     "id": "4475072783",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Relationship Executive-Healthcare, Higher Education & Nonprofit-Executive Director",
-     "id": "4475306395",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Relationship Banker - Chinatown LA - Los Angeles, CA Bilingual Mandarin Required",
-     "id": "4475073795",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "J.P. Morgan Wealth Management - Private Client Investment Associate Team Lead - Irvine, CA",
-     "id": "4475071826",
-     "regions": [
-      "oc"
-     ],
-     "family": "Finance / accounting",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "Irvine"
-    },
-    {
-     "title": "Hiring Event- Associate Banker, 30 Hours, Culver City Area - Multiple locations",
-     "id": "4475081522",
-     "regions": [
-      "west"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-03",
-     "new": true,
-     "location": "Culver City"
-    },
-    {
-     "title": "Senior Credit Originator - Real Estate Banking - Executive Director",
-     "id": "4474112235",
-     "regions": [
-      "oc"
-     ],
-     "family": "Finance / accounting",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Irvine"
-    },
-    {
-     "title": "Relationship Banker - Campus - Irvine, CA",
-     "id": "4474588102",
-     "regions": [
-      "oc"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Irvine"
-    },
-    {
-     "title": "Part Time (30 hours) Associate Banker, El Monte Branch, El Monte, CA Bilingual Mandarin Preferred",
-     "id": "4474328240",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "El Monte"
-    },
-    {
-     "title": "Part Time (30 Hours) Associate Banker, South Pasadena Branch, South Pasadena, CA Bilingual Mandarin Required",
-     "id": "4474334008",
-     "regions": [
-      "valley"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "South Pasadena"
-    },
-    {
-     "title": "Branch Manager - Laguna Beach - Aliso Viejo, CA",
-     "id": "4474589062",
-     "regions": [
-      "oc"
-     ],
-     "family": "Operations",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-02",
-     "new": true,
-     "location": "Aliso Viejo"
     }
    ]
   },
@@ -2474,6 +1950,33 @@
    ],
    "roles": [
     {
+     "title": "Treasury Sales Consultant",
+     "id": "4477817378",
+     "regions": [
+      "la",
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false,
+     "location": "City of Industry / Los Angeles"
+    },
+    {
+     "title": "AVP, Commercial Banking",
+     "id": "4477874404",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
      "title": "Bank at Work Relationship Manager",
      "id": "4477470516",
      "regions": [
@@ -2487,8 +1990,35 @@
      "location": "Long Beach"
     },
     {
-     "title": "Portfolio Manager",
-     "id": "4476325271",
+     "title": "Retail Relationship Banker",
+     "id": "4476783091",
+     "regions": [
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false,
+     "location": "Santa Clarita"
+    },
+    {
+     "title": "Associate Banker",
+     "id": "4476933423",
+     "regions": [
+      "la",
+      "valley"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false,
+     "location": "Los Angeles / Alhambra"
+    },
+    {
+     "title": "VP, Portfolio Management - Commercial Real Estate",
+     "id": "4476378709",
      "regions": [
       "la"
      ],
@@ -2496,35 +2026,77 @@
      "level": "Not specified",
      "ai": false,
      "posted": "2026-10-06",
-     "new": false,
+     "new": true,
      "location": "Los Angeles"
     },
     {
-     "title": "Retail Relationship Banker",
-     "id": "4475821003",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-05",
-     "new": false,
-     "location": "Pico Rivera"
-    },
-    {
-     "title": "Associate Banker",
-     "id": "4475800876",
+     "title": "Portfolio Manager",
+     "id": "4476313781",
      "regions": [
       "la",
       "oc"
      ],
-     "family": "Sales / BD",
+     "family": "Finance / accounting",
      "level": "Not specified",
      "ai": false,
-     "posted": "2026-10-05",
+     "posted": "2026-10-06",
      "new": false,
-     "location": "Pico Rivera / Westminster"
+     "location": "Irvine / Los Angeles"
+    },
+    {
+     "title": "Media & Entertainment Industries Group Associate",
+     "id": "4476387328",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Los Angeles"
+    }
+   ]
+  },
+  {
+   "name": "Helios & Partners",
+   "slug": "helios-partners",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Consulting",
+   "summary": "Strategy and growth consultancy",
+   "linkedin": "https://www.linkedin.com/company/heliosworldwide/",
+   "label": "Partnership · 58 employees",
+   "events": [
+    "d0bd42c1-5c5b-479d-825e-ea6b1e7c436c"
+   ],
+   "roles": [
+    {
+     "title": "E-commerce Performance Manager (On-site)",
+     "id": "4477605709",
+     "regions": [
+      "west"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Santa Monica"
+    },
+    {
+     "title": "E-commerce Performance Manager ( US Remote)",
+     "id": "4477855675",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
     }
    ]
   }
