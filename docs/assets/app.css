@@ -230,7 +230,7 @@ button, input, select { font: inherit; color: inherit; }
   .hero { padding: 22px 0 16px; }
   .hero h1 { max-width: none; }
   /* The chips say "pick"; the switch below says the rest. */
-  .lede { display: none; }
+  body:not(.home-page) .lede { display: none; }
   .controls { padding: 12px 0 6px; }
   .count-field { display: none; }
   /* The chips become one rail that bleeds to the screen edges. */
