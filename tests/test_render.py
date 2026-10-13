@@ -1,4 +1,13 @@
-from jobboard.render import date_range, early_note, embed_json, short_date, totals
+from jobboard.render import (
+    board_names,
+    date_range,
+    early_note,
+    embed_json,
+    load_board,
+    render_home,
+    short_date,
+    totals,
+)
 
 
 def test_date_range_across_months() -> None:
@@ -43,3 +52,19 @@ def test_early_note_only_on_pages_filled_ahead_of_their_day() -> None:
     assert "Filled with Oct 7 market data (roles posted Sep 30 to Oct 6)" in note
     assert early_note({**day, "early": False}) == ""
     assert early_note({k: v for k, v in day.items() if k != "early"}) == ""
+
+
+def test_home_lists_every_board_newest_first() -> None:
+    assert board_names()[:2] == ["tech-week-2026/la", "tech-week-2026/sf"]
+    home = render_home()
+    assert home.index("LA Tech Week") < home.index("SF Tech Week")
+    assert 'href="tech-week-2026/sf/mon"' in home
+    assert "$" not in home
+
+
+def test_every_board_names_its_event_area_and_regions() -> None:
+    for name in board_names():
+        board = load_board(name)
+        assert board["event"] and board["area"], name
+        keys = [region["key"] for region in board["regions"]]
+        assert keys[-1] == "remote" and len(keys) == len(set(keys)), name

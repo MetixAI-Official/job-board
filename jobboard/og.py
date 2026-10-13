@@ -42,7 +42,7 @@ def render_og(board_name: str, slug: str, out: Path) -> Path:
     entry = next(item for item in board["days"] if item["slug"] == slug)
     counts = totals(day)
     claim = (
-        f"<b>{counts['hiring']}</b> SF Tech Week hosts are hiring today.<br>"
-        f"<b>{counts['roles']:,}</b> Bay Area and US-remote roles this week."
+        f"<b>{counts['hiring']}</b> {escape(board['event'])} hosts are hiring today.<br>"
+        f"<b>{counts['roles']:,}</b> {escape(board['area'])} and US-remote roles this week."
     )
     return _draw(_page(board, entry["title"], claim, 78), out)

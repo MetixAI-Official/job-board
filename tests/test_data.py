@@ -2,6 +2,7 @@
 
 import json
 import re
+import tomllib
 from pathlib import Path
 from typing import Any
 
@@ -11,7 +12,6 @@ Day = dict[str, Any]
 
 DAYS = sorted(Path(__file__).resolve().parent.parent.glob("boards/*/*/days/*.json"))
 TIERS = {"early", "growth", "large", "vc", "pro"}
-REGIONS = {"sf", "pen", "east", "north", "remote"}
 LEGAL_TITLE = re.compile(r"\b(counsel|attorney|paralegal)\b", re.I)
 RECRUITER_TITLE = re.compile(r"\b(recruiter|hr business partner)\b", re.I)
 
@@ -42,17 +42,26 @@ def test_companies_are_complete(day: Day) -> None:
         assert company["roles"], company["name"]
 
 
+def board_regions(day: Day) -> set[str]:
+    path = Path(__file__).resolve().parent.parent / "boards" / day["board"] / "board.toml"
+    with path.open("rb") as fh:
+        return {region["key"] for region in tomllib.load(fh)["regions"]}
+
+
 def test_links_point_where_they_should(day: Day) -> None:
+    regions = board_regions(day)
     event_ids = {event["id"] for event in day["events"]}
+    hiring = {company["name"] for company in day["companies"]}
     for event in day["events"]:
         assert event["url"].startswith("https://www.tech-week.com/"), event["url"]
         assert "src=" not in event["url"], event["url"]
         assert event["hosts"], event["name"]
+        assert set(event["hosts"]) <= hiring, event["name"]
     for company in day["companies"]:
         assert set(company["events"]) <= event_ids, company["name"]
         for role in company["roles"]:
             assert str(role["id"]).isdigit(), role
-            assert set(role["regions"]) <= REGIONS, role
+            assert set(role["regions"]) <= regions, role
 
 
 def test_every_role_says_whether_it_is_new(day: Day) -> None:

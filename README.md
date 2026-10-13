@@ -15,20 +15,33 @@ For each day of [SF Tech Week](https://www.tech-week.com/calendar/sf) (October 5
 | Friday, Oct 9 | [tech-week-2026/sf/fri](https://metixai-official.github.io/job-board/tech-week-2026/sf/fri) |
 | Weekend, Oct 10 to 11 | [tech-week-2026/sf/weekend](https://metixai-official.github.io/job-board/tech-week-2026/sf/weekend) |
 
+## LA Tech Week 2026
+
+The same lists for each day of [LA Tech Week](https://www.tech-week.com/calendar/la) (October 12 to 18), for roles in the Los Angeles area (LA County and Orange County) or US remote.
+
+| Day | Page |
+| --- | --- |
+| Monday, Oct 12 | [tech-week-2026/la/mon](https://metixai-official.github.io/job-board/tech-week-2026/la/mon) |
+| Tuesday, Oct 13 | [tech-week-2026/la/tue](https://metixai-official.github.io/job-board/tech-week-2026/la/tue) |
+| Wednesday, Oct 14 | [tech-week-2026/la/wed](https://metixai-official.github.io/job-board/tech-week-2026/la/wed) |
+| Thursday, Oct 15 | [tech-week-2026/la/thu](https://metixai-official.github.io/job-board/tech-week-2026/la/thu) |
+| Friday, Oct 16 | [tech-week-2026/la/fri](https://metixai-official.github.io/job-board/tech-week-2026/la/fri) |
+| Weekend, Oct 17 to 18 | [tech-week-2026/la/weekend](https://metixai-official.github.io/job-board/tech-week-2026/la/weekend) |
+
 Pages for later days go up early, filled with the newest market data available and marked "Early look". Each one is refreshed once the Platform has postings through the day before.
 
 ## How it's built
 
 ```mermaid
 flowchart LR
-  A["SF Tech Week calendar<br/>(official MCP server)"] -->|events and hosts| B[Hosts that are companies]
+  A["Tech Week calendar<br/>(official MCP server)"] -->|events and hosts| B[Hosts that are companies]
   B -->|company names| C["Metix AI Platform<br/>(job postings)"]
-  C -->|open roles, past 7 days,<br/>Bay Area or US remote| D[Page for the day]
+  C -->|open roles, past 7 days,<br/>in the city or US remote| D[Page for the day]
 ```
 
-Hosts are companies with an event on the official SF Tech Week calendar that day. Universities, student groups, community and media organizers, accelerators, government offices and individuals are left out.
+Hosts are companies with an event on the city's official Tech Week calendar that day. Universities, student groups, community and media organizers, accelerators, government offices and individuals are left out.
 
-Roles come from the Metix AI Platform, which aggregates public job postings from many sources. Each list keeps only open roles posted in the 7 days before the pull, in Bay Area cities or listed as US remote (the posting names the United States but no city). The same title at the same company is counted once. Job types come from keywords in the title, so some will be wrong.
+Roles come from the Metix AI Platform, which aggregates public job postings from many sources. Each list keeps only open roles posted in the 7 days before the pull, in the city's area or listed as US remote (the posting names the United States but no city). The same title at the same company is counted once. Job types come from keywords in the title, so some will be wrong.
 
 The lists are for information only and may be incomplete or out of date. Confirm a role on the employer's own posting before you apply.
 
@@ -42,7 +55,7 @@ Python 3.12. Rendering uses only the standard library; the share image needs Pla
 python -m jobboard site tech-week-2026/sf --day mon
 ```
 
-The day's data is in `boards/tech-week-2026/sf/days/`. Pages are written to `docs/`, which GitHub Pages serves. Tests:
+Each day's data is in `boards/<series>/<city>/days/`, and `python -m jobboard home` rebuilds the home page that lists every board. Pages are written to `docs/`, which GitHub Pages serves. Tests:
 
 ```sh
 python -m pip install -e ".[dev]"

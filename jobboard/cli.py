@@ -19,8 +19,13 @@ def main(argv: list[str] | None = None) -> int:
     site.add_argument("--day", required=True, help="day slug from board.toml, for example mon")
     site.add_argument("--no-og", action="store_true", help="skip the share image")
 
+    commands.add_parser("home", help="render the home page that lists every board")
+
     args = parser.parse_args(argv)
-    written = render.build(args.board, args.day, og=not args.no_og)
+    if args.command == "home":
+        written = render.build_home("tech-week-2026")
+    else:
+        written = render.build(args.board, args.day, og=not args.no_og)
     for path in written:
         print(path.relative_to(render.ROOT))
     return 0

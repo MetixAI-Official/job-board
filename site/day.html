@@ -36,7 +36,7 @@
   </div>
 </header>
 
-<nav class="tabs" aria-label="Days of SF Tech Week"><div class="wrap tabs-in">$day_tabs</div></nav>
+<nav class="tabs" aria-label="Days of $event"><div class="wrap tabs-in">$day_tabs</div></nav>
 
 <section class="hero" aria-labelledby="title">
   <div class="wrap">
@@ -75,7 +75,7 @@
 
   <section class="run" aria-labelledby="run-title">
     <h2 id="run-title">Build a list like this</h2>
-    <p class="run-lede">This page joins two sources an agent can read: the official SF Tech Week calendar, which has its own MCP server, and the job postings the Metix AI Platform aggregates. A step-by-step prompt goes up this week, once we have run it end to end and measured what it costs.</p>
+    <p class="run-lede">This page joins two sources an agent can read: the official $event calendar, which has its own MCP server, and the job postings the Metix AI Platform aggregates. A step-by-step prompt goes up this week, once we have run it end to end and measured what it costs.</p>
     <div class="run-grid">
       <div class="run-card">
         <h3>Connect your agent</h3>
@@ -97,8 +97,8 @@
 
   <footer class="foot" id="method">
     <h2 class="kicker">How it works</h2>
-    <p><b>Events and hosts</b> come from the <a href="$calendar">official SF Tech Week calendar</a>. An event is listed when at least one of its hosts posted roles that match your filters. Universities, student groups, community and media organizers, accelerators, government offices and individuals are left out. Registration status is as of the pull.</p>
-    <p><b>Roles</b> come from the <a href="$platform_url">Metix AI Platform</a>, which aggregates public job postings from many sources. This list keeps only open roles posted $window (pulled $pulled) in Bay Area cities or listed as US remote, meaning the posting names the United States but no city. Most of those are remote, but check the posting. The same title at the same company is counted once. The date shown is the one on the posting, and many roles are reposts of older openings: New marks the ones that first appeared in the Metix AI Platform's job history this week.</p>
+    <p><b>Events and hosts</b> come from the <a href="$calendar">official $event calendar</a>. An event is listed when at least one of its hosts posted roles that match your filters. Universities, student groups, community and media organizers, accelerators, government offices and individuals are left out. Registration status is as of the pull.</p>
+    <p><b>Roles</b> come from the <a href="$platform_url">Metix AI Platform</a>, which aggregates public job postings from many sources. This list keeps only open roles posted $window (pulled $pulled) in $area cities or listed as US remote, meaning the posting names the United States but no city. Most of those are remote, but check the posting. The same title at the same company is counted once. The date shown is the one on the posting, and many roles are reposts of older openings: New marks the ones that first appeared in the Metix AI Platform's job history this week.</p>
     <p>Fields come from keywords in the title and can be wrong. Company labels come from public company records; a funding round is shown only where we checked it. A company missing here may still be hiring: many early-stage companies do not post on LinkedIn.</p>
     <p>This list is for information only and may be incomplete or out of date. Postings close and details change, so confirm the role on the employer's own posting before you apply. Nothing here is an offer of employment. It is an independent list, not affiliated with or endorsed by Tech Week, a16z or the companies named. <a href="$repo/issues/new?title=Correction%3A%20">Report a correction</a>.</p>
     <p>Looking for other roles, or researching a market? The <a href="$platform_url">Metix AI Platform</a> covers jobs, companies and people well beyond this list. Hiring? <a href="$main_site">metix.ai</a> finds interview-ready candidates for your open roles.</p>

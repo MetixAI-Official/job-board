@@ -230,7 +230,7 @@ button, input, select { font: inherit; color: inherit; }
   .hero { padding: 22px 0 16px; }
   .hero h1 { max-width: none; }
   /* The chips say "pick"; the switch below says the rest. */
-  .lede { display: none; }
+  body:not(.home-page) .lede { display: none; }
   .controls { padding: 12px 0 6px; }
   .count-field { display: none; }
   /* The chips become one rail that bleeds to the screen edges. */
@@ -285,3 +285,11 @@ button, input, select { font: inherit; color: inherit; }
 @media (max-width: 720px) {
   .run-grid { grid-template-columns: 1fr; }
 }
+
+/* Home: one card per board, newest first */
+.boards { display: flex; flex-direction: column; gap: 16px; margin: 28px 0 0; padding: 0; list-style: none; }
+.board { padding: 18px 20px 12px; border: 1px solid var(--line); border-radius: 10px; }
+.board h2 { margin: 4px 0 6px; font: 700 24px/1.2 var(--display); letter-spacing: -.01em; }
+.board-note { margin: 0 0 4px; font-size: 14px; color: var(--ink-2); }
+.board-days { display: flex; flex-wrap: wrap; gap: 2px; margin-inline: -12px; }
+.board-days a.tab { color: var(--link); }
