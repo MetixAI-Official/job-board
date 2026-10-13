@@ -11,8 +11,10 @@
  "events_today": 82,
  "post": [
   "ElevenLabs",
+  "Apex",
   "Rangeview",
   "Senra Systems",
+  "AWS",
   "Amplitude"
  ],
  "events": [
@@ -30,6 +32,54 @@
    "featured": false,
    "hosts": [
     "Amplitude"
+   ]
+  },
+  {
+   "id": "28194188-91e8-42a2-b988-65a93bcb3842",
+   "name": "AWS Expert Booth - Startups@AWS",
+   "start": "10:00",
+   "end": "17:00",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/aws-expert-booth-startups-aws-28194188-91e8-42a2-b988-65a93bcb3842",
+   "featured": false,
+   "hosts": [
+    "AWS"
+   ]
+  },
+  {
+   "id": "200d6bf5-c1b4-4897-9f46-c1ce419a38b0",
+   "name": "Gen AI Observability for Engineering Leaders",
+   "start": "10:00",
+   "end": "",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Roundtable / Workshop"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/gen-ai-observability-for-engineering-leaders-200d6bf5-c1b4-4897-9f46-c1ce419a38b0",
+   "featured": false,
+   "hosts": [
+    "AWS"
+   ]
+  },
+  {
+   "id": "d954f52b-17ec-4a43-befd-caba4b985fc0",
+   "name": "Self-Host Frontier AI: Running Open-Weight Models on AWS",
+   "start": "13:00",
+   "end": "",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Roundtable / Workshop"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/self-host-frontier-ai-running-open-weight-models-on-aws-d954f52b-17ec-4a43-befd-caba4b985fc0",
+   "featured": true,
+   "hosts": [
+    "AWS"
    ]
   },
   {
@@ -63,6 +113,22 @@
    "featured": true,
    "hosts": [
     "ElevenLabs"
+   ]
+  },
+  {
+   "id": "2adf37c5-98bc-42f6-b30b-7d58571c2de0",
+   "name": "Apex Space Happy Hour",
+   "start": "18:00",
+   "end": "20:00",
+   "neighborhood": "Playa Vista",
+   "formats": [
+    "Happy Hour"
+   ],
+   "registration": "full",
+   "url": "https://www.tech-week.com/calendar/la/events/apex-space-happy-hour-2adf37c5-98bc-42f6-b30b-7d58571c2de0",
+   "featured": false,
+   "hosts": [
+    "Apex"
    ]
   },
   {
@@ -218,6 +284,113 @@
    ]
   },
   {
+   "name": "Apex",
+   "slug": "apex",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Aerospace & defense",
+   "summary": "Satellite buses built at production scale",
+   "linkedin": "https://www.linkedin.com/company/apexspacetech/",
+   "label": "Private · 327 employees",
+   "events": [
+    "2adf37c5-98bc-42f6-b30b-7d58571c2de0"
+   ],
+   "roles": [
+    {
+     "title": "Business Development Director, Commercial",
+     "id": "4478586644",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Senior Mission Integration Engineer - SV Design",
+     "id": "4478049061",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Senior Mission Integration Engineer - Payload I&T",
+     "id": "4478051012",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Mission Integration Engineer - Payload I&T",
+     "id": "4478047168",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Spacecraft Opto-Mechancial Manufacturing Engineer",
+     "id": "4477603903",
+     "regions": [
+      "la"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Solar Array Manufacturing Development Engineer",
+     "id": "4477617476",
+     "regions": [
+      "la"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true,
+     "location": "Los Angeles"
+    },
+    {
+     "title": "Radiation Effects Engineer",
+     "id": "4476122635",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true,
+     "location": "Los Angeles"
+    }
+   ]
+  },
+  {
    "name": "Rangeview",
    "slug": "rangeview",
    "tier": "early",
@@ -272,6 +445,63 @@
      "posted": "2026-10-08",
      "new": true,
      "location": "Irvine"
+    }
+   ]
+  },
+  {
+   "name": "AWS",
+   "slug": "aws",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Cloud & infrastructure",
+   "summary": "Amazon's cloud computing business",
+   "linkedin": "https://www.linkedin.com/company/amazon-web-services/",
+   "label": "Part of Amazon · 159,426 employees",
+   "events": [
+    "200d6bf5-c1b4-4897-9f46-c1ce419a38b0",
+    "28194188-91e8-42a2-b988-65a93bcb3842",
+    "d954f52b-17ec-4a43-befd-caba4b985fc0"
+   ],
+   "roles": [
+    {
+     "title": "Sr Mgr, Solutions Architecture, US Healthcare and Life Sciences",
+     "id": "4476963097",
+     "regions": [
+      "oc"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "Principal Solutions Architect, AGS Automotive & Manufacturing",
+     "id": "4476510390",
+     "regions": [
+      "oc"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "Principal Accounting Manager, CapEx Accounting, AWS Infrastructure",
+     "id": "4475896728",
+     "regions": [
+      "west"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Culver City"
     }
    ]
   },

@@ -8,14 +8,16 @@
   "from": "2026-10-06",
   "to": "2026-10-12"
  },
- "events_today": 174,
+ "events_today": 173,
  "post": [
   "Deel",
   "emberos",
+  "Fireworks AI",
   "General Matter",
   "Microsoft",
   "Stripe",
   "GitLab",
+  "AWS",
   "Databricks"
  ],
  "events": [
@@ -36,6 +38,22 @@
    ]
   },
   {
+   "id": "6b5edba5-285e-43fa-8fb4-92a3a3d48f62",
+   "name": "The Rise of AI Security Agents: Defend at Machine Speed",
+   "start": "10:00",
+   "end": "",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Roundtable / Workshop"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/the-rise-of-ai-security-agents-defend-at-machine-speed-6b5edba5-285e-43fa-8fb4-92a3a3d48f62",
+   "featured": false,
+   "hosts": [
+    "AWS"
+   ]
+  },
+  {
    "id": "9a23d111-fe49-47e5-bf0f-f8a48b2d97e8",
    "name": "Building at the Speed of Defense - A PwC Space & Defense Tech Executive Roundtable",
    "start": "10:30",
@@ -49,6 +67,22 @@
    "featured": false,
    "hosts": [
     "PwC"
+   ]
+  },
+  {
+   "id": "7073cb3b-924f-4034-828a-1da963598369",
+   "name": "World Models and Visual Reasoning: The Next Frontier for Media & Entertainment",
+   "start": "13:00",
+   "end": "",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/world-models-and-visual-reasoning-the-next-frontier-for-media-and-entertainment-7073cb3b-924f-4034-828a-1da963598369",
+   "featured": true,
+   "hosts": [
+    "AWS"
    ]
   },
   {
@@ -82,6 +116,23 @@
    "featured": false,
    "hosts": [
     "JPMorgan Chase & Co."
+   ]
+  },
+  {
+   "id": "180b39da-5a17-463b-a85d-8d0338e84532",
+   "name": "Successfully Scaling in the AI Era: Capital & Growth",
+   "start": "16:00",
+   "end": "20:00",
+   "neighborhood": "Venice",
+   "formats": [
+    "Dinner",
+    "Happy Hour"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/successfully-scaling-in-the-ai-era-capital-and-growth-180b39da-5a17-463b-a85d-8d0338e84532",
+   "featured": false,
+   "hosts": [
+    "Kranz Consulting"
    ]
   },
   {
@@ -170,6 +221,22 @@
    "featured": true,
    "hosts": [
     "Databricks"
+   ]
+  },
+  {
+   "id": "ab491a8d-da36-4f0c-9859-2cc891025ea3",
+   "name": "Founder Golden Hour w/ Fin, Fireworks, Vanta",
+   "start": "18:00",
+   "end": "20:00",
+   "neighborhood": "Venice",
+   "formats": [
+    "Happy Hour"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/founder-golden-hour-w-fin-fireworks-vanta-ab491a8d-da36-4f0c-9859-2cc891025ea3",
+   "featured": true,
+   "hosts": [
+    "Fireworks AI"
    ]
   },
   {
@@ -326,6 +393,35 @@
      "posted": "2026-10-06",
      "new": true,
      "location": "El Segundo"
+    }
+   ]
+  },
+  {
+   "name": "Fireworks AI",
+   "slug": "fireworks-ai",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "AI infrastructure",
+   "summary": "Fast inference for open AI models",
+   "linkedin": "https://www.linkedin.com/company/fireworks-ai/",
+   "label": "Private · 197 employees",
+   "events": [
+    "ab491a8d-da36-4f0c-9859-2cc891025ea3"
+   ],
+   "roles": [
+    {
+     "title": "Privacy Program Engineer",
+     "id": "4477472540",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "US remote / anywhere"
     }
    ]
   },
@@ -1144,6 +1240,62 @@
      "posted": "2026-10-06",
      "new": true,
      "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "AWS",
+   "slug": "aws",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Cloud & infrastructure",
+   "summary": "Amazon's cloud computing business",
+   "linkedin": "https://www.linkedin.com/company/amazon-web-services/",
+   "label": "Part of Amazon · 159,426 employees",
+   "events": [
+    "6b5edba5-285e-43fa-8fb4-92a3a3d48f62",
+    "7073cb3b-924f-4034-828a-1da963598369"
+   ],
+   "roles": [
+    {
+     "title": "Sr Mgr, Solutions Architecture, US Healthcare and Life Sciences",
+     "id": "4476963097",
+     "regions": [
+      "oc"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "Principal Solutions Architect, AGS Automotive & Manufacturing",
+     "id": "4476510390",
+     "regions": [
+      "oc"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "Principal Accounting Manager, CapEx Accounting, AWS Infrastructure",
+     "id": "4475896728",
+     "regions": [
+      "west"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Culver City"
     }
    ]
   },
@@ -2095,6 +2247,35 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-09",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "Kranz Consulting",
+   "slug": "kranz-consulting",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Accounting",
+   "summary": "Outsourced accounting and finance for startups",
+   "linkedin": "https://www.linkedin.com/company/kranz-%26-associates/",
+   "label": "Private · 127 employees",
+   "events": [
+    "180b39da-5a17-463b-a85d-8d0338e84532"
+   ],
+   "roles": [
+    {
+     "title": "Kranz EG Senior Accountant Consultant",
+     "id": "4476543147",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
      "new": true,
      "location": "US remote / anywhere"
     }

@@ -13,9 +13,11 @@
   "Mach Industries",
   "AnySignal",
   "Deel",
+  "Luma AI",
   "Revel",
   "Sift",
   "Stripe",
+  "AWS",
   "Gap",
   "AEG",
   "Atlassian"
@@ -35,6 +37,22 @@
    "featured": false,
    "hosts": [
     "AnySignal"
+   ]
+  },
+  {
+   "id": "cf4b8e15-c2d1-46ca-b321-93d25751ea8c",
+   "name": "Build AI Agents on AWS",
+   "start": "10:00",
+   "end": "",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Roundtable / Workshop"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/build-ai-agents-on-aws-cf4b8e15-c2d1-46ca-b321-93d25751ea8c",
+   "featured": false,
+   "hosts": [
+    "AWS"
    ]
   },
   {
@@ -116,6 +134,23 @@
    "featured": false,
    "hosts": [
     "Revel"
+   ]
+  },
+  {
+   "id": "2fa0ab57-cc6a-4285-bac2-2fcdb6d87ce6",
+   "name": "Hybrid Production Night w/ Luma",
+   "start": "17:00",
+   "end": "21:00",
+   "neighborhood": "Culver City",
+   "formats": [
+    "Panel / Fireside Chat",
+    "Roundtable / Workshop"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/hybrid-production-night-w-luma-2fa0ab57-cc6a-4285-bac2-2fcdb6d87ce6",
+   "featured": false,
+   "hosts": [
+    "Luma AI"
    ]
   },
   {
@@ -392,6 +427,35 @@
      "level": "Executive",
      "ai": false,
      "posted": "2026-10-07",
+     "new": true,
+     "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "Luma AI",
+   "slug": "luma-ai",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "AI models",
+   "summary": "AI video generation models",
+   "linkedin": "https://www.linkedin.com/company/luma-ai/",
+   "label": "Private · 308 employees",
+   "events": [
+    "2fa0ab57-cc6a-4285-bac2-2fcdb6d87ce6"
+   ],
+   "roles": [
+    {
+     "title": "Research Scientist / Engineer – Training Infrastructure",
+     "id": "4476969392",
+     "regions": [
+      "remote"
+     ],
+     "family": "AI / ML",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
      "new": true,
      "location": "US remote / anywhere"
     }
@@ -715,6 +779,61 @@
      "posted": "2026-10-06",
      "new": true,
      "location": "US remote / anywhere"
+    }
+   ]
+  },
+  {
+   "name": "AWS",
+   "slug": "aws",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Cloud & infrastructure",
+   "summary": "Amazon's cloud computing business",
+   "linkedin": "https://www.linkedin.com/company/amazon-web-services/",
+   "label": "Part of Amazon · 159,426 employees",
+   "events": [
+    "cf4b8e15-c2d1-46ca-b321-93d25751ea8c"
+   ],
+   "roles": [
+    {
+     "title": "Sr Mgr, Solutions Architecture, US Healthcare and Life Sciences",
+     "id": "4476963097",
+     "regions": [
+      "oc"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "Principal Solutions Architect, AGS Automotive & Manufacturing",
+     "id": "4476510390",
+     "regions": [
+      "oc"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true,
+     "location": "Irvine"
+    },
+    {
+     "title": "Principal Accounting Manager, CapEx Accounting, AWS Infrastructure",
+     "id": "4475896728",
+     "regions": [
+      "west"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false,
+     "location": "Culver City"
     }
    ]
   },
