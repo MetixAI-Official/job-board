@@ -10,10 +10,15 @@
  },
  "events_today": 201,
  "post": [
+  "Flyby Robotics",
   "Vast",
   "Deel",
-  "Flyby Robotics",
-  "Dynatrace"
+  "Xsolla",
+  "Rho",
+  "Google",
+  "United Talent Agency",
+  "Dynatrace",
+  "Forbes"
  ],
  "events": [
   {
@@ -35,6 +40,22 @@
    ]
   },
   {
+   "id": "30d254ff-6b99-481f-96de-0b1125a93dd7",
+   "name": "Industry Lunch and Learn: Intersection of Video Games & Entertainment",
+   "start": "11:30",
+   "end": "14:30",
+   "neighborhood": "Venice",
+   "formats": [
+    "Breakfast, Brunch or Lunch"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/industry-lunch-and-learn-intersection-of-video-games-and-entertainment-30d254ff-6b99-481f-96de-0b1125a93dd7",
+   "featured": false,
+   "hosts": [
+    "Xsolla"
+   ]
+  },
+  {
    "id": "ee66cda5-8ef2-4aa0-93c5-a0c9a5d8dacf",
    "name": "Launch Your Observability Mission with Dynatrace & AWS",
    "start": "12:30",
@@ -50,6 +71,56 @@
    "featured": false,
    "hosts": [
     "Dynatrace"
+   ]
+  },
+  {
+   "id": "99c72756-b14a-4bae-87ba-ba1e333e8bc1",
+   "name": "Google Developer Happy Hour",
+   "start": "14:00",
+   "end": "16:00",
+   "neighborhood": "Venice",
+   "formats": [
+    "Happy Hour",
+    "Networking"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/google-developer-happy-hour-99c72756-b14a-4bae-87ba-ba1e333e8bc1",
+   "featured": false,
+   "hosts": [
+    "Google"
+   ]
+  },
+  {
+   "id": "807601c2-1510-4b33-9842-39873286ec4a",
+   "name": "The New Hollywood Stack: AI, Creators and the Future of Media",
+   "start": "14:30",
+   "end": "17:00",
+   "neighborhood": "Century City",
+   "formats": [
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/the-new-hollywood-stack-ai-creators-and-the-future-of-media-807601c2-1510-4b33-9842-39873286ec4a",
+   "featured": false,
+   "hosts": [
+    "Manatt"
+   ]
+  },
+  {
+   "id": "e14fddcb-8ee4-455a-a586-306a491c2827",
+   "name": "The Road to 2028: Experiences & Innovations Connecting London, Los Angeles and the World",
+   "start": "14:30",
+   "end": "17:00",
+   "neighborhood": "Beverly Hills",
+   "formats": [
+    "Networking",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/the-road-to-2028-experiences-and-innovations-connecting-london-los-angeles-and-t-e14fddcb-8ee4-455a-a586-306a491c2827",
+   "featured": false,
+   "hosts": [
+    "United Talent Agency"
    ]
   },
   {
@@ -82,7 +153,25 @@
    "url": "https://www.tech-week.com/calendar/la/events/la-s-hard-tech-renaissance-robotics-and-physical-ai-6e6c5dbb-8a4d-4966-820e-cac6d41a1c08",
    "featured": false,
    "hosts": [
-    "Deel"
+    "Deel",
+    "Rho"
+   ]
+  },
+  {
+   "id": "88ec604c-94eb-4666-b777-de3587b937f7",
+   "name": "Where the Physical Future is Gettting Built: AI, Infra, and Deep Tech",
+   "start": "16:00",
+   "end": "18:00",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Networking",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/where-the-physical-future-is-gettting-built-ai-infra-and-deep-tech-88ec604c-94eb-4666-b777-de3587b937f7",
+   "featured": true,
+   "hosts": [
+    "HSBC"
    ]
   },
   {
@@ -102,6 +191,24 @@
    ]
   },
   {
+   "id": "f4079351-20e3-4f30-8c06-3be1f0c1cb4b",
+   "name": "Sweat Equity: The Intersection of Sports, Tech, and Capital - #LATechWeeky",
+   "start": "17:00",
+   "end": "21:00",
+   "neighborhood": "Santa Monica",
+   "formats": [
+    "Happy Hour",
+    "Networking",
+    "Panel / Fireside Chat"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/sweat-equity-the-intersection-of-sports-tech-and-capital-latechweeky-f4079351-20e3-4f30-8c06-3be1f0c1cb4b",
+   "featured": false,
+   "hosts": [
+    "Mayer Brown"
+   ]
+  },
+  {
    "id": "a2473d22-4c92-41fa-8c46-377d4b8bf041",
    "name": "Defense/ Space Tech Panel",
    "start": "17:30",
@@ -114,7 +221,8 @@
    "url": "https://www.tech-week.com/calendar/la/events/defense-space-tech-panel-a2473d22-4c92-41fa-8c46-377d4b8bf041",
    "featured": false,
    "hosts": [
-    "Deel"
+    "Deel",
+    "Citizens Bank"
    ]
   },
   {
@@ -154,6 +262,22 @@
    ]
   },
   {
+   "id": "b1038240-19ba-4f8d-bff1-138768c6aeca",
+   "name": "USC Troy Labs x Pareto Holdings x Rho Founder Dinner",
+   "start": "18:00",
+   "end": "20:00",
+   "neighborhood": "West Adams",
+   "formats": [
+    "Dinner"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/usc-troy-labs-x-pareto-holdings-x-rho-founder-dinner-b1038240-19ba-4f8d-bff1-138768c6aeca",
+   "featured": false,
+   "hosts": [
+    "Rho"
+   ]
+  },
+  {
    "id": "3a22e259-75d8-448f-bada-311234d65cd5",
    "name": "Factory Field Day at Flyby Robotics",
    "start": "19:00",
@@ -170,9 +294,54 @@
    "hosts": [
     "Flyby Robotics"
    ]
+  },
+  {
+   "id": "be29d517-5f45-43d0-89e9-776cf5c2f052",
+   "name": "The New Hollywood Dinner",
+   "start": "19:00",
+   "end": "",
+   "neighborhood": "Beverly Hills",
+   "formats": [
+    "Dinner"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/the-new-hollywood-dinner-be29d517-5f45-43d0-89e9-776cf5c2f052",
+   "featured": false,
+   "hosts": [
+    "Forbes"
+   ]
   }
  ],
  "companies": [
+  {
+   "name": "Flyby Robotics",
+   "slug": "flyby-robotics",
+   "tier": "early",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Robotics",
+   "summary": "Drones built in the US",
+   "linkedin": "https://www.linkedin.com/company/flyby-food/",
+   "label": "Private · 14 employees",
+   "events": [
+    "3a22e259-75d8-448f-bada-311234d65cd5"
+   ],
+   "roles": [
+    {
+     "title": "Enterprise Drone Sales",
+     "id": "4476109299",
+     "location": "El Segundo",
+     "regions": [
+      "south"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    }
+   ]
+  },
   {
    "name": "Vast",
    "slug": "vast",
@@ -188,82 +357,160 @@
    ],
    "roles": [
     {
-     "title": "Mechanical Engineering, Thermal Control Systems (New Grad)",
-     "id": "4478567792",
+     "title": "Legal Counsel (Commercial)",
+     "id": "4419800774",
+     "location": "Long Beach",
      "regions": [
       "south"
      ],
-     "family": "Hardware / supply chain",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": true,
-     "location": "Long Beach"
-    },
-    {
-     "title": "Mechanical Engineering, Thermal Control Systems",
-     "id": "4478582099",
-     "regions": [
-      "south"
-     ],
-     "family": "Hardware / supply chain",
+     "family": "Legal / compliance",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-12",
-     "new": true,
-     "location": "Long Beach"
-    },
-    {
-     "title": "Mechanical Engineering, Structures (New Grad)",
-     "id": "4478572587",
-     "regions": [
-      "south"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": true,
-     "location": "Long Beach"
+     "posted": "2026-10-11",
+     "new": false
     },
     {
      "title": "Mechanical Engineering, Avionics",
      "id": "4478563907",
+     "location": "Long Beach",
      "regions": [
       "south"
      ],
-     "family": "Hardware / supply chain",
+     "family": "Software engineering",
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-12",
-     "new": true,
-     "location": "Long Beach"
+     "new": true
+    },
+    {
+     "title": "Mechanical Engineering, Structures (New Grad)",
+     "id": "4478572587",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Mechanical Engineering, Thermal Control Systems",
+     "id": "4478582099",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Mechanical Engineering, Thermal Control Systems (New Grad)",
+     "id": "4478567792",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Senior EMI-EMC Engineer",
+     "id": "3915632738",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false
+    },
+    {
+     "title": "Mechanical Engineer, Structures",
+     "id": "4462440669",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Senior Power Engineer",
+     "id": "4423545167",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Senior Software Engineer, Enterprise Applications",
+     "id": "4449955319",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Lead Manufacturing Engineer, Propulsion",
+     "id": "4476350368",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
     },
     {
      "title": "Senior Manager, Fluid Systems Design",
      "id": "4476182489",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Senior CNC Programmer",
+     "id": "4030724707",
+     "location": "Hawthorne",
      "regions": [
       "south"
      ],
      "family": "Other",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-06",
-     "new": false,
-     "location": "Long Beach"
-    },
-    {
-     "title": "Lead Manufacturing Engineer, Propulsion",
-     "id": "4476350368",
-     "regions": [
-      "south"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Long Beach"
+     "posted": "2026-10-10",
+     "new": false
     }
    ]
   },
@@ -284,8 +531,74 @@
    ],
    "roles": [
     {
+     "title": "Principal Product Designer",
+     "id": "4455892938",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Design",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Account Executive, AI",
+     "id": "4455897476",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Account Executive, Mid-Market | North America",
+     "id": "4456500384",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Account Executive, Expansion, Mid-Market | North America",
+     "id": "4456512264",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Account Executive, SMB | North America",
+     "id": "4456506364",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
      "title": "Principal Product Marketing Manager | NAM",
      "id": "4476549455",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -293,50 +606,475 @@
      "level": "Director",
      "ai": false,
      "posted": "2026-10-07",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": true
+    },
+    {
+     "title": "Senior Accounting Manager",
+     "id": "4465592310",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Staff Engineer, Crypto",
+     "id": "4456507369",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
     },
     {
      "title": "Chief Scientist Officer",
      "id": "4476708306",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
-     "family": "Other",
+     "family": "Data",
      "level": "Executive",
      "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "General Manager, EOR",
+     "id": "4456508360",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
      "posted": "2026-10-07",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": false
     }
    ]
   },
   {
-   "name": "Flyby Robotics",
-   "slug": "flyby-robotics",
-   "tier": "early",
+   "name": "Xsolla",
+   "slug": "xsolla",
+   "tier": "growth",
    "stage": "",
    "stage_source": null,
-   "industry": "Robotics",
-   "summary": "Drones built in the US",
-   "linkedin": "https://www.linkedin.com/company/flyby-food/",
-   "label": "Private · 14 employees",
+   "industry": "Developer tools",
+   "summary": "Payments and commerce tools for game developers",
+   "linkedin": "https://www.linkedin.com/company/xsolla/",
+   "label": "Private · 1,222 employees",
    "events": [
-    "3a22e259-75d8-448f-bada-311234d65cd5"
+    "30d254ff-6b99-481f-96de-0b1125a93dd7"
    ],
    "roles": [
     {
-     "title": "Enterprise Drone Sales",
-     "id": "4476109299",
+     "title": "Director, Brand Partnerships - Xsolla Advertising & Rewards",
+     "id": "4419644553",
+     "location": "Los Angeles",
      "regions": [
-      "south"
+      "la"
      ],
      "family": "Sales / BD",
-     "level": "Associate",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Legal Counsel, Payments & Fintech",
+     "id": "4456512143",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Principal / Staff Data Scientist",
+     "id": "4446234120",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Senior Product Analyst - Xsolla Ads & Rewards",
+     "id": "4379328792",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true,
-     "location": "El Segundo"
+     "new": false
+    },
+    {
+     "title": "Chief of Staff",
+     "id": "4410358343",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Operations",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "General Consideration",
+     "id": "4125253290",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    }
+   ]
+  },
+  {
+   "name": "Rho",
+   "slug": "rho",
+   "tier": "growth",
+   "stage": "Series C",
+   "stage_source": "https://indexed.vc/companies/rho",
+   "industry": "Fintech",
+   "summary": "Business banking, cards and AP",
+   "linkedin": "https://www.linkedin.com/company/rhobusiness/",
+   "label": "Private · 334 employees",
+   "events": [
+    "6e6c5dbb-8a4d-4966-820e-cac6d41a1c08",
+    "b1038240-19ba-4f8d-bff1-138768c6aeca"
+   ],
+   "roles": [
+    {
+     "title": "Founding Account Executive, Los Angeles",
+     "id": "4419656453",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    }
+   ]
+  },
+  {
+   "name": "Google",
+   "slug": "google",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Big tech",
+   "summary": "Search, Google Cloud and Google DeepMind",
+   "linkedin": "https://www.linkedin.com/company/google/",
+   "label": "Public · NASDAQ: GOOGL · 341,814 employees",
+   "events": [
+    "99c72756-b14a-4bae-87ba-ba1e333e8bc1"
+   ],
+   "roles": [
+    {
+     "title": "AI Outcome Customer Engineer II, Forward Deployed Engineering",
+     "id": "4467862047",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "GenAI Forward Deployed Engineer IV, GenMedia, Google Cloud",
+     "id": "4467845419",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "Product Deployment Engineer, gTech Ads, Search",
+     "id": "4465574889",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Forward Deployed Engineer IV, Applied AI, Google Cloud",
+     "id": "4465574887",
+     "location": "Irvine",
+     "regions": [
+      "oc"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Product Deployment Engineer, gTech Ads, Search, Shopping",
+     "id": "4465566984",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "GECX Sales Specialist, Google Cloud, East",
+     "id": "4447910432",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Account Strategist, Mid-Market Sales, Google Customer Solutions",
+     "id": "4448213037",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Account Strategist, Small Business Sales, Google Customer Solutions",
+     "id": "4457913198",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Senior Account Strategist, Mid-Market Sales, Google Customer Solutions",
+     "id": "4448288435",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Brand Marketing Manager, Pixel Ecosystem",
+     "id": "4467839735",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Marketing / growth",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "Software Engineer III, AI/ML, Google Ads",
+     "id": "4468025476",
+     "location": "Irvine",
+     "regions": [
+      "oc"
+     ],
+     "family": "AI / ML",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Senior iOS Developer, Search App",
+     "id": "4467851397",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start",
+     "id": "4456870403",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Service Program Manager, Global Business Applied AI Technical Services",
+     "id": "4467841617",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Not specified",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": false
+    }
+   ]
+  },
+  {
+   "name": "United Talent Agency",
+   "slug": "united-talent-agency",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Media",
+   "summary": "Talent and entertainment agency",
+   "linkedin": "https://www.linkedin.com/company/united-talent-agency/",
+   "label": "Private · 2,367 employees",
+   "events": [
+    "e14fddcb-8ee4-455a-a586-306a491c2827"
+   ],
+   "roles": [
+    {
+     "title": "Associate, Communications",
+     "id": "4465944603",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Associate, Client Accounting [Future Opportunities]",
+     "id": "4410662439",
+     "location": "Los Angeles area",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Associate, Client Accounting - TV Lit",
+     "id": "4465264310",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Senior Software Development Engineer",
+     "id": "4450022709",
+     "location": "Los Angeles area",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false
+    },
+    {
+     "title": "Software Development Engineer - Front End",
+     "id": "4458032478",
+     "location": "Los Angeles area",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Coordinator, Global Integrations & Operations",
+     "id": "4437628615",
+     "location": "Los Angeles area",
+     "regions": [
+      "la"
+     ],
+     "family": "Operations",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
     }
    ]
   },
@@ -357,6 +1095,7 @@
     {
      "title": "Strategic Enterprise Account Executive (Remote, California)",
      "id": "4478708024",
+     "location": "Los Angeles",
      "regions": [
       "la"
      ],
@@ -364,12 +1103,25 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-12",
-     "new": true,
-     "location": "Los Angeles"
+     "new": true
+    },
+    {
+     "title": "Principal Mainframe Developer - HLASM",
+     "id": "4468241080",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
     },
     {
      "title": "Sr Data Analyst",
      "id": "4478542650",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -377,12 +1129,12 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
+     "new": true
     },
     {
      "title": "Practitioner Engagements Program Lead",
      "id": "4476158549",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -390,8 +1142,36 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": true
+    }
+   ]
+  },
+  {
+   "name": "Forbes",
+   "slug": "forbes",
+   "tier": "large",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Media",
+   "summary": "Business media company",
+   "linkedin": "https://www.linkedin.com/company/forbes-magazine/",
+   "label": "Private · 8,545 employees",
+   "events": [
+    "be29d517-5f45-43d0-89e9-776cf5c2f052"
+   ],
+   "roles": [
+    {
+     "title": "Senior Compensation Analyst",
+     "id": "4449600351",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Data",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
     }
    ]
   },
@@ -411,8 +1191,76 @@
    ],
    "roles": [
     {
+     "title": "SAP Trade Promotion Management Solution Consultant – Senior Associate",
+     "id": "4477638474",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true
+    },
+    {
+     "title": "Manager, Solution Architect",
+     "id": "4476962101",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "Pricing, Promotions, and Revenue Management Pharma GTN- Manager",
+     "id": "4460542723",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false
+    },
+    {
+     "title": "Deals - Deal Valuation - Senior Associate",
+     "id": "4460141370",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Pricing and Revenue Consulting Manager - Consumer Markets Sector",
+     "id": "4469115388",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
      "title": "Pricing, Promotions, and Revenue Management Consulting Director",
-     "id": "4478004014",
+     "id": "4477897207",
+     "location": "Irvine / Los Angeles",
      "regions": [
       "la",
       "oc"
@@ -421,51 +1269,26 @@
      "level": "Director",
      "ai": false,
      "posted": "2026-10-10",
-     "new": false,
-     "location": "Irvine / Los Angeles"
+     "new": true
     },
     {
-     "title": "Identity and Access Management - Sr Associate",
-     "id": "4478003073",
+     "title": "Salesforce CPQ/Revenue Cloud - Senior Associate",
+     "id": "4477495417",
+     "location": "Irvine / Los Angeles",
      "regions": [
-      "la"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-10",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Deals - Financial Due Diligence, Senior Associate - Midwest, West",
-     "id": "4477899161",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-10",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "Salesforce CPQ/Revenue Cloud Manager",
-     "id": "4477494421",
-     "regions": [
+      "la",
       "oc"
      ],
      "family": "Sales / BD",
-     "level": "Mid-senior",
+     "level": "Associate",
      "ai": false,
      "posted": "2026-10-09",
-     "new": false,
-     "location": "Irvine"
+     "new": true
     },
     {
      "title": "Salesforce CPQ/Revenue Cloud Director",
      "id": "4477490608",
+     "location": "Los Angeles",
      "regions": [
       "la"
      ],
@@ -473,106 +1296,65 @@
      "level": "Director",
      "ai": false,
      "posted": "2026-10-09",
-     "new": false,
-     "location": "Los Angeles"
+     "new": true
     },
     {
-     "title": "Salesforce CPQ/Revenue Cloud - Senior Associate",
-     "id": "4477488737",
+     "title": "Salesforce CPQ/Revenue Cloud Manager",
+     "id": "4477494421",
+     "location": "Irvine",
      "regions": [
-      "la",
       "oc"
      ],
      "family": "Sales / BD",
-     "level": "Associate",
+     "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-09",
-     "new": false,
-     "location": "Irvine / Los Angeles"
+     "new": true
     },
     {
-     "title": "SAP Trade Promotion Management Solution Consultant – Senior Associate",
-     "id": "4477638474",
+     "title": "Deals - Financial Due Diligence, Senior Associate - Midwest, West",
+     "id": "4477899161",
+     "location": "Los Angeles",
      "regions": [
       "la"
      ],
-     "family": "Solutions / FDE",
+     "family": "Finance / accounting",
      "level": "Associate",
      "ai": false,
-     "posted": "2026-10-09",
-     "new": true,
-     "location": "Los Angeles"
+     "posted": "2026-10-10",
+     "new": true
     },
     {
-     "title": "SAP Supply Chain Senior Associate",
-     "id": "4477497258",
+     "title": "Finance Transformation Consultant - Finance Operations, Senior Manager",
+     "id": "4468681534",
+     "location": "Irvine / Los Angeles",
      "regions": [
       "la",
       "oc"
      ],
-     "family": "Hardware / supply chain",
-     "level": "Associate",
+     "family": "Finance / accounting",
+     "level": "Director",
      "ai": false,
-     "posted": "2026-10-09",
-     "new": true,
-     "location": "Los Angeles / Irvine"
+     "posted": "2026-10-10",
+     "new": false
     },
     {
-     "title": "Microsoft D365 CRM + Copilot/AI Functional Lead, Manager",
-     "id": "4477491582",
+     "title": "Financial Markets & Real Estate - Asset Backed Diligence - Senior Associate",
+     "id": "4469201638",
+     "location": "Los Angeles",
      "regions": [
       "la"
      ],
-     "family": "Other",
-     "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-10-09",
-     "new": false,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "AI & GenAI Data Scientist-Director",
-     "id": "4477498223",
-     "regions": [
-      "oc"
-     ],
-     "family": "Data",
-     "level": "Director",
-     "ai": true,
-     "posted": "2026-10-09",
-     "new": false,
-     "location": "Irvine"
-    },
-    {
-     "title": "SAP Supply Chain Senior Manager",
-     "id": "4477429570",
-     "regions": [
-      "oc"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Director",
+     "family": "Finance / accounting",
+     "level": "Associate",
      "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Irvine"
-    },
-    {
-     "title": "SAP Supply Chain Manager",
-     "id": "4477435324",
-     "regions": [
-      "la",
-      "oc"
-     ],
-     "family": "Hardware / supply chain",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Irvine / Los Angeles"
+     "posted": "2026-10-10",
+     "new": false
     },
     {
      "title": "Oracle Cloud Finance - Manager",
      "id": "4476961092",
+     "location": "Irvine",
      "regions": [
       "oc"
      ],
@@ -580,105 +1362,238 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-08",
-     "new": false,
-     "location": "Irvine"
+     "new": true
     },
     {
-     "title": "Manager, Solution Architect",
-     "id": "4476962104",
+     "title": "PwC Internal Partnership Tax Team - State & Local Manager",
+     "id": "4466560810",
+     "location": "Irvine / Los Angeles",
      "regions": [
       "la",
       "oc"
      ],
-     "family": "Solutions / FDE",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "Los Angeles / Irvine"
-    },
-    {
-     "title": "HCP Engagements - Managed Services - Health PLS, Senior Associate",
-     "id": "4476956319",
-     "regions": [
-      "la"
-     ],
-     "family": "Consulting",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "Los Angeles"
-    },
-    {
-     "title": "BCM - Assurance - Digital Assets Manager",
-     "id": "4476955335",
-     "regions": [
-      "oc"
-     ],
      "family": "Finance / accounting",
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-08",
-     "new": true,
-     "location": "Irvine"
+     "new": false
+    },
+    {
+     "title": "Specialized Tax Services - Research & Development Tax - Senior Manager",
+     "id": "4459118647",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Asset & Wealth Management Tax Senior Manager",
+     "id": "4467400671",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Banking & Capital Markets Tax Senior Manager",
+     "id": "4467405593",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Deals - Financial Due Diligence - Manager",
+     "id": "4466561704",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "AWM Regulated Investment Company (RIC) Tax Senior Associate",
+     "id": "4467400674",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Asset & Wealth Management - Renewable Energy Tax Manager",
+     "id": "4467226387",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "SAP Core Finance EUR Director",
+     "id": "4476105318",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Finance / accounting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
+    },
+    {
+     "title": "GenAI Python Systems Engineer – Experienced Associate",
+     "id": "4459871958",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "AI / ML",
+     "level": "Associate",
+     "ai": true,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "GenAI Python Systems Engineer – Senior Associate",
+     "id": "4460199736",
+     "location": "Irvine",
+     "regions": [
+      "oc"
+     ],
+     "family": "AI / ML",
+     "level": "Associate",
+     "ai": true,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "AI & GenAI Data Scientist-Director",
+     "id": "4477498223",
+     "location": "Irvine",
+     "regions": [
+      "oc"
+     ],
+     "family": "AI / ML",
+     "level": "Director",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": true
     },
     {
      "title": "AI Engineer",
      "id": "4477437267",
+     "location": "Los Angeles",
      "regions": [
       "la"
      ],
      "family": "AI / ML",
      "level": "Not specified",
      "ai": true,
-     "posted": "2026-10-08",
-     "new": false,
-     "location": "Los Angeles"
+     "posted": "2026-10-09",
+     "new": true
     },
     {
-     "title": "BCM - Assurance - Digital Assets Senior Manager",
-     "id": "4476903204",
+     "title": "GIS DevSecOps Engineer, Senior Associate",
+     "id": "4467225429",
+     "location": "Los Angeles",
      "regions": [
       "la"
      ],
-     "family": "Finance / accounting",
+     "family": "Software engineering",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Front Office Strategy Consulting - Customer Analytics - Director",
+     "id": "4469270381",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Data",
      "level": "Director",
      "ai": false,
-     "posted": "2026-10-07",
-     "new": true,
-     "location": "Los Angeles"
+     "posted": "2026-10-10",
+     "new": false
     },
     {
-     "title": "AWM - Assurance - Digital Assets Manager",
-     "id": "4476907012",
+     "title": "Front Office Strategy Consulting - Pharma Life Sciences Customer Analytics - Manager",
+     "id": "4459876867",
+     "location": "Los Angeles",
      "regions": [
-      "oc"
+      "la"
      ],
-     "family": "Finance / accounting",
+     "family": "Data",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-07",
-     "new": true,
-     "location": "Irvine"
+     "posted": "2026-10-10",
+     "new": false
     },
     {
-     "title": "SAP Core Finance EUR Director",
-     "id": "4476105318",
+     "title": "Front Office Strategy Consulting - Pharma Life Sciences Customer Analytics - Senior Associate",
+     "id": "4459633261",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Data",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "SAP Supply Chain Manager",
+     "id": "4477444031",
+     "location": "Irvine / Los Angeles",
      "regions": [
       "la",
       "oc"
      ],
-     "family": "Finance / accounting",
-     "level": "Director",
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles / Irvine"
+     "posted": "2026-10-09",
+     "new": true
     },
     {
-     "title": "Procurement Strategy and Strategic Sourcing - Value Capture Senior Associate",
-     "id": "4476338807",
+     "title": "SAP Supply Chain Senior Associate",
+     "id": "4477497258",
+     "location": "Irvine / Los Angeles",
      "regions": [
       "la",
       "oc"
@@ -686,13 +1601,184 @@
      "family": "Hardware / supply chain",
      "level": "Associate",
      "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "Los Angeles / Irvine"
+     "posted": "2026-10-09",
+     "new": true
+    },
+    {
+     "title": "SAP Supply Chain Senior Manager",
+     "id": "4477429570",
+     "location": "Irvine",
+     "regions": [
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "Procurement Strategy and Strategic Sourcing - Value Capture Senior Associate",
+     "id": "4476341779",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "AML and Sanctions - Fenergo Principle Product Consultant - Senior Manager",
+     "id": "4469278131",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Strategy& Health Services - Payor Sector, Strategy Consulting Director",
+     "id": "4469101570",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Microsoft D365 CRM + Copilot/AI Functional Lead, Manager",
+     "id": "4477491582",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-09",
+     "new": true
+    },
+    {
+     "title": "BCM - Assurance - Digital Assets Manager",
+     "id": "4476955335",
+     "location": "Irvine",
+     "regions": [
+      "oc"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "BCM - Assurance - Digital Assets Senior Manager",
+     "id": "4476903204",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "AWM - Assurance - Digital Assets Manager",
+     "id": "4476907012",
+     "location": "Irvine",
+     "regions": [
+      "oc"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "GIS Integration Lead (ADMS), Manager",
+     "id": "4467237222",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Oracle Utilities - Senior Manager",
+     "id": "4467297744",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Oracle Utilities- Manager",
+     "id": "4467405579",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Strategy& - Strategy Consulting Business Model Reinvention - Manager",
+     "id": "4453644768",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Utility Network / ArcFM Consultant, Manager",
+     "id": "4467234299",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
     },
     {
      "title": "Managed Services - SAP RISE/CALM - Manager",
-     "id": "4475897710",
+     "id": "4475897705",
+     "location": "Irvine / Los Angeles",
      "regions": [
       "la",
       "oc"
@@ -701,8 +1787,61 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true,
-     "location": "Irvine / Los Angeles"
+     "new": true
+    },
+    {
+     "title": "Oracle Utilities - Senior Manager",
+     "id": "4467298730",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Consulting",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Identity and Access Management - Sr Associate",
+     "id": "4478003073",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Operations",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true
+    },
+    {
+     "title": "HCP Engagements - Managed Services - Health PLS, Senior Associate",
+     "id": "4476956319",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Operations",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "Oracle Utilities - Senior Associate",
+     "id": "4467228333",
+     "location": "Irvine / Los Angeles",
+     "regions": [
+      "la",
+      "oc"
+     ],
+     "family": "Operations",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
     }
    ]
   },
@@ -721,21 +1860,22 @@
    ],
    "roles": [
     {
-     "title": "Project Manager",
-     "id": "4478356527",
+     "title": "Fund Accounting Director",
+     "id": "4467874874",
+     "location": "Los Angeles area",
      "regions": [
-      "remote"
+      "la"
      ],
-     "family": "Operations",
-     "level": "Entry level",
+     "family": "Finance / accounting",
+     "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
+     "posted": "2026-10-09",
+     "new": false
     },
     {
      "title": "Lead Building Engineer",
      "id": "4478024276",
+     "location": "Irvine",
      "regions": [
       "oc"
      ],
@@ -743,21 +1883,188 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-10",
-     "new": true,
-     "location": "Irvine"
+     "new": true
     },
     {
      "title": "Area Maintenance Manager",
      "id": "4476128483",
+     "location": "Long Beach",
      "regions": [
       "south"
      ],
-     "family": "Hardware / supply chain",
+     "family": "Consulting",
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true,
-     "location": "Long Beach"
+     "new": true
+    }
+   ]
+  },
+  {
+   "name": "HSBC",
+   "slug": "hsbc",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Banking",
+   "summary": "Global bank",
+   "linkedin": "https://www.linkedin.com/company/hsbc/",
+   "label": "Public · NYSE: HSBC · 196,368 employees",
+   "events": [
+    "88ec604c-94eb-4666-b777-de3587b937f7"
+   ],
+   "roles": [
+    {
+     "title": "Senior Sales Manager, GNB - Global Payments Solutions",
+     "id": "4469198976",
+     "location": "Beverly Hills",
+     "regions": [
+      "west"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Wealth Manager",
+     "id": "4465186606",
+     "location": "Los Angeles area",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "Wealth Relationship Manager",
+     "id": "4458276333",
+     "location": "Arcadia",
+     "regions": [
+      "valley"
+     ],
+     "family": "Consulting",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    }
+   ]
+  },
+  {
+   "name": "Manatt",
+   "slug": "manatt",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Professional services",
+   "summary": "Law and consulting firm",
+   "linkedin": "https://www.linkedin.com/company/manatt-phelps-phillips-llp/",
+   "label": "Partnership · 1,164 employees",
+   "events": [
+    "807601c2-1510-4b33-9842-39873286ec4a"
+   ],
+   "roles": [
+    {
+     "title": "Senior Director of Administration",
+     "id": "4441930465",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Legal / compliance",
+     "level": "Executive",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": false
+    },
+    {
+     "title": "Manager of Legal Engagement",
+     "id": "4422138787",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Entertainment Transactions Associate (Attorney)",
+     "id": "4459090299",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    }
+   ]
+  },
+  {
+   "name": "Citizens Bank",
+   "slug": "citizens-bank",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Banking",
+   "summary": "Retail and commercial bank",
+   "linkedin": "https://www.linkedin.com/company/citizens-bank/",
+   "label": "Public · NYSE: CFG · 22,998 employees",
+   "events": [
+    "a2473d22-4c92-41fa-8c46-377d4b8bf041"
+   ],
+   "roles": [
+    {
+     "title": "PB Lending Specialist - Residential",
+     "id": "4466798883",
+     "location": "Newport Beach",
+     "regions": [
+      "oc"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Not specified",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    }
+   ]
+  },
+  {
+   "name": "Mayer Brown",
+   "slug": "mayer-brown",
+   "tier": "pro",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Professional services",
+   "summary": "Global law firm",
+   "linkedin": "https://www.linkedin.com/company/mayer-brown/",
+   "label": "Partnership · 4,482 employees",
+   "events": [
+    "f4079351-20e3-4f30-8c06-3be1f0c1cb4b"
+   ],
+   "roles": [
+    {
+     "title": "Legal Practice Assistant (Transactions)",
+     "id": "4467928508",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
     }
    ]
   }

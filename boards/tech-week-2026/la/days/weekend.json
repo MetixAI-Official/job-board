@@ -63,34 +63,9 @@
    ],
    "roles": [
     {
-     "title": "Recruiter",
-     "id": "4478543424",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Member of Legal Staff, Corporate Counsel",
-     "id": "4478551057",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
      "title": "Family Law Attorney (AAML Registered)",
      "id": "4478574277",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -98,38 +73,12 @@
      "level": "Director",
      "ai": false,
      "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
+     "new": true
     },
     {
-     "title": "Equity Research Expert",
-     "id": "4478567518",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Cleared Recruiter",
-     "id": "4478570160",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "BigLaw Lawyer",
-     "id": "4478563700",
+     "title": "Member of Legal Staff, Corporate Counsel",
+     "id": "4478551057",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -137,77 +86,103 @@
      "level": "Associate",
      "ai": false,
      "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
+     "new": true
+    },
+    {
+     "title": "Cleared Recruiter",
+     "id": "4478570160",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Recruiter",
+     "id": "4478543424",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
     },
     {
      "title": "Accounts Payable Analyst",
-     "id": "4478540510",
+     "id": "4478339101",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
-     "family": "Finance / accounting",
+     "family": "Contract",
      "level": "Associate",
      "ai": false,
      "posted": "2026-10-12",
-     "new": false,
-     "location": "US remote / anywhere"
+     "new": true
     },
     {
-     "title": "Medical Coder",
-     "id": "4477152216",
+     "title": "BigLaw Lawyer",
+     "id": "4478563700",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
-     "family": "Other",
+     "family": "Contract",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Equity Research Expert",
+     "id": "4478567518",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-10",
-     "new": false,
-     "location": "US remote / anywhere"
+     "posted": "2026-10-12",
+     "new": true
     },
     {
      "title": "Data Analyst",
      "id": "4478050164",
-     "regions": [
-      "remote"
-     ],
-     "family": "Data",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-10",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Everyday AI Agent Tester",
-     "id": "4477889155",
-     "regions": [
-      "remote"
-     ],
-     "family": "Other",
-     "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-10-09",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Registered Nurse",
-     "id": "4477405474",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
      "family": "Contract",
-     "level": "Mid-senior",
+     "level": "Entry level",
      "ai": false,
-     "posted": "2026-10-08",
-     "new": true,
-     "location": "US remote / anywhere"
+     "posted": "2026-10-10",
+     "new": true
     },
     {
      "title": "Hospitalist Physician",
      "id": "4477400743",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true
+    },
+    {
+     "title": "Medical Coder",
+     "id": "4477152216",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -215,12 +190,12 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-08",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": true
     },
     {
-     "title": "Family Medicine Physician (MD)",
-     "id": "4477403572",
+     "title": "Registered Nurse",
+     "id": "4477405474",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -228,25 +203,12 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-08",
-     "new": true,
-     "location": "US remote / anywhere"
-    },
-    {
-     "title": "Medical Doctor - Physician Expert",
-     "id": "4476399097",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": true
     },
     {
      "title": "Financial Services Expert",
      "id": "4476111301",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -254,8 +216,20 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": false,
-     "location": "US remote / anywhere"
+     "new": true
+    },
+    {
+     "title": "Medical Doctor - Physician Expert",
+     "id": "4476399097",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": true
     }
    ]
   },
@@ -274,21 +248,61 @@
    ],
    "roles": [
     {
-     "title": "Senior Product Security Engineer, Assessments",
-     "id": "4478578297",
+     "title": "Product Manager, Internal Financial Data",
+     "id": "4414227735",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
+     "family": "Product",
+     "level": "Not specified",
      "ai": false,
      "posted": "2026-10-12",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": false
+    },
+    {
+     "title": "Senior Director Product Management, Growth",
+     "id": "4460149479",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Senior Manager, Brand Design",
+     "id": "4459352538",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Design",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": false
+    },
+    {
+     "title": "Enterprise Account Executive, Growth",
+     "id": "4467927235",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
     },
     {
      "title": "Growth Marketing Manager",
      "id": "4477601160",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -296,39 +310,38 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-09",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": true
     },
     {
-     "title": "Startup & Venture Ecosystem Lead",
-     "id": "4476901476",
+     "title": "Vice President, Global Communications",
+     "id": "4468276247",
+     "location": "US remote / anywhere",
      "regions": [
-      "la",
       "remote"
      ],
-     "family": "Other",
-     "level": "Mid-senior",
+     "family": "Marketing / growth",
+     "level": "Executive",
      "ai": false,
-     "posted": "2026-10-07",
-     "new": true,
-     "location": "Los Angeles"
+     "posted": "2026-10-08",
+     "new": false
     },
     {
-     "title": "Senior Project Manager - Professional Services",
-     "id": "4476512688",
+     "title": "Corporate Legal Director - Securities, M&A",
+     "id": "4475848238",
+     "location": "US remote / anywhere",
      "regions": [
-      "la"
+      "remote"
      ],
-     "family": "Operations",
-     "level": "Mid-senior",
+     "family": "Legal / compliance",
+     "level": "Director",
      "ai": false,
-     "posted": "2026-10-07",
-     "new": true,
-     "location": "Los Angeles"
+     "posted": "2026-10-06",
+     "new": true
     },
     {
      "title": "Legal Counsel, Procurement",
      "id": "4476105592",
+     "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
@@ -336,8 +349,111 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
-     "new": true,
-     "location": "US remote / anywhere"
+     "new": true
+    },
+    {
+     "title": "Senior Product Security Engineer, Assessments",
+     "id": "4478578297",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Site Reliability Engineer (Mid-Level, Senior or Staff), Infrastructure Security",
+     "id": "4391301613",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": false
+    },
+    {
+     "title": "Software Engineer (Mid-Level, Senior or Staff), Infrastructure Security",
+     "id": "4391188845",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-06",
+     "new": false
+    },
+    {
+     "title": "Senior Project Manager - Professional Services",
+     "id": "4476512688",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
+     "new": true
+    },
+    {
+     "title": "Senior Director, Customer Health & Critical Accounts",
+     "id": "4448387666",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "Senior Director, Customer Health & Critical Accounts",
+     "id": "4448389327",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "Startup & Venture Ecosystem Lead",
+     "id": "4476901476",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "Startup & Venture Ecosystem Lead",
+     "id": "4476905227",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
     }
    ]
   }
