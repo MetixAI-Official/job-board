@@ -19,10 +19,7 @@
   const LEVELS = [
     "Internship", "Entry level", "Associate", "Mid-senior", "Director", "Executive", "Not specified",
   ];
-  const LOCATIONS = [
-    ["", "All locations"], ["sf", "San Francisco"], ["pen", "Peninsula and South Bay"],
-    ["east", "East Bay"], ["north", "North Bay"], ["remote", "US remote"],
-  ];
+  const LOCATIONS = [["", "All locations"], ...data.regions];
   const REGISTRATION = { open: "Open", waitlist: "Waitlist", full: "Full", closed: "Closed" };
   const REGISTRATION_LONG = { open: "Registration open", waitlist: "Waitlist", full: "Full", closed: "Registration closed" };
   const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];

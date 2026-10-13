@@ -1,10 +1,23 @@
 name = "SF Tech Week 2026"
+event = "SF Tech Week"
+area = "Bay Area"
+dates = "Oct 5 to 11, 2026"
+start = 2026-10-05
 eyebrow = "SF Tech Week · Oct 5-11, 2026 · Independent list"
 url = "https://metixai-official.github.io/job-board/tech-week-2026/sf"
 calendar = "https://www.tech-week.com/calendar/sf"
 repo = "https://github.com/MetixAI-Official/job-board"
 via = "tw-sf26"
 release = "Out 7am PT"
+
+# Location filter on the page, in order. "remote" is a US posting that names no city.
+regions = [
+  { key = "sf", label = "San Francisco" },
+  { key = "pen", label = "Peninsula and South Bay" },
+  { key = "east", label = "East Bay" },
+  { key = "north", label = "North Bay" },
+  { key = "remote", label = "US remote" },
+]
 
 [[days]]
 slug = "mon"

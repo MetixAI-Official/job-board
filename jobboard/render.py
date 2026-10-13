@@ -120,25 +120,28 @@ def render_day(board_name: str, slug: str) -> str:
 
     weekday = title.split(",")[0]
     when = "this weekend" if weekday == "Weekend" else f"on {weekday}"
-    headline = f"{counts['hiring']} hosts with events {when} are hiring in the Bay Area."
+    event, area = board["event"], board["area"]
+    headline = f"{counts['hiring']} hosts with events {when} are hiring in the {area}."
     page = Template((SITE / "day.html").read_text(encoding="utf-8"))
     return page.substitute(
-        page_title=escape(f"{title}: SF Tech Week hosts that are hiring | Metix AI Platform"),
-        og_title=escape(f"{title}: {counts['hiring']} SF Tech Week hosts are hiring"),
+        page_title=escape(f"{title}: {event} hosts that are hiring | Metix AI Platform"),
+        og_title=escape(f"{title}: {counts['hiring']} {event} hosts are hiring"),
         description=escape(
-            f"{counts['hiring']} companies hosting SF Tech Week events on {title} posted "
-            f"{counts['roles']:,} Bay Area or US-remote roles in the past 7 days, "
+            f"{counts['hiring']} companies hosting {event} events on {title} posted "
+            f"{counts['roles']:,} {area} or US-remote roles in the past 7 days, "
             f"{counts['new']} of them new. Pick your field to see which events to go to."
         ),
         og_alt=escape(
-            f"{title}: {counts['hiring']} SF Tech Week hosts are hiring, with "
-            f"{counts['roles']:,} Bay Area and US-remote roles posted this week."
+            f"{title}: {counts['hiring']} {event} hosts are hiring, with "
+            f"{counts['roles']:,} {area} and US-remote roles posted this week."
         ),
         canonical=canonical,
         og_image=f"{board['url']}/og/{slug}.png",
         assets="../../assets",
         platform_url=platform_link("/", via),
-        eyebrow=escape(f"SF Tech Week · {title}"),
+        eyebrow=escape(f"{event} · {title}"),
+        event=escape(event),
+        area=escape(area),
         day_tabs=day_tabs(board_name, board, slug),
         headline=escape(headline),
         early=early_note(day),
@@ -157,11 +160,58 @@ def render_day(board_name: str, slug: str) -> str:
         main_site=f"https://www.metix.ai/?utm_source={via}",
         data=embed_json(
             {
+                "regions": [[r["key"], r["label"]] for r in board["regions"]],
                 "post": day["post"],
                 "events": day["events"],
                 "companies": day["companies"],
             }
         ),
+    )
+
+
+def board_names() -> list[str]:
+    """Every board under boards/, newest first."""
+    names = [path.parent.relative_to(BOARDS).as_posix() for path in BOARDS.glob("*/*/board.toml")]
+    return sorted(names, key=lambda name: load_board(name)["start"], reverse=True)
+
+
+def board_card(board_name: str) -> str:
+    """One board on the home page: its name and a link per published day."""
+    board = load_board(board_name)
+    days = []
+    for entry in board["days"]:
+        text = f"{escape(entry['weekday'])} <span>{escape(entry['dates'])}</span>"
+        if load_day(board_name, entry["slug"]) is None:
+            days.append(f'<span class="tab is-later">{text}</span>')
+        else:
+            days.append(f'<a class="tab" href="{board_name}/{entry["slug"]}">{text}</a>')
+    published = sum(1 for entry in board["days"] if load_day(board_name, entry["slug"]))
+    note = "" if published else '<p class="board-note">Lists go up each morning of the week.</p>'
+    return (
+        '<li class="board">'
+        f'<p class="eyebrow-dark">{escape(board["dates"])} · {escape(board["area"])}</p>'
+        f"<h2>{escape(board['event'])}</h2>{note}"
+        f'<nav class="board-days" aria-label="Days of {escape(board["event"])}">'
+        f"{''.join(days)}</nav>"
+        "</li>"
+    )
+
+
+def render_home() -> str:
+    names = board_names()
+    latest = load_board(names[0])
+    events = [load_board(name)["event"] for name in names]
+    page = Template((SITE / "home.html").read_text(encoding="utf-8"))
+    return page.substitute(
+        description=escape(
+            f"Companies hosting {' and '.join(events)} events that posted new roles this week, "
+            "day by day, with their events and every role."
+        ),
+        canonical=latest["url"].removesuffix(names[0]),
+        assets="assets",
+        platform_url=platform_link("/", latest["via"]),
+        repo=latest["repo"],
+        boards="".join(board_card(name) for name in names),
     )
 
 
@@ -190,10 +240,7 @@ def build(board_name: str, slug: str, *, og: bool = True) -> list[Path]:
         shutil.copyfile(source, target)
         written.append(target)
 
-    series, city = board_name.split("/")
-    written.append(write(DOCS / ".nojekyll", ""))
-    written.append(write(DOCS / "index.html", redirect(f"{board_name}/{slug}")))
-    written.append(write(DOCS / series / "index.html", redirect(f"{city}/{slug}")))
+    written.extend(build_home(board_name.split("/")[0]))
     written.append(write(out / "index.html", redirect(slug)))
 
     if og:
@@ -201,6 +248,15 @@ def build(board_name: str, slug: str, *, og: bool = True) -> list[Path]:
 
         written.append(render_og(board_name, slug, out / "og" / f"{slug}.png"))
     return written
+
+
+def build_home(series: str) -> list[Path]:
+    """The home page listing every board; the series folder sends visitors there."""
+    return [
+        write(DOCS / ".nojekyll", ""),
+        write(DOCS / "index.html", render_home()),
+        write(DOCS / series / "index.html", redirect("../")),
+    ]
 
 
 def logo_data_uri(name: str) -> str:
