@@ -2,11 +2,11 @@
  "board": "tech-week-2026/la",
  "day": "weekend",
  "date": "2026-10-17",
- "pulled": "2026-10-13",
+ "pulled": "2026-10-14",
  "early": true,
  "window": {
-  "from": "2026-10-06",
-  "to": "2026-10-12"
+  "from": "2026-10-07",
+  "to": "2026-10-13"
  },
  "events_today": 66,
  "post": [
@@ -98,7 +98,7 @@
      "family": "People / recruiting",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-12",
+     "posted": "2026-10-13",
      "new": true
     },
     {
@@ -116,7 +116,7 @@
     },
     {
      "title": "Accounts Payable Analyst",
-     "id": "4478339101",
+     "id": "4479034884",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
@@ -124,7 +124,72 @@
      "family": "Contract",
      "level": "Associate",
      "ai": false,
-     "posted": "2026-10-12",
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Consumer Reviewer",
+     "id": "4478790360",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Medicare Enrollment Specialist",
+     "id": "4478793174",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Postal Clerk",
+     "id": "4478793297",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Associate",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "SHIP Medicare Counselor",
+     "id": "4478795043",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Veterans Service Officer",
+     "id": "4478793201",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Contract",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-13",
      "new": true
     },
     {
@@ -161,7 +226,7 @@
       "remote"
      ],
      "family": "Contract",
-     "level": "Entry level",
+     "level": "Associate",
      "ai": false,
      "posted": "2026-10-10",
      "new": true
@@ -204,32 +269,6 @@
      "ai": false,
      "posted": "2026-10-08",
      "new": true
-    },
-    {
-     "title": "Financial Services Expert",
-     "id": "4476111301",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Medical Doctor - Physician Expert",
-     "id": "4476399097",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
     }
    ]
   },
@@ -257,7 +296,7 @@
      "family": "Product",
      "level": "Not specified",
      "ai": false,
-     "posted": "2026-10-12",
+     "posted": "2026-10-11",
      "new": false
     },
     {
@@ -326,34 +365,8 @@
      "new": false
     },
     {
-     "title": "Corporate Legal Director - Securities, M&A",
-     "id": "4475848238",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Legal Counsel, Procurement",
-     "id": "4476105592",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
      "title": "Senior Product Security Engineer, Assessments",
-     "id": "4478578297",
+     "id": "4478570667",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
@@ -375,19 +388,6 @@
      "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-07",
-     "new": false
-    },
-    {
-     "title": "Software Engineer (Mid-Level, Senior or Staff), Infrastructure Security",
-     "id": "4391188845",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
      "new": false
     },
     {
