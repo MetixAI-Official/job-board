@@ -2,18 +2,19 @@
  "board": "tech-week-2026/la",
  "day": "fri",
  "date": "2026-10-16",
- "pulled": "2026-10-13",
+ "pulled": "2026-10-14",
  "early": true,
  "window": {
-  "from": "2026-10-06",
-  "to": "2026-10-12"
+  "from": "2026-10-07",
+  "to": "2026-10-13"
  },
  "events_today": 82,
  "post": [
+  "Senra Systems",
   "Picogrid",
   "Rangeview",
-  "Apex",
   "ElevenLabs",
+  "Apex",
   "Neros Technologies",
   "Rho",
   "AWS",
@@ -104,6 +105,22 @@
    ]
   },
   {
+   "id": "f8b870b5-bc91-407a-9f4f-c29c91fde46d",
+   "name": "Get Wired with Senra Systems!",
+   "start": "17:00",
+   "end": "",
+   "neighborhood": "Other",
+   "formats": [
+    "Happy Hour"
+   ],
+   "registration": "open",
+   "url": "https://www.tech-week.com/calendar/la/events/get-wired-with-senra-systems-f8b870b5-bc91-407a-9f4f-c29c91fde46d",
+   "featured": false,
+   "hosts": [
+    "Senra Systems"
+   ]
+  },
+  {
    "id": "b1629b8e-0162-4c65-9aff-1018902ad0a3",
    "name": "A16Z | ElevenLabs - Official Afterparty",
    "start": "18:00",
@@ -176,6 +193,204 @@
  ],
  "companies": [
   {
+   "name": "Senra Systems",
+   "slug": "senra-systems",
+   "tier": "early",
+   "stage": "",
+   "stage_source": null,
+   "industry": "Aerospace & defense",
+   "summary": "Automated wire harness manufacturing",
+   "linkedin": "https://www.linkedin.com/company/senra-systems/",
+   "label": "Private · 89 employees",
+   "events": [
+    "f8b870b5-bc91-407a-9f4f-c29c91fde46d"
+   ],
+   "roles": [
+    {
+     "title": "Technical Program Manager",
+     "id": "4479009447",
+     "location": "Redondo Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Technical Program Manager, Electrical",
+     "id": "4479014577",
+     "location": "Redondo Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Product",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Industrial Engineer",
+     "id": "4478796713",
+     "location": "Anaheim",
+     "regions": [
+      "oc"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Manufacturing Engineer",
+     "id": "4479003667",
+     "location": "Cerritos",
+     "regions": [
+      "la"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Production Engineer",
+     "id": "4479027108",
+     "location": "Anaheim",
+     "regions": [
+      "oc"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Production Engineer- Part Time",
+     "id": "4479015304",
+     "location": "Anaheim",
+     "regions": [
+      "oc"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Production Technology Engineer",
+     "id": "4479024079",
+     "location": "Anaheim",
+     "regions": [
+      "oc"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Security/Front Desk Coordinator",
+     "id": "4479015630",
+     "location": "Santa Ana",
+     "regions": [
+      "oc"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Senior Manufacturing Engineer",
+     "id": "4478790922",
+     "location": "Long Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Apprentice Harnessing Technician",
+     "id": "4479014403",
+     "location": "Cypress",
+     "regions": [
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Internship",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Lead Harnessing Technician",
+     "id": "4479026258",
+     "location": "Cypress",
+     "regions": [
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Senior Harnessing Technician",
+     "id": "4479031115",
+     "location": "Cypress",
+     "regions": [
+      "oc"
+     ],
+     "family": "Hardware / supply chain",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Technical Program Coordinator",
+     "id": "4479014382",
+     "location": "Redondo Beach",
+     "regions": [
+      "south"
+     ],
+     "family": "Operations",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Harnessing Technical Trainer",
+     "id": "4479007697",
+     "location": "Cerritos",
+     "regions": [
+      "la"
+     ],
+     "family": "Other",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    }
+   ]
+  },
+  {
    "name": "Picogrid",
    "slug": "picogrid",
    "tier": "early",
@@ -219,16 +434,266 @@
    ],
    "roles": [
     {
-     "title": "Head of Finance",
-     "id": "4476122762",
+     "title": "Operations Technician",
+     "id": "4478750170",
      "location": "El Segundo",
      "regions": [
       "south"
      ],
-     "family": "Finance / accounting",
-     "level": "Director",
+     "family": "Hardware / supply chain",
+     "level": "Entry level",
      "ai": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-13",
+     "new": true
+    }
+   ]
+  },
+  {
+   "name": "ElevenLabs",
+   "slug": "elevenlabs",
+   "tier": "growth",
+   "stage": "",
+   "stage_source": null,
+   "industry": "AI models",
+   "summary": "AI voice and audio models",
+   "linkedin": "https://www.linkedin.com/company/elevenlabsio/",
+   "label": "Private · 875 employees",
+   "events": [
+    "b1629b8e-0162-4c65-9aff-1018902ad0a3"
+   ],
+   "roles": [
+    {
+     "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
+     "id": "4478796445",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Design",
+     "level": "Entry level",
+     "ai": true,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Full-Stack Engineer - Creative Agents",
+     "id": "4479008111",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Design",
+     "level": "Entry level",
+     "ai": true,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Enterprise Account Executive - Financial Services",
+     "id": "4477436495",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true
+    },
+    {
+     "title": "Enterprise Sales Lead- Financial Services",
+     "id": "4477441325",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": true
+    },
+    {
+     "title": "Mid-Market Sales Lead - East",
+     "id": "4476906155",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Sales / BD",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
+     "new": true
+    },
+    {
+     "title": "Global Events Lead",
+     "id": "4478724264",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Growth Marketer- Reception.ai",
+     "id": "4478394027",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Product & Technical Communications",
+     "id": "4478766266",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Commercial Counsel Lead - US",
+     "id": "4460135545",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Legal / compliance",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-11",
+     "new": false
+    },
+    {
+     "title": "Full-Stack Engineer (Backend-Leaning) - CoreMusic",
+     "id": "4478799400",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Full-Stack Engineer (Frontend-Leaning) - CreativeMusic",
+     "id": "4478794615",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Mobile Engineer - ElevenMusic",
+     "id": "4478792681",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Product Engineer - Ads Engine",
+     "id": "4478763331",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-13",
+     "new": true
+    },
+    {
+     "title": "Product Engineer - ElevenCreative Enterprise",
+     "id": "4478569586",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-12",
+     "new": true
+    },
+    {
+     "title": "Fullstack Engineer (Backend Leaning) - Flows",
+     "id": "4477678387",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true
+    },
+    {
+     "title": "Fullstack Engineer (Frontend Leaning) - Studio",
+     "id": "4477679321",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Entry level",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true
+    },
+    {
+     "title": "Lead Generation Strategy and Operations",
+     "id": "4477842362",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-10",
+     "new": true
+    },
+    {
+     "title": "Value Strategist",
+     "id": "4477648044",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
      "new": true
     }
    ]
@@ -417,32 +882,6 @@
      "new": false
     },
     {
-     "title": "Radiation Effects Engineer",
-     "id": "4476122635",
-     "location": "Los Angeles",
-     "regions": [
-      "la"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Sensors Systems Engineer",
-     "id": "4449964695",
-     "location": "Los Angeles",
-     "regions": [
-      "la"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false
-    },
-    {
      "title": "Group Manager, Strategic Sourcing",
      "id": "4441260238",
      "location": "Los Angeles",
@@ -456,163 +895,30 @@
      "new": false
     },
     {
-     "title": "Senior Global Supply Manager",
-     "id": "4466014802",
+     "title": "Master Scheduler",
+     "id": "4478745315",
      "location": "Los Angeles",
      "regions": [
       "la"
      ],
-     "family": "Hardware / supply chain",
+     "family": "Other",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-06",
-     "new": false
-    }
-   ]
-  },
-  {
-   "name": "ElevenLabs",
-   "slug": "elevenlabs",
-   "tier": "growth",
-   "stage": "",
-   "stage_source": null,
-   "industry": "AI models",
-   "summary": "AI voice and audio models",
-   "linkedin": "https://www.linkedin.com/company/elevenlabsio/",
-   "label": "Private · 875 employees",
-   "events": [
-    "b1629b8e-0162-4c65-9aff-1018902ad0a3"
-   ],
-   "roles": [
-    {
-     "title": "Enterprise Account Executive - Financial Services",
-     "id": "4477436495",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-09",
+     "posted": "2026-10-13",
      "new": true
     },
     {
-     "title": "Enterprise Sales Lead- Financial Services",
-     "id": "4477441325",
-     "location": "US remote / anywhere",
+     "title": "Receiving Inspector (Electronics) - 2nd Shift",
+     "id": "4437860942",
+     "location": "Los Angeles",
      "regions": [
-      "remote"
+      "la"
      ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-09",
-     "new": true
-    },
-    {
-     "title": "Growth Marketer- Reception.ai",
-     "id": "4478394027",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": true,
-     "posted": "2026-10-12",
-     "new": true
-    },
-    {
-     "title": "Commercial Counsel Lead - US",
-     "id": "4460135545",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
+     "family": "Other",
+     "level": "Entry level",
      "ai": false,
      "posted": "2026-10-10",
      "new": false
-    },
-    {
-     "title": "Product Engineer - ElevenCreative Enterprise",
-     "id": "4478569586",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": true
-    },
-    {
-     "title": "Fullstack Engineer (Backend Leaning) - Flows",
-     "id": "4477678387",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-10",
-     "new": true
-    },
-    {
-     "title": "Fullstack Engineer (Frontend Leaning) - Studio",
-     "id": "4477679321",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-10",
-     "new": true
-    },
-    {
-     "title": "IT Engineer",
-     "id": "4476181567",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Entry level",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
-     "title": "Lead Generation Strategy and Operations",
-     "id": "4477842362",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-10",
-     "new": true
-    },
-    {
-     "title": "Value Strategist",
-     "id": "4477648044",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Consulting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-09",
-     "new": true
     }
    ]
   },
@@ -631,19 +937,6 @@
    ],
    "roles": [
     {
-     "title": "Engineer, Sensors",
-     "id": "4424508244",
-     "location": "Torrance",
-     "regions": [
-      "south"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": false
-    },
-    {
      "title": "Sr. Supplier Industrialization Engineer (Electrical)",
      "id": "4450378709",
      "location": "Torrance",
@@ -657,8 +950,8 @@
      "new": false
     },
     {
-     "title": "Sr. Supplier Development Engineer (Electrical)",
-     "id": "4450383342",
+     "title": "Engineer, Sensors",
+     "id": "4424508244",
      "location": "Torrance",
      "regions": [
       "south"
@@ -670,8 +963,8 @@
      "new": false
     },
     {
-     "title": "Systems Development Engineer",
-     "id": "4439911936",
+     "title": "Sr. Supplier Development Engineer (Electrical)",
+     "id": "4450383342",
      "location": "Torrance",
      "regions": [
       "south"
@@ -679,7 +972,7 @@
      "family": "Software engineering",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-10",
+     "posted": "2026-10-11",
      "new": false
     },
     {
@@ -698,6 +991,19 @@
     {
      "title": "Ground Software Manager",
      "id": "4432109217",
+     "location": "Torrance",
+     "regions": [
+      "south"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "Systems Development Engineer",
+     "id": "4439911936",
      "location": "Torrance",
      "regions": [
       "south"
@@ -786,7 +1092,7 @@
      "family": "Sales / BD",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-10",
+     "posted": "2026-10-11",
      "new": false
     }
    ]
@@ -822,7 +1128,7 @@
     },
     {
      "title": "Sr Solutions Architect, AWSI MEGS",
-     "id": "4460147315",
+     "id": "4460129656",
      "location": "Irvine / Santa Monica",
      "regions": [
       "west",
@@ -870,7 +1176,7 @@
      "family": "Solutions / FDE",
      "level": "Mid-senior",
      "ai": true,
-     "posted": "2026-10-10",
+     "posted": "2026-10-09",
      "new": false
     },
     {
@@ -884,6 +1190,19 @@
      "level": "Mid-senior",
      "ai": true,
      "posted": "2026-10-09",
+     "new": false
+    },
+    {
+     "title": "Sr. Media Delivery Specialist, AWS Support Strategic Industries",
+     "id": "4467922142",
+     "location": "Beverly Hills",
+     "regions": [
+      "west"
+     ],
+     "family": "Solutions / FDE",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-08",
      "new": false
     },
     {
@@ -926,32 +1245,6 @@
      "new": false
     },
     {
-     "title": "Sr. Media Delivery Specialist, AWS Support Strategic Industries",
-     "id": "4467922142",
-     "location": "Beverly Hills",
-     "regions": [
-      "west"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-07",
-     "new": false
-    },
-    {
-     "title": "Principal Worldwide Specialist Sales, Amazon Connect (CXE), AWS",
-     "id": "4475843311",
-     "location": "Irvine",
-     "regions": [
-      "oc"
-     ],
-     "family": "Solutions / FDE",
-     "level": "Director",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": true
-    },
-    {
      "title": "Head of Partner Sales, AWS Industries, Retail and Consumer Goods, AWS Industries Partner Sales",
      "id": "4468835962",
      "location": "Santa Monica",
@@ -991,16 +1284,16 @@
      "new": false
     },
     {
-     "title": "Principal Accounting Manager, CapEx Accounting, AWS Infrastructure",
-     "id": "4475896728",
-     "location": "Culver City",
+     "title": "Associate Corporate Counsel, AWS Legal",
+     "id": "4478793615",
+     "location": "Santa Monica",
      "regions": [
       "west"
      ],
-     "family": "Finance / accounting",
-     "level": "Mid-senior",
+     "family": "Legal / compliance",
+     "level": "Not specified",
      "ai": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-13",
      "new": true
     },
     {
@@ -1014,19 +1307,6 @@
      "level": "Not specified",
      "ai": false,
      "posted": "2026-10-10",
-     "new": false
-    },
-    {
-     "title": "Associate Corporate Counsel, AWS Legal",
-     "id": "4459699573",
-     "location": "Santa Monica",
-     "regions": [
-      "west"
-     ],
-     "family": "Legal / compliance",
-     "level": "Not specified",
-     "ai": false,
-     "posted": "2026-10-09",
      "new": false
     },
     {
@@ -1203,16 +1483,16 @@
      "new": false
     },
     {
-     "title": "GECX Sales Specialist, Google Cloud, East",
-     "id": "4447910432",
+     "title": "Strategic Partner Development Lead, Chrome Growth and Distribution",
+     "id": "4467579148",
      "location": "Los Angeles",
      "regions": [
       "la"
      ],
-     "family": "Solutions / FDE",
-     "level": "Not specified",
+     "family": "Sales / BD",
+     "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-06",
+     "posted": "2026-10-09",
      "new": false
     },
     {
@@ -1239,19 +1519,6 @@
      "level": "Not specified",
      "ai": false,
      "posted": "2026-10-08",
-     "new": false
-    },
-    {
-     "title": "Senior Account Strategist, Mid-Market Sales, Google Customer Solutions",
-     "id": "4448288435",
-     "location": "Los Angeles",
-     "regions": [
-      "la"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-06",
      "new": false
     },
     {
@@ -1316,7 +1583,20 @@
      "family": "Consulting",
      "level": "Not specified",
      "ai": true,
-     "posted": "2026-10-09",
+     "posted": "2026-10-10",
+     "new": false
+    },
+    {
+     "title": "Strategy and Operations Lead, gUP Spend Planning",
+     "id": "4466159555",
+     "location": "Los Angeles",
+     "regions": [
+      "la"
+     ],
+     "family": "Consulting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-07",
      "new": false
     }
    ]
