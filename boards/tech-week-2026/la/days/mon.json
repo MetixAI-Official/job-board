@@ -14,7 +14,6 @@
   "Outpost",
   "Mercury",
   "Armada",
-  "Flex",
   "OpenArt AI",
   "Rho",
   "TriNet"
@@ -154,23 +153,6 @@
    "hosts": [
     "HSBC"
    ]
-  },
-  {
-   "id": "534d9242-ac94-42e4-8143-459a32cfd7fc",
-   "name": "tradedvc",
-   "start": "18:30",
-   "end": "22:30",
-   "neighborhood": "Beverly Hills",
-   "formats": [
-    "Happy Hour",
-    "Networking"
-   ],
-   "registration": "closed",
-   "url": "https://www.tech-week.com/calendar/la/events/tradedvc-534d9242-ac94-42e4-8143-459a32cfd7fc",
-   "featured": false,
-   "hosts": [
-    "Flex"
-   ]
   }
  ],
  "companies": [
@@ -182,7 +164,7 @@
    "stage_source": null,
    "industry": "Hardware",
    "summary": "Advanced materials for aerospace and defense",
-   "linkedin": "https://www.linkedin.com/company/cambium-bio/",
+   "linkedin": "https://www.linkedin.com/company/cambiumglobal/",
    "label": "Private · 63 employees",
    "events": [
     "2ae17b9f-7ccb-46fa-a644-9a90cb1e5a8a"
@@ -253,7 +235,7 @@
    "stage_source": null,
    "industry": "Fintech",
    "summary": "Banking for startups and businesses",
-   "linkedin": "https://www.linkedin.com/company/mercurybank/",
+   "linkedin": "https://www.linkedin.com/company/mercuryhq/",
    "label": "Private · 1,551 employees",
    "events": [
     "0eb04def-31ec-4e05-baac-269b99a15880"
@@ -362,48 +344,6 @@
      ],
      "family": "Data",
      "level": "Executive",
-     "ai": false,
-     "posted": "2026-10-06",
-     "new": false
-    }
-   ]
-  },
-  {
-   "name": "Flex",
-   "slug": "flex",
-   "tier": "growth",
-   "stage": "",
-   "stage_source": null,
-   "industry": "Fintech",
-   "summary": "Flexible rent payments",
-   "linkedin": "https://www.linkedin.com/company/getflex/",
-   "label": "Private · 842 employees",
-   "events": [
-    "534d9242-ac94-42e4-8143-459a32cfd7fc"
-   ],
-   "roles": [
-    {
-     "title": "Senior Staff Software Engineer, Partner Integrations",
-     "id": "4469205894",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Sales / BD",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-11",
-     "new": false
-    },
-    {
-     "title": "Staff Software Engineer, Backend",
-     "id": "4467408865",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Software engineering",
-     "level": "Mid-senior",
      "ai": false,
      "posted": "2026-10-06",
      "new": false
