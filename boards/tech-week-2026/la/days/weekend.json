@@ -2,11 +2,11 @@
  "board": "tech-week-2026/la",
  "day": "weekend",
  "date": "2026-10-17",
- "pulled": "2026-10-15",
+ "pulled": "2026-10-16",
  "early": true,
  "window": {
-  "from": "2026-10-08",
-  "to": "2026-10-14"
+  "from": "2026-10-09",
+  "to": "2026-10-15"
  },
  "events_today": 66,
  "post": [
@@ -63,86 +63,8 @@
    ],
    "roles": [
     {
-     "title": "Bankruptcy Attorney",
-     "id": "4479584110",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Compliance Attorney",
-     "id": "4479579377",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Tax Attorney",
-     "id": "4479575877",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Legal / compliance",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Cleared Recruiter",
-     "id": "4479045305",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Recruiter",
-     "id": "4479055037",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "People / recruiting",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Employment Lawyer",
-     "id": "4479583438",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Generalist, US Personal Finance",
-     "id": "4479252128",
+     "title": "Computational Biology & Bioinformatics Expert (PhD)",
+     "id": "4480134834",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
@@ -150,124 +72,7 @@
      "family": "Contract",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Lawyer",
-     "id": "4479596079",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Personal Injury Lawyer",
-     "id": "4479575893",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-14",
-     "new": true
-    },
-    {
-     "title": "Postal Clerk",
-     "id": "4478793297",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-13",
-     "new": true
-    },
-    {
-     "title": "Veterans Service Officer",
-     "id": "4478793201",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-13",
-     "new": true
-    },
-    {
-     "title": "Equity Research Expert",
-     "id": "4478567518",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-12",
-     "new": true
-    },
-    {
-     "title": "Data Analyst",
-     "id": "4478050164",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Associate",
-     "ai": false,
-     "posted": "2026-10-10",
-     "new": true
-    },
-    {
-     "title": "Registered Nurse",
-     "id": "4477405474",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-09",
-     "new": true
-    },
-    {
-     "title": "Hospitalist Physician",
-     "id": "4477400743",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": true
-    },
-    {
-     "title": "Medical Coder",
-     "id": "4477152216",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Contract",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-08",
+     "posted": "2026-10-15",
      "new": true
     }
    ]
@@ -296,7 +101,7 @@
      "family": "Product",
      "level": "Not specified",
      "ai": false,
-     "posted": "2026-10-12",
+     "posted": "2026-10-11",
      "new": false
     },
     {
@@ -309,7 +114,7 @@
      "family": "Product",
      "level": "Director",
      "ai": false,
-     "posted": "2026-10-10",
+     "posted": "2026-10-09",
      "new": false
     },
     {
@@ -326,6 +131,19 @@
      "new": false
     },
     {
+     "title": "Director, Strategic Events",
+     "id": "4447215747",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Marketing / growth",
+     "level": "Director",
+     "ai": false,
+     "posted": "2026-10-14",
+     "new": false
+    },
+    {
      "title": "Growth Marketing Manager",
      "id": "4477601160",
      "location": "US remote / anywhere",
@@ -339,17 +157,17 @@
      "new": true
     },
     {
-     "title": "Vice President, Global Communications",
-     "id": "4468276247",
+     "title": "Senior Manager, AI and People Transformation",
+     "id": "4480112742",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
-     "family": "Marketing / growth",
-     "level": "Executive",
-     "ai": false,
-     "posted": "2026-10-08",
-     "new": false
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": true,
+     "posted": "2026-10-15",
+     "new": true
     },
     {
      "title": "Senior Product Security Engineer, Assessments",
@@ -363,19 +181,6 @@
      "ai": false,
      "posted": "2026-10-13",
      "new": true
-    },
-    {
-     "title": "Senior Director, Customer Health & Critical Accounts",
-     "id": "4448387666",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Other",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-09",
-     "new": false
     }
    ]
   }
