@@ -2,11 +2,11 @@
  "board": "tech-week-2026/la",
  "day": "weekend",
  "date": "2026-10-17",
- "pulled": "2026-10-16",
- "early": true,
+ "pulled": "2026-10-17",
+ "early": false,
  "window": {
-  "from": "2026-10-09",
-  "to": "2026-10-15"
+  "from": "2026-10-10",
+  "to": "2026-10-16"
  },
  "events_today": 66,
  "post": [
@@ -63,16 +63,29 @@
    ],
    "roles": [
     {
-     "title": "Computational Biology & Bioinformatics Expert (PhD)",
-     "id": "4480134834",
+     "title": "Cleared Recruiter",
+     "id": "4480375805",
      "location": "US remote / anywhere",
      "regions": [
       "remote"
      ],
-     "family": "Contract",
+     "family": "People / recruiting",
      "level": "Mid-senior",
      "ai": false,
-     "posted": "2026-10-15",
+     "posted": "2026-10-16",
+     "new": true
+    },
+    {
+     "title": "Recruiter",
+     "id": "4480388502",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "People / recruiting",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-16",
      "new": true
     }
    ]
@@ -92,6 +105,19 @@
    ],
    "roles": [
     {
+     "title": "Senior Product Manager, Client Libraries",
+     "id": "4462458000",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Product",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-15",
+     "new": false
+    },
+    {
      "title": "Product Manager, Internal Financial Data",
      "id": "4414227735",
      "location": "US remote / anywhere",
@@ -101,7 +127,7 @@
      "family": "Product",
      "level": "Not specified",
      "ai": false,
-     "posted": "2026-10-11",
+     "posted": "2026-10-12",
      "new": false
     },
     {
@@ -114,20 +140,7 @@
      "family": "Product",
      "level": "Director",
      "ai": false,
-     "posted": "2026-10-09",
-     "new": false
-    },
-    {
-     "title": "Senior Manager, Brand Design",
-     "id": "4459352538",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Design",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-09",
+     "posted": "2026-10-10",
      "new": false
     },
     {
@@ -144,19 +157,6 @@
      "new": false
     },
     {
-     "title": "Growth Marketing Manager",
-     "id": "4477601160",
-     "location": "US remote / anywhere",
-     "regions": [
-      "remote"
-     ],
-     "family": "Marketing / growth",
-     "level": "Mid-senior",
-     "ai": false,
-     "posted": "2026-10-09",
-     "new": true
-    },
-    {
      "title": "Senior Manager, AI and People Transformation",
      "id": "4480112742",
      "location": "US remote / anywhere",
@@ -167,6 +167,19 @@
      "level": "Mid-senior",
      "ai": true,
      "posted": "2026-10-15",
+     "new": true
+    },
+    {
+     "title": "Senior Site Reliability Engineer, Infrastructure Security",
+     "id": "4480196093",
+     "location": "US remote / anywhere",
+     "regions": [
+      "remote"
+     ],
+     "family": "Software engineering",
+     "level": "Mid-senior",
+     "ai": false,
+     "posted": "2026-10-16",
      "new": true
     },
     {
